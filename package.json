@@ -12,12 +12,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/upsked/upsked-sdk.git"
+    "url": "https://github.com/jpaulpoliquit/upsked-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/upsked/upsked-sdk/issues"
+    "url": "https://github.com/jpaulpoliquit/upsked-sdk/issues"
   },
-  "homepage": "https://github.com/upsked/upsked-sdk#readme",
+  "homepage": "https://github.com/jpaulpoliquit/upsked-sdk#readme",
   "type": "module",
   "engines": {
     "node": ">=18"

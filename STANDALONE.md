@@ -8,7 +8,7 @@ Use this checklist when moving `interop-repo/` out of the UPSked monorepo.
 - [ ] **Separate from the monorepo’s git** — If the parent UPSked repo lists `/interop-repo/` in `.gitignore` (so this tree is not tracked there), run `git init` **inside this folder** and add GitHub as `origin` here. That is a second repository alongside the monorepo, not a subdirectory of it; the ignore rule only means the big repo never commits these files.
 - [ ] **`tsconfig.json`** — Uses only local `node_modules` (no `../apps/web` paths). Fixed in-repo.
 - [ ] **`LICENSE`** — Present (AGPL-3.0 copy from main UPSked repo, or replace with your policy).
-- [ ] **`package.json`** — Confirm GitHub URLs match your org/repo (default: `upsked/upsked-sdk`); adjust `name` if you publish under a different npm name.
+- [ ] **`package.json`** — Confirm GitHub URLs match your org/repo (this checkout: `jpaulpoliquit/upsked-sdk`); adjust `name` if you publish under a different npm name.
 - [ ] **`package-lock.json`** — Commit it; run `npm install` from the new root and re-run `npm run typecheck` + `npm test`.
 - [ ] **`.gitignore`** — Includes `node_modules/`, env files, OS junk (template in this repo).
 
