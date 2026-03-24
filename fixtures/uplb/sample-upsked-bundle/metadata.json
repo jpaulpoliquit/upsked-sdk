@@ -1,0 +1,21 @@
+{
+  "source": "file:uplb-amis-classes-merged.json",
+  "scrapedAt": "2026-03-24T22:17:09.752Z",
+  "term_id": 1252,
+  "semester_id": "uplb-2026-1",
+  "terms": [
+    "uplb-2026-1"
+  ],
+  "totalSections": 536,
+  "uniqueCourses": 486,
+  "courseCatalogRows": 486,
+  "orphan_course_codes_not_in_catalog": 0,
+  "departmentsWithData": 52,
+  "scheduleRows": 940,
+  "merged_at": "2026-03-24T21:45:43.840Z",
+  "merged_from_files": [
+    "all-courses-1.json",
+    "all-courses-2.json",
+    "all-courses-3.json"
+  ]
+}

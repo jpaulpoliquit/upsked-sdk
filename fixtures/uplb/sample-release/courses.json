@@ -1,14 +1,2918 @@
 [
   {
-    "id": "CMSC 12",
-    "title": "Introduction to Computer Science",
-    "offeringUnit": "ICS",
+    "id": "ACCTG 1",
+    "title": "ACCOUNTING 1",
+    "offeringUnit": "ACCTG",
     "unitsDefault": 3
   },
   {
-    "id": "MATH 27",
-    "title": "College Algebra and Trigonometry",
-    "offeringUnit": "IMSP",
+    "id": "ANTHRO 100",
+    "title": "ANTHROPOLOGY 100",
+    "offeringUnit": "ANTHRO",
     "unitsDefault": 3
+  },
+  {
+    "id": "ANTHRO 104",
+    "title": "ANTHROPOLOGY 104",
+    "offeringUnit": "ANTHRO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ANTHRO 113",
+    "title": "ANTHROPOLOGY 113",
+    "offeringUnit": "ANTHRO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ANTHRO 119",
+    "title": "ANTHROPOLOGY 119",
+    "offeringUnit": "ANTHRO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ANTHRO 132",
+    "title": "ANTHROPOLOGY 132",
+    "offeringUnit": "ANTHRO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ANTHRO 170",
+    "title": "ANTHROPOLOGY 170",
+    "offeringUnit": "ANTHRO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ANTHRO 173",
+    "title": "ANTHROPOLOGY 173",
+    "offeringUnit": "ANTHRO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ANTHRO 179",
+    "title": "ANTHROPOLOGY 179",
+    "offeringUnit": "ANTHRO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ANTHRO 181",
+    "title": "ANTHROPOLOGY 181",
+    "offeringUnit": "ANTHRO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ANTHRO 192",
+    "title": "ANTHROPOLOGY 192",
+    "offeringUnit": "ANTHRO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ANTHRO 198",
+    "title": "ANTHROPOLOGY 198",
+    "offeringUnit": "ANTHRO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ANTHRO 199",
+    "title": "ANTHROPOLOGY 199",
+    "offeringUnit": "ANTHRO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ANTHRO 200",
+    "title": "ANTHROPOLOGY 200",
+    "offeringUnit": "ANTHRO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ARTS I",
+    "title": "ARTS I",
+    "offeringUnit": "ARTS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BA 101",
+    "title": "BUSINESS ADMINISTRATION 101",
+    "offeringUnit": "BA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BA 105",
+    "title": "BUSINESS ADMINISTRATION 105",
+    "offeringUnit": "BA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BA 107",
+    "title": "BUSINESS ADMINISTRATION 107",
+    "offeringUnit": "BA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BA 115",
+    "title": "BUSINESS ADMINISTRATION 115",
+    "offeringUnit": "BA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BA 141",
+    "title": "BUSINESS ADMINISTRATION 141",
+    "offeringUnit": "BA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BA 142",
+    "title": "BUSINESS ADMINISTRATION 142",
+    "offeringUnit": "BA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BA 151",
+    "title": "BUSINESS ADMINISTRATION 151",
+    "offeringUnit": "BA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BA 152",
+    "title": "BUSINESS ADMINISTRATION 152",
+    "offeringUnit": "BA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BA 161",
+    "title": "BUSINESS ADMINISTRATION 161",
+    "offeringUnit": "BA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BA 162",
+    "title": "BUSINESS ADMINISTRATION 162",
+    "offeringUnit": "BA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BA 170",
+    "title": "BUSINESS ADMINISTRATION 170",
+    "offeringUnit": "BA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BA 180.1",
+    "title": "BUSINESS ADMINISTRATION 180.1",
+    "offeringUnit": "BA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BA 181",
+    "title": "BUSINESS ADMINISTRATION 181",
+    "offeringUnit": "BA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BA 190",
+    "title": "BUSINESS ADMINISTRATION 190",
+    "offeringUnit": "BA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BA 192",
+    "title": "BUSINESS ADMINISTRATION 192",
+    "offeringUnit": "BA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BA 198",
+    "title": "BUSINESS ADMINISTRATION 198",
+    "offeringUnit": "BA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BA 199",
+    "title": "BUSINESS ADMINISTRATION 199",
+    "offeringUnit": "BA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BC 100",
+    "title": "BROADCAST COMMUNICATION 100",
+    "offeringUnit": "BC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BC 101",
+    "title": "BROADCAST COMMUNICATION 101",
+    "offeringUnit": "BC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BC 103",
+    "title": "BROADCAST COMMUNICATION 103",
+    "offeringUnit": "BC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BC 104",
+    "title": "BROADCAST COMMUNICATION 104",
+    "offeringUnit": "BC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BC 107",
+    "title": "BROADCAST COMMUNICATION 107",
+    "offeringUnit": "BC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BC 108",
+    "title": "BROADCAST COMMUNICATION 108",
+    "offeringUnit": "BC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BC 110",
+    "title": "BROADCAST COMMUNICATION 110",
+    "offeringUnit": "BC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BC 111",
+    "title": "BROADCAST COMMUNICATION 111",
+    "offeringUnit": "BC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BC 120",
+    "title": "BROADCAST COMMUNICATION 120",
+    "offeringUnit": "BC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BC 122",
+    "title": "BROADCAST COMMUNICATION 122",
+    "offeringUnit": "BC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BC 123",
+    "title": "BROADCAST COMMUNICATION 123",
+    "offeringUnit": "BC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BC 124",
+    "title": "BROADCAST COMMUNICATION 124",
+    "offeringUnit": "BC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BC 130",
+    "title": "BROADCAST COMMUNICATION 130",
+    "offeringUnit": "BC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BC 131",
+    "title": "BROADCAST COMMUNICATION 131",
+    "offeringUnit": "BC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BC 195",
+    "title": "BROADCAST COMMUNICATION 195",
+    "offeringUnit": "BC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BC 198",
+    "title": "BROADCAST COMMUNICATION 198",
+    "offeringUnit": "BC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BIO 100",
+    "title": "BIOLOGY 100",
+    "offeringUnit": "BIO",
+    "unitsDefault": 5
+  },
+  {
+    "id": "BIO 101",
+    "title": "BIOLOGY 101",
+    "offeringUnit": "BIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BIO 102",
+    "title": "BIOLOGY 102",
+    "offeringUnit": "BIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BIO 103",
+    "title": "BIOLOGY 103",
+    "offeringUnit": "BIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BIO 110",
+    "title": "BIOLOGY 110",
+    "offeringUnit": "BIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BIO 113",
+    "title": "BIOLOGY 113",
+    "offeringUnit": "BIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BIO 120",
+    "title": "BIOLOGY 120",
+    "offeringUnit": "BIO",
+    "unitsDefault": 5
+  },
+  {
+    "id": "BIO 121",
+    "title": "BIOLOGY 121",
+    "offeringUnit": "BIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BIO 123",
+    "title": "BIOLOGY 123",
+    "offeringUnit": "BIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BIO 125",
+    "title": "BIOLOGY 125",
+    "offeringUnit": "BIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BIO 140",
+    "title": "BIOLOGY 140",
+    "offeringUnit": "BIO",
+    "unitsDefault": 4
+  },
+  {
+    "id": "BIO 141",
+    "title": "BIOLOGY 141",
+    "offeringUnit": "BIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BIO 150",
+    "title": "BIOLOGY 150",
+    "offeringUnit": "BIO",
+    "unitsDefault": 4
+  },
+  {
+    "id": "BIO 160",
+    "title": "BIOLOGY 160",
+    "offeringUnit": "BIO",
+    "unitsDefault": 4
+  },
+  {
+    "id": "BIO 162",
+    "title": "BIOLOGY 162",
+    "offeringUnit": "BIO",
+    "unitsDefault": 4
+  },
+  {
+    "id": "BIO 163",
+    "title": "BIOLOGY 163",
+    "offeringUnit": "BIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BIO 164",
+    "title": "BIOLOGY 164",
+    "offeringUnit": "BIO",
+    "unitsDefault": 4
+  },
+  {
+    "id": "BIO 165",
+    "title": "BIOLOGY 165",
+    "offeringUnit": "BIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BIO 167",
+    "title": "BIOLOGY 167",
+    "offeringUnit": "BIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BIO 195",
+    "title": "BIOLOGY 195",
+    "offeringUnit": "BIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BIO 197",
+    "title": "BIOLOGY 197",
+    "offeringUnit": "BIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BIO 198",
+    "title": "BIOLOGY 198",
+    "offeringUnit": "BIO",
+    "unitsDefault": 1
+  },
+  {
+    "id": "BIO 200.1",
+    "title": "BIOLOGY 200.1",
+    "offeringUnit": "BIO",
+    "unitsDefault": 2
+  },
+  {
+    "id": "BIO 200.2",
+    "title": "BIOLOGY 200.2",
+    "offeringUnit": "BIO",
+    "unitsDefault": 2
+  },
+  {
+    "id": "BLL 101",
+    "title": "BA IN LANGUAGE AND LITERATURE 101",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 102",
+    "title": "BA IN LANGUAGE AND LITERATURE 102",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 105",
+    "title": "BA IN LANGUAGE AND LITERATURE 105",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 107",
+    "title": "BA IN LANGUAGE AND LITERATURE 107",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 108",
+    "title": "BA IN LANGUAGE AND LITERATURE 108",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 109",
+    "title": "BA IN LANGUAGE AND LITERATURE 109",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 110",
+    "title": "BA IN LANGUAGE AND LITERATURE 110",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 111",
+    "title": "BA IN LANGUAGE AND LITERATURE 111",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 112",
+    "title": "BA IN LANGUAGE AND LITERATURE 112",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 115",
+    "title": "BA IN LANGUAGE AND LITERATURE 115",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 116",
+    "title": "BA IN LANGUAGE AND LITERATURE 116",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 120",
+    "title": "BA IN LANGUAGE AND LITERATURE 120",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 121",
+    "title": "BA IN LANGUAGE AND LITERATURE 121",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 122",
+    "title": "BA IN LANGUAGE AND LITERATURE 122",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 124",
+    "title": "BA IN LANGUAGE AND LITERATURE 124",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 131",
+    "title": "BA IN LANGUAGE AND LITERATURE 131",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 132",
+    "title": "BA IN LANGUAGE AND LITERATURE 132",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 133",
+    "title": "BA IN LANGUAGE AND LITERATURE 133",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 136",
+    "title": "BA IN LANGUAGE AND LITERATURE 136",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 137",
+    "title": "BA IN LANGUAGE AND LITERATURE 137",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 138",
+    "title": "BA IN LANGUAGE AND LITERATURE 138",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 139",
+    "title": "BA IN LANGUAGE AND LITERATURE 139",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 140",
+    "title": "BA IN LANGUAGE AND LITERATURE 140",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 141",
+    "title": "BA IN LANGUAGE AND LITERATURE 141",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 197",
+    "title": "BA IN LANGUAGE AND LITERATURE 197",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 198",
+    "title": "APPRENTICESHIP",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 199.1",
+    "title": "BA IN LANGUAGE AND LITERATURE 199.1",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 199.2",
+    "title": "BA IN LANGUAGE AND LITERATURE 199.2",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BLL 200",
+    "title": "BA IN LANGUAGE AND LITERATURE 200",
+    "offeringUnit": "BLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BOT 106",
+    "title": "BOTANY 106",
+    "offeringUnit": "BOT",
+    "unitsDefault": 3
+  },
+  {
+    "id": "BOT 109",
+    "title": "BOTANY 109",
+    "offeringUnit": "BOT",
+    "unitsDefault": 4
+  },
+  {
+    "id": "BOT 119",
+    "title": "BOTANY 119",
+    "offeringUnit": "BOT",
+    "unitsDefault": 5
+  },
+  {
+    "id": "BOT 120",
+    "title": "BOTANY 120",
+    "offeringUnit": "BOT",
+    "unitsDefault": 4
+  },
+  {
+    "id": "CHEM 1",
+    "title": "CHEMISTRY 1",
+    "offeringUnit": "CHEM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CHEM 18",
+    "title": "CHEMISTRY 18",
+    "offeringUnit": "CHEM",
+    "unitsDefault": 4
+  },
+  {
+    "id": "CHEM 18.1",
+    "title": "CHEMISTRY 18.1",
+    "offeringUnit": "CHEM",
+    "unitsDefault": 1
+  },
+  {
+    "id": "CHEM 26",
+    "title": "CHEMISTRY 26",
+    "offeringUnit": "CHEM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CHEM 26.1",
+    "title": "CHEMISTRY 26.1",
+    "offeringUnit": "CHEM",
+    "unitsDefault": 2
+  },
+  {
+    "id": "CHEM 31",
+    "title": "CHEMISTRY 31",
+    "offeringUnit": "CHEM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CHEM 31.1",
+    "title": "CHEMISTRY 31.1",
+    "offeringUnit": "CHEM",
+    "unitsDefault": 2
+  },
+  {
+    "id": "CHEM 40",
+    "title": "CHEMISTRY 40",
+    "offeringUnit": "CHEM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CHEM 40.1",
+    "title": "CHEMISTRY 40.1",
+    "offeringUnit": "CHEM",
+    "unitsDefault": 2
+  },
+  {
+    "id": "CHEM. 1",
+    "title": "CHEMISTRY 1",
+    "offeringUnit": "CHEM.",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 11",
+    "title": "COMPUTER SCIENCE 11",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 110",
+    "title": "COMPUTER SCIENCE 110",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 116",
+    "title": "COMPUTER SCIENCE 116",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 117",
+    "title": "COMPUTER SCIENCE 117",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 12",
+    "title": "COMPUTER SCIENCE 12",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 123",
+    "title": "COMPUTER SCIENCE 123",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 124",
+    "title": "COMPUTER SCIENCE 124",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 125",
+    "title": "COMPUTER SCIENCE 125",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 127",
+    "title": "COMPUTER SCIENCE 127",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 128",
+    "title": "COMPUTER SCIENCE 128",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 130",
+    "title": "COMPUTER SCIENCE 130",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 131",
+    "title": "COMPUTER SCIENCE 131",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 135",
+    "title": "COMPUTER SCIENCE 135",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 141",
+    "title": "COMPUTER SCIENCE 141",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 142",
+    "title": "COMPUTER SCIENCE 142",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 190",
+    "title": "COMPUTER SCIENCE 190",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 191",
+    "title": "COMPUTER SCIENCE 191",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 198",
+    "title": "PRACTICUM",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CMSC 199",
+    "title": "COMPUTER SCIENCE 199",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 1
+  },
+  {
+    "id": "CMSC 55",
+    "title": "COMPUTER SCIENCE 55",
+    "offeringUnit": "CMSC",
+    "unitsDefault": 5
+  },
+  {
+    "id": "COMM 10",
+    "title": "COMMUNICATION 10",
+    "offeringUnit": "COMM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "COMM 100",
+    "title": "COMMUNICATION 100",
+    "offeringUnit": "COMM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "COMM 109",
+    "title": "COMMUNICATION 109",
+    "offeringUnit": "COMM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "COMM 11",
+    "title": "COMMUNICATION 11",
+    "offeringUnit": "COMM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "COMM 140",
+    "title": "COMMUNICATION 140",
+    "offeringUnit": "COMM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "COMM 150",
+    "title": "COMMUNICATION 150",
+    "offeringUnit": "COMM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "COMM 199.1",
+    "title": "COMMUNICATION 199.1",
+    "offeringUnit": "COMM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "COMM 199.2",
+    "title": "COMMUNICATION 199.2",
+    "offeringUnit": "COMM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "COMM 200",
+    "title": "COMMUNICATION 200",
+    "offeringUnit": "COMM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CRE 220",
+    "title": "CONSERVATION AND RESTORATION ECOLOGY 220",
+    "offeringUnit": "CRE",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CRE 230",
+    "title": "CONSERVATION AND RESTORATION ECOLOGY 230",
+    "offeringUnit": "CRE",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CRE 260",
+    "title": "CONSERVATION AND RESTORATION ECOLOGY 260",
+    "offeringUnit": "CRE",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CRE 261",
+    "title": "CONSERVATION AND RESTORATION ECOLOGY 261",
+    "offeringUnit": "CRE",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CRE 262",
+    "title": "CONSERVATION AND RESTORATION ECOLOGY 262",
+    "offeringUnit": "CRE",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CRE 263",
+    "title": "CONSERVATION AND RESTORATION ECOLOGY 263",
+    "offeringUnit": "CRE",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CRE 264",
+    "title": "CONSERVATION AND RESTORATION ECOLOGY 264",
+    "offeringUnit": "CRE",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CRE 265",
+    "title": "CONSERVATION AND RESTORATION ECOLOGY 265",
+    "offeringUnit": "CRE",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CRE 281",
+    "title": "CONSERVATION AND RESTORATION ECOLOGY 281",
+    "offeringUnit": "CRE",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CRE 283",
+    "title": "CONSERVATION AND RESTORATION ECOLOGY 283",
+    "offeringUnit": "CRE",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CRE 297",
+    "title": "CONSERVATION AND RESTORATION ECOLOGY 297",
+    "offeringUnit": "CRE",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CRE 298",
+    "title": "CONSERVATION AND RESTORATION ECOLOGY 298",
+    "offeringUnit": "CRE",
+    "unitsDefault": 2
+  },
+  {
+    "id": "CRE 299",
+    "title": "CONSERVATION AND RESTORATION ECOLOGY 299",
+    "offeringUnit": "CRE",
+    "unitsDefault": 3
+  },
+  {
+    "id": "CRE 300",
+    "title": "CONSERVATION AND RESTORATION ECOLOGY 300",
+    "offeringUnit": "CRE",
+    "unitsDefault": 6
+  },
+  {
+    "id": "ECO 101",
+    "title": "ECONOMICS 101",
+    "offeringUnit": "ECO",
+    "unitsDefault": 4
+  },
+  {
+    "id": "ECO 102",
+    "title": "ECONOMICS 102",
+    "offeringUnit": "ECO",
+    "unitsDefault": 4
+  },
+  {
+    "id": "ECO 121",
+    "title": "ECONOMICS 121",
+    "offeringUnit": "ECO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ECO 131",
+    "title": "ECONOMICS 131",
+    "offeringUnit": "ECO",
+    "unitsDefault": 4
+  },
+  {
+    "id": "ECO 141",
+    "title": "ECONOMICS 141",
+    "offeringUnit": "ECO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ECO 151",
+    "title": "ECONOMICS 151",
+    "offeringUnit": "ECO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ECON 106",
+    "title": "ECONOMICS 106",
+    "offeringUnit": "ECON",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ECON 161",
+    "title": "ECONOMICS 161",
+    "offeringUnit": "ECON",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ECON 171",
+    "title": "ECONOMICS 171",
+    "offeringUnit": "ECON",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ECON 181",
+    "title": "ECONOMICS 181",
+    "offeringUnit": "ECON",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ECON 191",
+    "title": "ECONOMICS 191",
+    "offeringUnit": "ECON",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ECON 198",
+    "title": "ECONOMICS 198",
+    "offeringUnit": "ECON",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ECON 200",
+    "title": "ECONOMICS 200",
+    "offeringUnit": "ECON",
+    "unitsDefault": 3
+  },
+  {
+    "id": "EDFD 110",
+    "title": "EDFD 110",
+    "offeringUnit": "EDFD",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ETHICS 1",
+    "title": "ETHICS 1",
+    "offeringUnit": "ETHICS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 10",
+    "title": "FINE ARTS 10",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 100",
+    "title": "FINE ARTS 100",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 101",
+    "title": "FINE ARTS 101",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 102",
+    "title": "FINE ARTS 102",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 103",
+    "title": "FINE ARTS 103",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 104",
+    "title": "FINE ARTS 104",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 105",
+    "title": "FINE ARTS 105",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 107",
+    "title": "FINE ARTS 107",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 11",
+    "title": "FINE ARTS 11",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 110",
+    "title": "FINE ARTS 110",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 111",
+    "title": "FINE ARTS 111",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 12",
+    "title": "FINE ARTS 12",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 120",
+    "title": "FINE ARTS 120",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 121",
+    "title": "FINE ARTS 121",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 13",
+    "title": "FINE ARTS 13",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 130",
+    "title": "FINE ARTS 130",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 131",
+    "title": "FINE ARTS 131",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 14",
+    "title": "FINE ARTS 14",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 140",
+    "title": "FINE ARTS 140",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 141",
+    "title": "FINE ARTS 141",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 143",
+    "title": "FINE ARTS 143",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 146",
+    "title": "FINE ARTS 146",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 15",
+    "title": "FINE ARTS 15",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 160",
+    "title": "FINE ARTS 160",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 161",
+    "title": "FINE ARTS 161",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 190",
+    "title": "FINE ARTS 190",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 191",
+    "title": "FINE ARTS 191",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 192",
+    "title": "FINE ARTS 192",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 195",
+    "title": "FINE ARTS 195",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 199",
+    "title": "FINE ARTS 199",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FA 200",
+    "title": "FINE ARTS 200",
+    "offeringUnit": "FA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FOR LANG 1.1",
+    "title": "FOREIGN LANGUAGE 1.1",
+    "offeringUnit": "FOR LANG",
+    "unitsDefault": 3
+  },
+  {
+    "id": "FOR LANG 1.2",
+    "title": "FOREIGN LANGUAGE 1.2",
+    "offeringUnit": "FOR LANG",
+    "unitsDefault": 3
+  },
+  {
+    "id": "GEO 11",
+    "title": "GEOLOGY 11",
+    "offeringUnit": "GEO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "GEOL 1",
+    "title": "GEOLOGY 1",
+    "offeringUnit": "GEOL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 100",
+    "title": "HISTORY 100",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 102",
+    "title": "HISTORY 102",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 106",
+    "title": "HISTORY 106",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 110",
+    "title": "HISTORY 110",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 112",
+    "title": "HISTORY 112",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 113",
+    "title": "HISTORY 113",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 114",
+    "title": "HISTORY 114",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 116",
+    "title": "HISTORY 116",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 117",
+    "title": "HISTORY 117",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 120",
+    "title": "HISTORY 120",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 154",
+    "title": "HISTORY 154",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 168",
+    "title": "HISTORY 168",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 198",
+    "title": "HISTORY 198",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 199",
+    "title": "HISTORY 199",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 200",
+    "title": "HISTORY 200",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 201",
+    "title": "HISTORY 201",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 202",
+    "title": "HISTORY 202",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 203",
+    "title": "HISTORY 203",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 204",
+    "title": "HISTORY 204",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 205",
+    "title": "HISTORY 205",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 209",
+    "title": "HIST 209",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 254",
+    "title": "HISTORY 254",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 260",
+    "title": "HISTORY 260",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 298",
+    "title": "HISTORY 298",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 3",
+    "title": "HISTORY 3",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HIST 300",
+    "title": "HISTORY 300",
+    "offeringUnit": "HIST",
+    "unitsDefault": 6
+  },
+  {
+    "id": "HIST I",
+    "title": "HISTORY I",
+    "offeringUnit": "HIST",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HISTO 119",
+    "title": "HISTORY 119",
+    "offeringUnit": "HISTO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "HISTO 151",
+    "title": "HISTORY 151",
+    "offeringUnit": "HISTO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "IS 301",
+    "title": "INDIGENOUS STUDIES 301",
+    "offeringUnit": "IS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "IS 302",
+    "title": "INDIGENOUS STUDIES 302",
+    "offeringUnit": "IS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "IS 320",
+    "title": "DIRECTED READINGS IN WORLD ETHNOGRAPHIES)",
+    "offeringUnit": "IS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "IS 321",
+    "title": "INDIGENOUS STUDIES 321",
+    "offeringUnit": "IS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "IS 322",
+    "title": "INDIGENOUS STUDIES 322",
+    "offeringUnit": "IS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "IS 330",
+    "title": "INDIGENOUS STUDIES 330",
+    "offeringUnit": "IS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "IS 331",
+    "title": "INDIGENOUS STUDIES 331",
+    "offeringUnit": "IS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "IS 340",
+    "title": "IS 340",
+    "offeringUnit": "IS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "IS 350",
+    "title": "INDIGENOUS STUDIES 350",
+    "offeringUnit": "IS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "IS 380",
+    "title": "INDIGENOUS STUDIES 380",
+    "offeringUnit": "IS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "IS 390",
+    "title": "INDIGENOUS STUDIES 390",
+    "offeringUnit": "IS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "IS 398",
+    "title": "INDIGENOUS STUDIES 398",
+    "offeringUnit": "IS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "IS 399.1",
+    "title": "INDIGENOUS STUDIES 399.1",
+    "offeringUnit": "IS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "IS 399.2",
+    "title": "INDIGENOUS STUDIES 399.2",
+    "offeringUnit": "IS",
+    "unitsDefault": 1
+  },
+  {
+    "id": "IS 400",
+    "title": "INDIGENOUS STUDIES 400",
+    "offeringUnit": "IS",
+    "unitsDefault": 12
+  },
+  {
+    "id": "JOURN 101",
+    "title": "JOURNALISM 101",
+    "offeringUnit": "JOURN",
+    "unitsDefault": 3
+  },
+  {
+    "id": "JOURN 102",
+    "title": "JOURNALISM 102",
+    "offeringUnit": "JOURN",
+    "unitsDefault": 3
+  },
+  {
+    "id": "JOURN 103",
+    "title": "JOURNALISM 103",
+    "offeringUnit": "JOURN",
+    "unitsDefault": 3
+  },
+  {
+    "id": "JOURN 104",
+    "title": "JOURNALISM 104",
+    "offeringUnit": "JOURN",
+    "unitsDefault": 3
+  },
+  {
+    "id": "JOURN 105",
+    "title": "JOURNALISM 105",
+    "offeringUnit": "JOURN",
+    "unitsDefault": 3
+  },
+  {
+    "id": "JOURN 106",
+    "title": "JOURNALISM 106",
+    "offeringUnit": "JOURN",
+    "unitsDefault": 3
+  },
+  {
+    "id": "JOURN 107",
+    "title": "JOURNALISM 107",
+    "offeringUnit": "JOURN",
+    "unitsDefault": 3
+  },
+  {
+    "id": "JOURN 108",
+    "title": "JOURNALISM 108",
+    "offeringUnit": "JOURN",
+    "unitsDefault": 3
+  },
+  {
+    "id": "JOURN 110",
+    "title": "JOURNALISM 110",
+    "offeringUnit": "JOURN",
+    "unitsDefault": 3
+  },
+  {
+    "id": "JOURN 111",
+    "title": "JOURNALISM 111",
+    "offeringUnit": "JOURN",
+    "unitsDefault": 3
+  },
+  {
+    "id": "JOURN 112",
+    "title": "JOURNALISM 112",
+    "offeringUnit": "JOURN",
+    "unitsDefault": 3
+  },
+  {
+    "id": "JOURN 113",
+    "title": "JOURNALISM 113",
+    "offeringUnit": "JOURN",
+    "unitsDefault": 3
+  },
+  {
+    "id": "JOURN 114",
+    "title": "JOURN 114",
+    "offeringUnit": "JOURN",
+    "unitsDefault": 3
+  },
+  {
+    "id": "JOURN 125",
+    "title": "JOURNALISM 125",
+    "offeringUnit": "JOURN",
+    "unitsDefault": 3
+  },
+  {
+    "id": "JOURN 132",
+    "title": "JOURNALISM 132",
+    "offeringUnit": "JOURN",
+    "unitsDefault": 3
+  },
+  {
+    "id": "JOURN 195",
+    "title": "JOURNALISM 195",
+    "offeringUnit": "JOURN",
+    "unitsDefault": 3
+  },
+  {
+    "id": "JOURN 198",
+    "title": "JOURNALISM 198",
+    "offeringUnit": "JOURN",
+    "unitsDefault": 3
+  },
+  {
+    "id": "KOM 11",
+    "title": "KOMUNIKASYON 11",
+    "offeringUnit": "KOM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "M.S. 11",
+    "title": "MEDIA STUDIES 11",
+    "offeringUnit": "M.S.",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 10",
+    "title": "MATHEMATICS 10",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 100",
+    "title": "MATHEMATICS 100",
+    "offeringUnit": "MATH",
+    "unitsDefault": 4
+  },
+  {
+    "id": "MATH 101",
+    "title": "MATHEMATICS 101",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 113",
+    "title": "MATHEMATICS 113",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 120",
+    "title": "MATHEMATICS 120",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 121",
+    "title": "MATHEMATICS 121",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 122",
+    "title": "MATHEMATICS 122",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 123",
+    "title": "MATHEMATICS 123",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 124",
+    "title": "MATHEMATICS 124",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 130",
+    "title": "MATHEMATICS 130",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 132",
+    "title": "MATHEMATICS 132",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 134",
+    "title": "MATHEMATICS 134",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 136",
+    "title": "MATHEMATICS 136",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 137",
+    "title": "MATHEMATICS 137",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 140",
+    "title": "MATHEMATICS 140",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 150",
+    "title": "MATHEMATICS 150",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 160",
+    "title": "MATHEMATICS 160",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 163",
+    "title": "MATHEMATICS 163",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 165",
+    "title": "MATHEMATICS 165",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 181",
+    "title": "MATHEMATICS 181",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 182",
+    "title": "MATHEMATICS 182",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 190",
+    "title": "MATHEMATICS 190",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 197",
+    "title": "MATHEMATICS 197",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 198",
+    "title": "MATHEMATICS 198",
+    "offeringUnit": "MATH",
+    "unitsDefault": 2
+  },
+  {
+    "id": "MATH 199",
+    "title": "MATHEMATICS 199",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 200",
+    "title": "MATHEMATICS 200",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 215",
+    "title": "MATHEMATICS 215",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 221",
+    "title": "MATHEMATICS 221",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 222",
+    "title": "MATHEMATICS 222",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 223",
+    "title": "MATHEMATICS 223",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 232",
+    "title": "MATHEMATICS 232",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 234",
+    "title": "MATHEMATICS 234",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 237",
+    "title": "MATHEMATICS 237",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 239",
+    "title": "MATHEMATICS 239",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 240",
+    "title": "MATHEMATICS 240",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 251",
+    "title": "MATHEMATICS 251",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 256",
+    "title": "GRAPH THEORY",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 260",
+    "title": "MATHEMATICS 260",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 280",
+    "title": "MATHEMATICS 280",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 29",
+    "title": "MATHEMATICS 29",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 296",
+    "title": "MATHEMATICS 296",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 297",
+    "title": "INDEPENDENT STUDY",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 298",
+    "title": "MATHEMATICS 298",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 299",
+    "title": "MATHEMATICS 299",
+    "offeringUnit": "MATH",
+    "unitsDefault": 1
+  },
+  {
+    "id": "MATH 300",
+    "title": "MATHEMATICS 300",
+    "offeringUnit": "MATH",
+    "unitsDefault": 6
+  },
+  {
+    "id": "MATH 400",
+    "title": "MATHEMATICS 400",
+    "offeringUnit": "MATH",
+    "unitsDefault": 12
+  },
+  {
+    "id": "MATH 53",
+    "title": "MATHEMATICS 53",
+    "offeringUnit": "MATH",
+    "unitsDefault": 5
+  },
+  {
+    "id": "MATH 54",
+    "title": "MATHEMATICS 54",
+    "offeringUnit": "MATH",
+    "unitsDefault": 5
+  },
+  {
+    "id": "MATH 55",
+    "title": "MATHEMATICS 55",
+    "offeringUnit": "MATH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MGT ECON 143",
+    "title": "MANAGEMENT ECONOMICS 143",
+    "offeringUnit": "MGT ECON",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MGT ECON 199.1",
+    "title": "MANAGEMENT ECONOMICS 199.1",
+    "offeringUnit": "MGT ECON",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MGT ECON 199.2",
+    "title": "MANAGEMENT ECONOMICS 199.2",
+    "offeringUnit": "MGT ECON",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MGT ECON 200",
+    "title": "MANAGEMENT ECONOMICS 200",
+    "offeringUnit": "MGT ECON",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MLL 201",
+    "title": "MA IN LANGUAGE AND LITERATURE 201",
+    "offeringUnit": "MLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MLL 202",
+    "title": "MA IN LANGUAGE AND LITERATURE 202",
+    "offeringUnit": "MLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MLL 203",
+    "title": "MA IN LANGUAGE AND LITERATURE 203",
+    "offeringUnit": "MLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MLL 210",
+    "title": "MA IN LANGUAGE AND LITERATURE 210",
+    "offeringUnit": "MLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MLL 221",
+    "title": "MA IN LANGUAGE AND LITERATURE 221",
+    "offeringUnit": "MLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MLL 222",
+    "title": "MA IN LANGUAGE AND LITERATURE 222",
+    "offeringUnit": "MLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MLL 223",
+    "title": "MA IN LANGUAGE AND LITERATURE 223",
+    "offeringUnit": "MLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MLL 227",
+    "title": "MA IN LANGUAGE AND LITERATURE 227",
+    "offeringUnit": "MLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MLL 230",
+    "title": "MA IN LANGUAGE AND LITERATURE 230",
+    "offeringUnit": "MLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MLL 298",
+    "title": "MA IN LANGUAGE AND LITERATURE 298",
+    "offeringUnit": "MLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MLL 299",
+    "title": "MA IN LANGUAGE AND LITERATURE 299",
+    "offeringUnit": "MLL",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MLL 300",
+    "title": "MA IN LANGUAGE AND LITERATURE 300",
+    "offeringUnit": "MLL",
+    "unitsDefault": 6
+  },
+  {
+    "id": "MM 201",
+    "title": "MASTER OF MANAGEMENT 201",
+    "offeringUnit": "MM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MM 202",
+    "title": "MASTER OF MANAGEMENT 202",
+    "offeringUnit": "MM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MM 203",
+    "title": "MASTER OF MANAGEMENT 203",
+    "offeringUnit": "MM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MM 220",
+    "title": "MASTER OF MANAGEMENT 220",
+    "offeringUnit": "MM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MM 222",
+    "title": "MASTER OF MANAGEMENT 222",
+    "offeringUnit": "MM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MM 230",
+    "title": "MASTER OF MANAGEMENT 230",
+    "offeringUnit": "MM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MM 240",
+    "title": "MASTER OF MANAGEMENT 240",
+    "offeringUnit": "MM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MM 250",
+    "title": "MASTER OF MANAGEMENT 250",
+    "offeringUnit": "MM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MM 291.1",
+    "title": "MASTER OF MANAGEMENT 291.1",
+    "offeringUnit": "MM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MM 291.2",
+    "title": "MASTER OF MANAGEMENT 291.2",
+    "offeringUnit": "MM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MM 292",
+    "title": "MASTER OF MANAGEMENT 292",
+    "offeringUnit": "MM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MM 293",
+    "title": "MASTER OF MANAGEMENT 293",
+    "offeringUnit": "MM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MM 294",
+    "title": "MASTER OF MANAGEMENT 294",
+    "offeringUnit": "MM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MM 295",
+    "title": "MASTER OF MANAGEMENT 295",
+    "offeringUnit": "MM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MM 298",
+    "title": "MASTER OF MANAGEMENT 298",
+    "offeringUnit": "MM",
+    "unitsDefault": 3
+  },
+  {
+    "id": "NAT SCI 3",
+    "title": "NATURAL SCIENCES 3",
+    "offeringUnit": "NAT SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "NSTP 1 CWTS",
+    "title": "NSTP 1 CWTS",
+    "offeringUnit": "NSTP",
+    "unitsDefault": 3
+  },
+  {
+    "id": "NSTP 1 LTS",
+    "title": "NSTP 1 LTS",
+    "offeringUnit": "NSTP",
+    "unitsDefault": 3
+  },
+  {
+    "id": "NSTP 1 ROTC",
+    "title": "NSTP 1 ROTC",
+    "offeringUnit": "NSTP",
+    "unitsDefault": 3
+  },
+  {
+    "id": "NSTP 2 CWTS",
+    "title": "NSTP 2 CWTS",
+    "offeringUnit": "NSTP",
+    "unitsDefault": 3
+  },
+  {
+    "id": "NSTP 2 LTS",
+    "title": "NSTP 2 LTS",
+    "offeringUnit": "NSTP",
+    "unitsDefault": 3
+  },
+  {
+    "id": "NSTP 2 ROTC",
+    "title": "NSTP 2 ROTC",
+    "offeringUnit": "NSTP",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PE 1",
+    "title": "PHYSICAL EDUCATION 1",
+    "offeringUnit": "PE",
+    "unitsDefault": 2
+  },
+  {
+    "id": "PE 2",
+    "title": "PHYSICAL EDUCATION 2",
+    "offeringUnit": "PE",
+    "unitsDefault": 2
+  },
+  {
+    "id": "PE 4",
+    "title": "PE 4",
+    "offeringUnit": "PE",
+    "unitsDefault": 2
+  },
+  {
+    "id": "PH LANG 1,2",
+    "title": "PHILIPPINE LANGUAGES 1.2",
+    "offeringUnit": "PH LANG",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PH LANG 1.1",
+    "title": "PHILIPPINE LANGUAGES 1.1",
+    "offeringUnit": "PH LANG",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHILARTS 1",
+    "title": "PHILIPPINE ARTS 1",
+    "offeringUnit": "PHILARTS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHILO 11",
+    "title": "PHILOSOPHY 11",
+    "offeringUnit": "PHILO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHILO 110",
+    "title": "PHILOSOPHY 110",
+    "offeringUnit": "PHILO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHILO 111",
+    "title": "PHILOSOPHY 111",
+    "offeringUnit": "PHILO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHILO 112",
+    "title": "PHILOSOPHY 112",
+    "offeringUnit": "PHILO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHILO 113",
+    "title": "PHILOSOPHY 113",
+    "offeringUnit": "PHILO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHILO 130",
+    "title": "PHILOSOPHY 130",
+    "offeringUnit": "PHILO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHILO 150",
+    "title": "PHILOSOPHY 150",
+    "offeringUnit": "PHILO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHILO 171",
+    "title": "PHILOSOPHY 171",
+    "offeringUnit": "PHILO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHILO 193",
+    "title": "PHILOSOPHY 193",
+    "offeringUnit": "PHILO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHILO 198",
+    "title": "PHILOSOPHY 198",
+    "offeringUnit": "PHILO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHILO 27",
+    "title": "PHILOSOPHY 27",
+    "offeringUnit": "PHILO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHYSICS 100",
+    "title": "PHYSICS 100",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 5
+  },
+  {
+    "id": "PHYSICS 101",
+    "title": "PHYSICS 101",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 4
+  },
+  {
+    "id": "PHYSICS 101.1",
+    "title": "PHYSICS 101.1",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 1
+  },
+  {
+    "id": "PHYSICS 102",
+    "title": "PHYSICS 102",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 4
+  },
+  {
+    "id": "PHYSICS 102.1",
+    "title": "PHYSICS 102.1",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 1
+  },
+  {
+    "id": "PHYSICS 103",
+    "title": "PHYSICS 103",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 4
+  },
+  {
+    "id": "PHYSICS 103.1",
+    "title": "PHYSICS 103.1",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 1
+  },
+  {
+    "id": "PHYSICS 104",
+    "title": "PHYSICS 104",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 4
+  },
+  {
+    "id": "PHYSICS 104.1",
+    "title": "PHYSICS 104.1",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 1
+  },
+  {
+    "id": "PHYSICS 121",
+    "title": "PHYSICS 121",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 4
+  },
+  {
+    "id": "PHYSICS 122",
+    "title": "PHYSICS 122",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 4
+  },
+  {
+    "id": "PHYSICS 123",
+    "title": "PHYSICS 123",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 4
+  },
+  {
+    "id": "PHYSICS 131",
+    "title": "PHYSICS 131",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 4
+  },
+  {
+    "id": "PHYSICS 161",
+    "title": "PHYSICS 161",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHYSICS 162",
+    "title": "PHYSICS 162",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHYSICS 165",
+    "title": "PHYSICS 165",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHYSICS 171",
+    "title": "PHYSICS 171",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHYSICS 172",
+    "title": "PHYSICS 172",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHYSICS 173",
+    "title": "PHYSICS 173",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 4
+  },
+  {
+    "id": "PHYSICS 175",
+    "title": "PHYSICS 175",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHYSICS 181",
+    "title": "PHYSICS 181",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHYSICS 182",
+    "title": "PHYSICS 182",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHYSICS 183",
+    "title": "PHYSICS 183",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHYSICS 195",
+    "title": "PHYSICS 195",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHYSICS 196",
+    "title": "PHYSICS 196",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 1
+  },
+  {
+    "id": "PHYSICS 199",
+    "title": "PHYSICS 199",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PHYSICS 200",
+    "title": "PHYSICS 200",
+    "offeringUnit": "PHYSICS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PI 100",
+    "title": "PHILIPPINE INSTITUTION 100",
+    "offeringUnit": "PI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "POL SCI 100",
+    "title": "POLITICAL SCIENCE 100",
+    "offeringUnit": "POL SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "POL SCI 150",
+    "title": "POLITICAL SCIENCE 150",
+    "offeringUnit": "POL SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "POL SCI 151",
+    "title": "POLITICAL SCIENCE 151",
+    "offeringUnit": "POL SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "POL SCI 153",
+    "title": "POLITICAL SCIENCE 153",
+    "offeringUnit": "POL SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "POL SCI 160",
+    "title": "POLITICAL SCIENCE 160",
+    "offeringUnit": "POL SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "POL SCI 163",
+    "title": "POLITICAL SCIENCE 163",
+    "offeringUnit": "POL SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "POL SCI 177",
+    "title": "POLITICAL SCIENCE 177",
+    "offeringUnit": "POL SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "POL SCI 178",
+    "title": "POLITICAL SCIENCE 178",
+    "offeringUnit": "POL SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "POL SCI 182",
+    "title": "POLITICAL SCIENCE 182",
+    "offeringUnit": "POL SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "POL SCI 190",
+    "title": "POLITICAL SCIENCE 190",
+    "offeringUnit": "POL SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "POL SCI 192",
+    "title": "POLITICAL SCIENCE 192",
+    "offeringUnit": "POL SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "POL SCI 198",
+    "title": "POLITICAL SCIENCE 198",
+    "offeringUnit": "POL SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PSYCH 101",
+    "title": "PSYCHOLOGY 101",
+    "offeringUnit": "PSYCH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PSYCH 140",
+    "title": "PSYCHOLOGY 140",
+    "offeringUnit": "PSYCH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PSYCH 145",
+    "title": "PSYCHOLOGY 145",
+    "offeringUnit": "PSYCH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PSYCH 150",
+    "title": "PSYCHOLOGY 150",
+    "offeringUnit": "PSYCH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PSYCH 155",
+    "title": "PSYCHOLOGY 155",
+    "offeringUnit": "PSYCH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PSYCH 163",
+    "title": "PSYCHOLOGY 163",
+    "offeringUnit": "PSYCH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PSYCH 171",
+    "title": "PSYCHOLOGY 171",
+    "offeringUnit": "PSYCH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PSYCH 172",
+    "title": "PSYCHOLOGY 172",
+    "offeringUnit": "PSYCH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PSYCH 180",
+    "title": "PSYCHOLOGY 180",
+    "offeringUnit": "PSYCH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PSYCH 181",
+    "title": "PSYCHOLOGY 181",
+    "offeringUnit": "PSYCH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PSYCH 182",
+    "title": "PSYCHOLOGY 182",
+    "offeringUnit": "PSYCH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "PSYCH 195",
+    "title": "PSYCHOLOGY 195",
+    "offeringUnit": "PSYCH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "RES 1",
+    "title": "IN RESIDENCE",
+    "offeringUnit": "RES",
+    "unitsDefault": 0
+  },
+  {
+    "id": "RES 2",
+    "title": "IN RESIDENCE",
+    "offeringUnit": "RES",
+    "unitsDefault": 0
+  },
+  {
+    "id": "RES 3",
+    "title": "IN RESIDENCE",
+    "offeringUnit": "RES",
+    "unitsDefault": 0
+  },
+  {
+    "id": "RES 4",
+    "title": "IN RESIDENCE",
+    "offeringUnit": "RES",
+    "unitsDefault": 0
+  },
+  {
+    "id": "SAS 1",
+    "title": "SAS 1",
+    "offeringUnit": "SAS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SC 101",
+    "title": "SPEECH COMMUNICATION 101",
+    "offeringUnit": "SC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SC 102",
+    "title": "SPEECH COMMUNICATION 102",
+    "offeringUnit": "SC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SC 104",
+    "title": "SPEECH COMMUNICATION 104",
+    "offeringUnit": "SC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SC 115",
+    "title": "SPEECH COMMUNICATION 115",
+    "offeringUnit": "SC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SC 118",
+    "title": "SPEECH COMMUNICATION 118",
+    "offeringUnit": "SC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SC 121",
+    "title": "SPEECH COMMUNICATION 121",
+    "offeringUnit": "SC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SC 124",
+    "title": "SPEECH COMMUNICATION 124",
+    "offeringUnit": "SC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SC 130",
+    "title": "SPEECH COMMUNICATION 130",
+    "offeringUnit": "SC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SC 133",
+    "title": "SPEECH COMMUNICATION 133",
+    "offeringUnit": "SC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SC 136",
+    "title": "SPEECH COMMUNICATION 136",
+    "offeringUnit": "SC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SC 137",
+    "title": "SPEECH COMMUNICATION 137",
+    "offeringUnit": "SC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SC 140",
+    "title": "SPEECH COMMUNICATION 140",
+    "offeringUnit": "SC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SC 190",
+    "title": "SPEECH COMMUNICATION 190",
+    "offeringUnit": "SC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SC 195",
+    "title": "SPEECH COMMUNICATION 195",
+    "offeringUnit": "SC",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SCIENCE 10",
+    "title": "SCIENCE 10",
+    "offeringUnit": "SCIENCE",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SCIENCE 11",
+    "title": "SCIENCE 11",
+    "offeringUnit": "SCIENCE",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SDS 201",
+    "title": "SOCIAL AND DEVELOPMENT STUDIES 201",
+    "offeringUnit": "SDS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SDS 202",
+    "title": "SOCIAL AND DEVELOPMENT STUDIES 202",
+    "offeringUnit": "SDS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SDS 230",
+    "title": "SOCIAL AND DEVELOPMENT STUDIES 230",
+    "offeringUnit": "SDS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SDS 265",
+    "title": "SOCIAL AND DEVELOPMENT STUDIES 265",
+    "offeringUnit": "SDS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SDS 271",
+    "title": "SOCIAL AND DEVELOPMENT STUDIES 271",
+    "offeringUnit": "SDS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SDS 278",
+    "title": "SOCIAL AND DEVELOPMENT STUDIES 278",
+    "offeringUnit": "SDS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SDS 279",
+    "title": "SOCIAL AND DEVELOPMENT STUDIES 279",
+    "offeringUnit": "SDS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SDS 290",
+    "title": "SOCIAL AND DEVELOPMENT STUDIES 290",
+    "offeringUnit": "SDS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SDS 292",
+    "title": "SOCIAL AND DEVELOPMENT STUDIES 292",
+    "offeringUnit": "SDS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SDS 298",
+    "title": "SOCIAL AND DEVELOPMENT STUDIES 298",
+    "offeringUnit": "SDS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SDS 299",
+    "title": "SOCIAL AND DEVELOPMENT STUDIES 299",
+    "offeringUnit": "SDS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SDS 299.1",
+    "title": "SOCIAL AND DEVELOPMENT STUDIES 299.1",
+    "offeringUnit": "SDS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SDS 300",
+    "title": "SOCIAL AND DEVELOPMENT STUDIES 300",
+    "offeringUnit": "SDS",
+    "unitsDefault": 6
+  },
+  {
+    "id": "SOC ANTH 200",
+    "title": "SOCIAL ANTHROPOLOGY 200",
+    "offeringUnit": "SOC ANTH",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SOC SCI 100",
+    "title": "SOCIAL SCIENCE 100",
+    "offeringUnit": "SOC SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SOC SCI 101",
+    "title": "SOCIAL SCIENCE 101",
+    "offeringUnit": "SOC SCI",
+    "unitsDefault": 4
+  },
+  {
+    "id": "SOC SCI 180",
+    "title": "SOCIAL SCIENCE 180",
+    "offeringUnit": "SOC SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SOC SCI 197",
+    "title": "SOCIAL SCIENCE 197",
+    "offeringUnit": "SOC SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SOC SCI 198",
+    "title": "SOCIAL SCIENCE 198",
+    "offeringUnit": "SOC SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SOC SCI 199",
+    "title": "SOCIAL SCIENCE 199",
+    "offeringUnit": "SOC SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SOC SCI 30",
+    "title": "SOCIAL SCIENCE 30",
+    "offeringUnit": "SOC SCI",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SOCIO 101",
+    "title": "SOCIOLOGY 101",
+    "offeringUnit": "SOCIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SOCIO 114",
+    "title": "SOCIOLOGY 114",
+    "offeringUnit": "SOCIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SOCIO 119",
+    "title": "SOCIOLOGY 119",
+    "offeringUnit": "SOCIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SOCIO 126",
+    "title": "SOCIOLOGY 126",
+    "offeringUnit": "SOCIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SOCIO 132",
+    "title": "SOCIOLOGY 132",
+    "offeringUnit": "SOCIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SOCIO 142",
+    "title": "SOCIOLOGY 142",
+    "offeringUnit": "SOCIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SOCIO 153",
+    "title": "SOCIOLOGY 153",
+    "offeringUnit": "SOCIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SOCIO 160",
+    "title": "SOCIOLOGY 160",
+    "offeringUnit": "SOCIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "SOCIO 195",
+    "title": "SOCIOLOGY 195",
+    "offeringUnit": "SOCIO",
+    "unitsDefault": 3
+  },
+  {
+    "id": "STS 1",
+    "title": "STS 1",
+    "offeringUnit": "STS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "WIKA 1",
+    "title": "WIKA 1",
+    "offeringUnit": "WIKA",
+    "unitsDefault": 3
+  },
+  {
+    "id": "ZOO 102",
+    "title": "ZOOLOGY 102",
+    "offeringUnit": "ZOO",
+    "unitsDefault": 5
+  },
+  {
+    "id": "ZOO 106",
+    "title": "ZOOLOGY 106",
+    "offeringUnit": "ZOO",
+    "unitsDefault": 4
+  },
+  {
+    "id": "ZOO 111",
+    "title": "ZOOLOGY 111",
+    "offeringUnit": "ZOO",
+    "unitsDefault": 5
+  },
+  {
+    "id": "ZOO 113",
+    "title": "ZOOLOGY 113",
+    "offeringUnit": "ZOO",
+    "unitsDefault": 4
+  },
+  {
+    "id": "ZOO 120",
+    "title": "ZOOLOGY 120",
+    "offeringUnit": "ZOO",
+    "unitsDefault": 4
+  },
+  {
+    "id": "ZOO 132",
+    "title": "ZOOLOGY 132",
+    "offeringUnit": "ZOO",
+    "unitsDefault": 5
   }
 ]

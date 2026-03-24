@@ -1,7 +1,5 @@
 {
-  "generatedAt": "2026-03-25T02:40:00.000Z",
-  "connectorVersion": "0.1.1",
-  "sourceType": "partner_connector",
-  "sourcePublishedAt": "2026-03-25T02:10:00.000Z",
-  "rawPayloadCount": 4
+  "generatedAt": "2026-03-24T22:17:09.752Z",
+  "connectorVersion": "uplb-amis-clean-upsked-1",
+  "sourceType": "local_bundle"
 }

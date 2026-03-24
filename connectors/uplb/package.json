@@ -3,6 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "verify:fixture": "tsx src/verify-release.ts ../../fixtures/uplb/sample-release ../../fixtures/uplb/previous-release"
+    "verify:fixture": "tsx src/verify-release.ts ../../fixtures/uplb/sample-release ../../fixtures/uplb/previous-release",
+    "amis:pages": "node pipeline/process-amis-pages.cjs",
+    "amis:har": "node pipeline/transform-from-har.cjs",
+    "amis:clean": "node pipeline/clean-for-upsked.cjs",
+    "amis:export-interop": "node pipeline/export-interop-from-upsked.mjs"
   }
 }

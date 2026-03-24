@@ -1,0 +1,210 @@
+[
+  {
+    "code": "ACCTG",
+    "name": "ACCTG"
+  },
+  {
+    "code": "ANTHRO",
+    "name": "ANTHRO"
+  },
+  {
+    "code": "ARTS",
+    "name": "ARTS"
+  },
+  {
+    "code": "BA",
+    "name": "BA"
+  },
+  {
+    "code": "BC",
+    "name": "BC"
+  },
+  {
+    "code": "BIO",
+    "name": "BIO"
+  },
+  {
+    "code": "BLL",
+    "name": "BLL"
+  },
+  {
+    "code": "BOT",
+    "name": "BOT"
+  },
+  {
+    "code": "CHEM",
+    "name": "CHEM"
+  },
+  {
+    "code": "CHEM.",
+    "name": "CHEM."
+  },
+  {
+    "code": "CMSC",
+    "name": "CMSC"
+  },
+  {
+    "code": "COMM",
+    "name": "COMM"
+  },
+  {
+    "code": "CRE",
+    "name": "CRE"
+  },
+  {
+    "code": "ECO",
+    "name": "ECO"
+  },
+  {
+    "code": "ECON",
+    "name": "ECON"
+  },
+  {
+    "code": "EDFD",
+    "name": "EDFD"
+  },
+  {
+    "code": "ETHICS",
+    "name": "ETHICS"
+  },
+  {
+    "code": "FA",
+    "name": "FA"
+  },
+  {
+    "code": "FOR LANG",
+    "name": "FOR LANG"
+  },
+  {
+    "code": "GEO",
+    "name": "GEO"
+  },
+  {
+    "code": "GEOL",
+    "name": "GEOL"
+  },
+  {
+    "code": "HIST",
+    "name": "HIST"
+  },
+  {
+    "code": "HISTO",
+    "name": "HISTO"
+  },
+  {
+    "code": "IS",
+    "name": "IS"
+  },
+  {
+    "code": "JOURN",
+    "name": "JOURN"
+  },
+  {
+    "code": "KOM",
+    "name": "KOM"
+  },
+  {
+    "code": "M.S.",
+    "name": "M.S."
+  },
+  {
+    "code": "MATH",
+    "name": "MATH"
+  },
+  {
+    "code": "MGT ECON",
+    "name": "MGT ECON"
+  },
+  {
+    "code": "MLL",
+    "name": "MLL"
+  },
+  {
+    "code": "MM",
+    "name": "MM"
+  },
+  {
+    "code": "NAT SCI",
+    "name": "NAT SCI"
+  },
+  {
+    "code": "NSTP",
+    "name": "NSTP"
+  },
+  {
+    "code": "PE",
+    "name": "PE"
+  },
+  {
+    "code": "PH LANG",
+    "name": "PH LANG"
+  },
+  {
+    "code": "PHILARTS",
+    "name": "PHILARTS"
+  },
+  {
+    "code": "PHILO",
+    "name": "PHILO"
+  },
+  {
+    "code": "PHYSICS",
+    "name": "PHYSICS"
+  },
+  {
+    "code": "PI",
+    "name": "PI"
+  },
+  {
+    "code": "POL SCI",
+    "name": "POL SCI"
+  },
+  {
+    "code": "PSYCH",
+    "name": "PSYCH"
+  },
+  {
+    "code": "RES",
+    "name": "RES"
+  },
+  {
+    "code": "SAS",
+    "name": "SAS"
+  },
+  {
+    "code": "SC",
+    "name": "SC"
+  },
+  {
+    "code": "SCIENCE",
+    "name": "SCIENCE"
+  },
+  {
+    "code": "SDS",
+    "name": "SDS"
+  },
+  {
+    "code": "SOC ANTH",
+    "name": "SOC ANTH"
+  },
+  {
+    "code": "SOC SCI",
+    "name": "SOC SCI"
+  },
+  {
+    "code": "SOCIO",
+    "name": "SOCIO"
+  },
+  {
+    "code": "STS",
+    "name": "STS"
+  },
+  {
+    "code": "WIKA",
+    "name": "WIKA"
+  },
+  {
+    "code": "ZOO",
+    "name": "ZOO"
+  }
+]
