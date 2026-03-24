@@ -1,0 +1,12 @@
+{
+  "universityId": "uplb",
+  "semesterId": "uplb-2026-1",
+  "schemaVersion": 1,
+  "sourceType": "partner_connector",
+  "catalogSourceId": "uplb-main-catalog",
+  "connectorId": "uplb.community.connector",
+  "connectorVersion": "0.1.0",
+  "trustTier": "community",
+  "publishedAt": "2026-03-20T03:00:00.000Z",
+  "sourcePublishedAt": "2026-03-20T02:00:00.000Z"
+}

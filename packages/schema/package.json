@@ -1,0 +1,9 @@
+{
+  "name": "@upsked/interop-schema",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "types": "./src/index.ts"
+}

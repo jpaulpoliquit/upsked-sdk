@@ -1,0 +1,49 @@
+{
+  "name": "upsked-sdk",
+  "version": "0.0.0",
+  "private": true,
+  "description": "UPSked partner connectors: schema, verifier SDK, and sample bundles (standalone from main app)",
+  "keywords": [
+    "upsked",
+    "catalog",
+    "university",
+    "connector",
+    "verifier"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/upsked/upsked-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/upsked/upsked-sdk/issues"
+  },
+  "homepage": "https://github.com/upsked/upsked-sdk#readme",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "workspaces": [
+    "packages/*",
+    "connectors/*"
+  ],
+  "scripts": {
+    "test": "tsx packages/verifier-sdk/src/__tests__/verifier.test.ts",
+    "verify": "tsx packages/verifier-sdk/src/cli.ts",
+    "verify:sample": "tsx packages/verifier-sdk/src/cli.ts fixtures/uplb/sample-release --previous fixtures/uplb/previous-release",
+    "fixtures:sync": "tsx scripts/sync-fixture-manifests.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "lint": "eslint packages scripts connectors",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "ci": "npm run lint && npm run format:check && npm run typecheck && npm test && npm run verify:sample"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@types/node": "^22.19.3",
+    "eslint": "^9.39.4",
+    "prettier": "^3.8.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.57.2"
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "CMSC 12",
+    "title": "Introduction to Computer Science",
+    "offeringUnit": "ICS",
+    "unitsDefault": 3
+  },
+  {
+    "id": "MATH 27",
+    "title": "College Algebra and Trigonometry",
+    "offeringUnit": "IMSP",
+    "unitsDefault": 3
+  }
+]

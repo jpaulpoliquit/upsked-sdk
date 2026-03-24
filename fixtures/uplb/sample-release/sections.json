@@ -1,0 +1,46 @@
+[
+  {
+    "id": "uplb-cmsc12-a",
+    "classCode": "2026101",
+    "courseId": "CMSC 12",
+    "sectionCode": "A",
+    "semesterId": "uplb-2026-1",
+    "status": "open",
+    "offeringUnit": "ICS",
+    "slotsAvailable": 12,
+    "slotsTotal": 30
+  },
+  {
+    "id": "uplb-cmsc12-b",
+    "classCode": "2026102",
+    "courseId": "CMSC 12",
+    "sectionCode": "B",
+    "semesterId": "uplb-2026-1",
+    "status": "closed",
+    "offeringUnit": "ICS",
+    "slotsAvailable": 0,
+    "slotsTotal": 30
+  },
+  {
+    "id": "uplb-math27-a",
+    "classCode": "2026103",
+    "courseId": "MATH 27",
+    "sectionCode": "A",
+    "semesterId": "uplb-2026-1",
+    "status": "open",
+    "offeringUnit": "IMSP",
+    "slotsAvailable": 7,
+    "slotsTotal": 25
+  },
+  {
+    "id": "uplb-math27-b",
+    "classCode": "2026104",
+    "courseId": "MATH 27",
+    "sectionCode": "B",
+    "semesterId": "uplb-2026-1",
+    "status": "open",
+    "offeringUnit": "IMSP",
+    "slotsAvailable": 4,
+    "slotsTotal": 25
+  }
+]
