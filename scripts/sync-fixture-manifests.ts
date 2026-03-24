@@ -9,7 +9,7 @@ interface FixtureConfig extends BuildManifestConfig {
   previousFixtureDir?: string;
 }
 
-const FIXTURE_DIRS = ["fixtures/uplb/previous-release", "fixtures/uplb/sample-release"] as const;
+const FIXTURE_DIRS = ["fixtures/upb/previous-release", "fixtures/upb/sample-release"] as const;
 const REPO_ROOT = fileURLToPath(new URL("../", import.meta.url));
 
 async function readFixtureConfig(bundleDir: string): Promise<FixtureConfig> {

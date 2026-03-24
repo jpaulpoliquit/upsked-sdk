@@ -23,10 +23,10 @@ async function withTempBundleCopy<T>(
 
 async function main(): Promise<void> {
   const previousBundleDir = fileURLToPath(
-    new URL("../../../../fixtures/uplb/previous-release/", import.meta.url),
+    new URL("../../../../fixtures/upb/previous-release/", import.meta.url),
   );
   const sampleBundleDir = fileURLToPath(
-    new URL("../../../../fixtures/uplb/sample-release/", import.meta.url),
+    new URL("../../../../fixtures/upb/sample-release/", import.meta.url),
   );
 
   const cleanReport = await verifyReleaseBundle(sampleBundleDir, {

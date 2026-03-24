@@ -1,6 +1,8 @@
 # Validation Spec
 
-UPSked should stage or promote releases based on one consistent verifier contract. **Implementations:** `upsked-sdk/packages/verifier-sdk` (this repo) and, eventually, server-side ingest. Contributor workflow: [CONTRIBUTOR_GUIDE.md](./CONTRIBUTOR_GUIDE.md).
+**Connector authors:** your local gate is the **verifier** in `packages/verifier-sdk`; this document names the conceptual layers (schema, identity, semantics, …) behind that tool.
+
+UPSked should stage or promote releases based on one consistent verifier contract. **Implementations:** `upsked-sdk/packages/verifier-sdk` (this repo) and, eventually, server-side ingest. Step-by-step workflow: [CONTRIBUTOR_GUIDE.md](./CONTRIBUTOR_GUIDE.md).
 
 ## Validation layers
 

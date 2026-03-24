@@ -1,20 +1,22 @@
-# Connector Spec
+# Connector spec (checklist)
 
-For the full narrative (two contracts, artifacts, scrapers, work order, definition of done), see **[CONTRIBUTOR_GUIDE.md](./CONTRIBUTOR_GUIDE.md)**. Below: minimal checklist.
+**Who this is for:** anyone implementing a **new school connector** that must interoperate with UPSked. Follow this checklist while you build; use **[CONTRIBUTOR_GUIDE.md](./CONTRIBUTOR_GUIDE.md)** for the full explanation, edge cases, and commands.
+
+**Outcome:** one **release bundle** per drop that passes `npm run verify -- <bundle>` with **zero errors**.
 
 ## Goal
 
-Each connector turns a school-specific source system into one canonical UPSked **release bundle** (directory of JSON + `manifest.json`).
+Turn your school’s source system (portal, API, files) into one canonical UPSked **release bundle**: a directory of JSON files + `manifest.json` that the verifier in this SDK accepts.
 
 ## Required steps
 
-1. Extract raw payloads from the source system.
-2. Normalize into canonical row types (`packages/schema`).
-3. Emit JSON files + `metadata.json`.
-4. Build `manifest.json` (hashes + `releaseId` — use `buildManifestFromLocalArtifacts`, do not hand-roll).
-5. Run `npm run verify -- <bundle> [--previous <dir>]`; exit non-zero on errors.
-6. Keep a previous-bundle fixture for regression when the semester is unchanged.
-7. Later: submit the immutable bundle to UPSked ingest (when API exists).
+1. Extract raw payloads from the source system (keep provenance notes for your own ops; do not commit secrets).
+2. Normalize into canonical row types defined in `packages/schema` (`CourseRow`, `SectionRow`, `ScheduleRow`, …).
+3. Emit `courses.json` (or `courses.pbf`), `sections.json`, `schedules.json`, `metadata.json` into **one** directory.
+4. Build `manifest.json` using `buildManifestFromLocalArtifacts` (or your connector’s wrapper). **Do not** hand-edit hashes or `releaseId`.
+5. Run `npm run verify -- <bundle> [--previous <dir>]`. Fix every error before handoff.
+6. When the same semester already had an accepted release, keep a copy of that bundle and pass it as `--previous` for regression checks.
+7. Deliver the bundle to UPSked through their agreed channel. **Upload APIs** may come later; the on-disk contract stays the same.
 
 ## Required release bundle
 
@@ -33,7 +35,7 @@ Optional:
 
 ## Required manifest fields
 
-Align with `canonicalCatalogReleaseManifestSchema` in the main UPSked app (`catalog-ingest-contract.ts`) — see [UPSTREAM_LINKS.md](./UPSTREAM_LINKS.md) (single source for future ingest):
+Stay aligned with `canonicalCatalogReleaseManifestSchema` in the main UPSked app (`catalog-ingest-contract.ts`) — see [UPSTREAM_LINKS.md](./UPSTREAM_LINKS.md):
 
 - `universityId`, `semesterId`, `releaseId`, `schemaVersion`
 - `sourceType`, `catalogSourceId`, `connectorId`, `connectorVersion`, `trustTier`
@@ -47,7 +49,7 @@ Align with `canonicalCatalogReleaseManifestSchema` in the main UPSked app (`cata
 - IDs stable within `universityId` + source.
 - Connector only emits its **assigned** `universityId`.
 
-## CI minimum
+## CI minimum (when contributing to this SDK repo)
 
 - `npm run typecheck`
 - `npm run test` (fixture verifier)

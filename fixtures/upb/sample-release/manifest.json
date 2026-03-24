@@ -1,0 +1,61 @@
+{
+  "universityId": "upb",
+  "semesterId": "upb-2026-1",
+  "releaseId": "a49ea00df111b4fcd233",
+  "schemaVersion": 1,
+  "sourceType": "partner_connector",
+  "catalogSourceId": "upb-main-catalog",
+  "connectorId": "upb.community.connector",
+  "connectorVersion": "0.1.1",
+  "trustTier": "community",
+  "publishedAt": "2026-03-25T03:00:00.000Z",
+  "sourcePublishedAt": "2026-03-25T02:10:00.000Z",
+  "previousReleaseId": "f87475cb20297b64b0c9",
+  "counts": {
+    "courses": 2,
+    "sections": 4,
+    "schedules": 6
+  },
+  "artifacts": [
+    {
+      "key": "courses",
+      "kind": "courses_json",
+      "path": "courses.json",
+      "sha256": "90ecd21cf08267a6c73901c03edbefa27c7620a465b520775d6657497c60c1ef",
+      "sizeBytes": 260,
+      "contentType": "application/json",
+      "compression": "identity",
+      "recordCount": 2
+    },
+    {
+      "key": "sections",
+      "kind": "sections_json",
+      "path": "sections.json",
+      "sha256": "5bef24b45cd82e68d92fe0ccbbbcf241a6f56f49a63241cd4bca16b923456c55",
+      "sizeBytes": 973,
+      "contentType": "application/json",
+      "compression": "identity",
+      "recordCount": 4
+    },
+    {
+      "key": "schedules",
+      "kind": "schedules_json",
+      "path": "schedules.json",
+      "sha256": "37916d28992112633f6054327ac558fc60ead47bd8ed637419994810dbc36323",
+      "sizeBytes": 1282,
+      "contentType": "application/json",
+      "compression": "identity",
+      "recordCount": 6
+    },
+    {
+      "key": "metadata",
+      "kind": "metadata_json",
+      "path": "metadata.json",
+      "sha256": "9e8b34d93680960d9055f9339dd5fa6cef2834b06cc71a394ef0c42e1e3c6721",
+      "sizeBytes": 191,
+      "contentType": "application/json",
+      "compression": "identity",
+      "recordCount": 1
+    }
+  ]
+}

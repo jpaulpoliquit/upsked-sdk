@@ -1,92 +1,55 @@
 # UPSked SDK
 
-This repo holds **partner connector** code: schema, verifier SDK, and sample bundles. It is meant to live **outside** the main UPSked app. For paths into the monorepo (strategy doc, ingest contract, `getCatalogManifest`, …), see [docs/UPSTREAM_LINKS.md](docs/UPSTREAM_LINKS.md).
+**If you are building a university connector** so your school’s catalog can plug into UPSked, this repository is your contract and tooling. You do **not** need the main UPSked app repo to validate a release bundle.
 
-**Job:** help partners produce **verified** release bundles UPSked can ingest safely (see [docs/CONTRIBUTOR_GUIDE.md](docs/CONTRIBUTOR_GUIDE.md)).
+## What you build
 
-**Start here:** [docs/CONTRIBUTOR_GUIDE.md](docs/CONTRIBUTOR_GUIDE.md) — artifacts, extractor patterns, work order, commands (written to be the single comprehensive entrypoint).
+1. **Extract** course/section/schedule data from your source (portal, API, export).
+2. **Normalize** it into this SDK’s canonical row types (`packages/schema`).
+3. **Emit** a single **release bundle** directory: JSON + `manifest.json` (hashes, `releaseId`).
+4. **Run the verifier** (`packages/verifier-sdk`) until it reports **zero errors**. That bundle is what you hand to UPSked for ingest when the integration is wired.
 
-**Publishing this folder as its own GitHub repo:** [STANDALONE.md](STANDALONE.md) — tsconfig, CI, lockfile, docs links. **Mapping to the main UPSked app:** [docs/UPSTREAM_LINKS.md](docs/UPSTREAM_LINKS.md).
+The UP Baguio (**UPB**) material under `connectors/upb/` and `fixtures/upb/` is a **reference pipeline** (AMIS → normalized JSON → interop rows), not a requirement to copy file-for-file.
 
-**Contributing:** [CONTRIBUTING.md](CONTRIBUTING.md) · **Security:** [SECURITY.md](SECURITY.md)
+## Where to read next
 
-## Target layout
+| You want to…                                                          | Open                                                   |
+| --------------------------------------------------------------------- | ------------------------------------------------------ |
+| **End-to-end steps, contracts, and definition of done**               | [docs/CONTRIBUTOR_GUIDE.md](docs/CONTRIBUTOR_GUIDE.md) |
+| **Short checklist** (same rules, less prose)                          | [docs/connector-spec.md](docs/connector-spec.md)       |
+| **How this maps to code paths inside the main UPSked app** (optional) | [docs/UPSTREAM_LINKS.md](docs/UPSTREAM_LINKS.md)       |
+| **PRs and CI on this repo**                                           | [CONTRIBUTING.md](CONTRIBUTING.md)                     |
+| **Security disclosures**                                              | [SECURITY.md](SECURITY.md)                             |
+
+## Repository layout
 
 ```text
 upsked-sdk/
-  connectors/
-    admu/
-    uplb/
-  fixtures/
-    admu/
-    uplb/
-  packages/
-    schema/
-    verifier-sdk/
-  docs/
-    connector-spec.md
-    validation-spec.md
-    ops-model.md
+  packages/schema/       # Types + validators for rows and manifest (your contract)
+  packages/verifier-sdk/ # CLI: verify a bundle, optional regression vs previous release
+  connectors/<id>/       # Example or partner-owned extract/normalize scripts
+  fixtures/<id>/         # Sample bundles for tests and documentation
+  docs/                  # Specs and contributor guides
 ```
 
-## Responsibilities
+## What UPSked owns vs what you own
 
-- `packages/schema`
-  - canonical release manifest and artifact schemas
-  - row-level schemas for courses, sections, schedules, metadata
-- `packages/verifier-sdk`
-  - semantic and referential validation
-  - release hashing
-  - diffing against previous accepted releases
-  - report generation
-- `connectors/<university_id>`
-  - source-specific extract and normalize logic
-  - calls verifier before publish or submit
-- `fixtures/<university_id>`
-  - redacted samples for deterministic tests
-- `docs/*`
-  - contributor instructions
-  - validation rules
-  - operating model
+| You (connector author)                                               | UPSked (product)                                    |
+| -------------------------------------------------------------------- | --------------------------------------------------- |
+| Extractor, rate limits, credentials outside git                      | Ingest APIs, promotion, storage                     |
+| Canonical bundle on disk + verifier clean report                     | Runtime manifest, app fetch paths, serving to users |
+| Stable `universityId`, `connectorId`, `connectorVersion` in metadata | Wiring your bundle into production when ready       |
 
-## Relationship To Main App Repo
+## Commands (from repo root)
 
-The product app repo should only own:
+- `npm run verify -- <bundleDir> [--previous <dir>]` — verify **your** bundle; fix all errors before handoff.
+- `npm run verify:sample` — runs the small UPB sample in `fixtures/upb/` (sanity check that your checkout works).
+- `npm run fixtures:sync` — regenerates `manifest.json` for fixture dirs that use `fixture.config.json` (see `fixtures/README.md`).
+- `npm run test` — verifier tests against repo fixtures.
+- `npm run ci` — same checks as GitHub Actions (lint, format, typecheck, test, `verify:sample`).
 
-- ingest/control-plane APIs
-- current release pointer resolution
-- runtime manifest lookup
-- app consumption of promoted releases
+## Packages (for integrators)
 
-The connector repo should not own UPSked tables or runtime serving logic.
-
-## Implemented packages
-
-- `packages/schema/src/index.ts`
-  - canonical manifest, artifact, row, and metadata types
-  - contract validators for manifest and bundle rows
-- `packages/verifier-sdk/src/verifier.ts`
-  - release-bundle verification with schema, identity, referential, semantic, integrity, and regression checks
-- `packages/verifier-sdk/src/builder.ts`
-  - manifest builder for local connector outputs
-- `scripts/sync-fixture-manifests.ts`
-  - regenerates fixture manifests from `fixture.config.json`
-
-## Local commands
-
-- `npm run verify -- <bundleDir> [--previous <dir>] [--out report.json]`
-  - general verifier entry (same as `packages/verifier-sdk` CLI)
-- `npm run fixtures:sync`
-  - rebuilds fixture `manifest.json` files from the local bundle contents
-- `npm run test`
-  - runs the verifier end-to-end against the sample fixtures
-- `npm run verify:sample`
-  - prints a full verifier report for the sample UPLB release
-- `npm run typecheck`
-  - checks the TypeScript packages without emitting build output
-- `npm run lint`
-  - ESLint on `packages/`, `scripts/`, `connectors/`
-- `npm run format` / `npm run format:check`
-  - Prettier on TS + markdown + workflow YAML
-- `npm run ci`
-  - lint + format check + typecheck + test + `verify:sample` (same gates as GitHub Actions)
+- **`packages/schema`** — `CourseRow`, `SectionRow`, `ScheduleRow`, manifest types, validators.
+- **`packages/verifier-sdk`** — semantic checks, hashing, regression vs `--previous`, report output.
+- **`scripts/sync-fixture-manifests.ts`** — used to rebuild fixture manifests after editing row JSON in this repo.

@@ -1,6 +1,8 @@
-# Contributor guide — UPSked interop repo
+# Connector author guide — UPSked SDK
 
-For **school-specific connectors** (scraper, browser script, API client) that output catalog data UPSked will ingest. Read this **before** designing release promotion or UPSked-side ingest APIs.
+**Audience:** teams building a **school-specific connector** (scraper, browser script, API client, or batch export) so UPSked can consume their catalog. You implement extraction and normalization; UPSked implements ingest, promotion, and product UI.
+
+**Read this document before** you assume a database schema, Supabase row, or “push to production” step exists. **v0 handoff** is a **verified release bundle** on disk (JSON + `manifest.json`), not a live write to UPSked.
 
 ---
 
@@ -12,7 +14,7 @@ For **school-specific connectors** (scraper, browser script, API client) that ou
 | **Verification** (`packages/verifier-sdk`)                        | Serving catalogs to end users             |
 | **Fixtures** + local CI                                           | Secrets, session tokens, raw HARs in git  |
 
-**Done for v0:** a **verified** release directory (JSON + `manifest.json` + verifier report) you can hand off. **Not required yet:** row in Supabase or automated promotion.
+**Definition of done (today):** `npm run verify -- <your-bundle>` exits **0** with **zero verifier errors**, and you can hand the directory to UPSked under the agreed ingest path. **Not required yet:** automated upload, Supabase row, or promotion job.
 
 ---
 
@@ -29,29 +31,29 @@ UPSked carries **two** manifest shapes on purpose:
 | **Identity**      | `catalogSourceId`, `connectorId`, `connectorVersion`, `trustTier`                | Not required on wire today                                       |
 | **Strict Zod**    | `catalog-ingest-contract.ts` (ingest + verifier report types)                    | Parsed with `parseCatalogReleaseManifest` in app                 |
 
-**Rule:** implement the **partner bundle** here and run the **verifier**. The app’s `getCatalogManifest` is an **adapter** until ingest lands; it will not validate your bundle against `catalog-ingest-contract` yet.
+**Rule:** implement the **partner bundle** shape in this repo and run the **verifier** locally. The main app’s `getCatalogManifest` is a **runtime adapter** for already-promoted data; it does **not** replace your obligation to produce a verifier-clean partner bundle.
 
 ---
 
-## 3. Work order
+## 3. Work order (what you should do)
 
 1. **Extract** — Raw payloads (HTML, JSON, export). Keep provenance: URL, date, portal version.
-2. **Normalize** — Map to **one** place: `CourseRow` / `SectionRow` / `ScheduleRow` in `packages/schema/src/index.ts`. **Never** fix IDs inside the verifier.
+2. **Normalize** — Map to **one** place: `CourseRow` / `SectionRow` / `ScheduleRow` in `packages/schema/src/index.ts`. **Never** “fix” IDs by patching inside the verifier; fix your mapping.
 3. **Write JSON** — `courses.json` (or `courses.pbf`), `sections.json`, `schedules.json`, `metadata.json` into a single **bundle directory** (§5).
 4. **Build manifest** — `buildManifestFromLocalArtifacts` + `fixture.config.json`, or `npm run fixtures:sync` for fixtures. Do not hand-edit hashes.
-5. **Verify** — `npm run verify -- <bundleDir> [--previous <dir>]` (§8). **Errors block everything.**
-6. **Regression** — Same `semesterId`, previous **accepted** bundle as `--previous`.
-7. **Handoff / ingest** — Later: UPSked ingest API; same files should still parse.
+5. **Verify** — `npm run verify -- <bundleDir> [--previous <dir>]` (§8). **Errors block handoff.**
+6. **Regression** — When the semester already had an accepted release, pass that directory as `--previous` and fix any regression failures.
+7. **Handoff** — Deliver the bundle (and verifier report if requested) to UPSked through the channel they specify. **Automated ingest** may arrive later; your bundle must still match this contract.
 
 ---
 
-## 4. Definition of done (connector)
+## 4. Definition of done (your connector)
 
 - [ ] All **required** JSON files present (§5); `metadata.json` matches manifest connector fields.
-- [ ] `npm run verify` exits **0**; **0** verifier errors (warnings policy is trust-tier / ops, not “ship broken”).
+- [ ] `npm run verify` exits **0**; **0** verifier errors (warnings follow trust-tier / ops policy; do not ignore errors).
 - [ ] `releaseId` is **content-derived** (interop builder + `hash.ts`); not a random string.
 - [ ] **No** secrets in repo; fixtures **redacted**.
-- [ ] **Regression** run when you have a prior accepted bundle for that semester.
+- [ ] **Regression** run when you have a prior accepted bundle for that semester (`--previous`).
 - [ ] Documented **rate limits** and **failure** behavior for the extractor (see `ops-model.md`).
 
 ---
@@ -71,7 +73,7 @@ UPSked carries **two** manifest shapes on purpose:
 Optional: `programs.json`, `rooms.json`, `raw_payload_index.json`.  
 `validation_report.json` is typically **output** from the verifier CLI (`--out`).
 
-`manifest.generated.json` is optional for human diffs; verification uses **`manifest.json`**. The UPLB sample script writes both from the same build.
+`manifest.generated.json` is optional for human diffs; verification uses **`manifest.json`**. The UPB sample script writes both from the same build.
 
 ---
 
@@ -110,16 +112,16 @@ Bump **`SCHEMA_VERSION`** in schema when you break row shapes; keep `manifest.sc
 | `npm run typecheck`                                                 | Project typecheck                                           |
 | `npm run test`                                                      | Verifier E2E on fixtures                                    |
 | `npm run verify -- <bundle> [--previous <dir>] [--out report.json]` | **General** verify                                          |
-| `npm run verify:sample`                                             | UPLB sample + regression                                    |
+| `npm run verify:sample`                                             | UPB sample + regression                                     |
 | `npm run fixtures:sync`                                             | Regenerate fixture manifests from JSON + config             |
 | `npm run lint`                                                      | ESLint (`packages/`, `scripts/`, `connectors/`)             |
 | `npm run format` / `npm run format:check`                           | Prettier (repo root; `fixtures/` ignored)                   |
 | `npm run ci`                                                        | Full gate: lint + format + typecheck + test + sample verify |
 
 **Example:**  
-`npm run verify -- ./fixtures/uplb/sample-release --previous ./fixtures/uplb/previous-release`
+`npm run verify -- ./fixtures/upb/sample-release --previous ./fixtures/upb/previous-release`
 
-**Connector sample:** `connectors/uplb/src/verify-release.ts` — build manifest → write `manifest.json` → verify → optional `report.generated.json`.
+**Connector sample:** `connectors/upb/src/verify-release.ts` — build manifest → write `manifest.json` → verify → optional `report.generated.json`.
 
 ---
 
@@ -130,11 +132,13 @@ Flow: edit JSON → `fixtures:sync` → `npm run test` → commit.
 
 ---
 
-## 10. Main UPSked app (expectations)
+## 10. How this connects to the UPSked app (expectations)
+
+You do **not** need the main app repo to finish a connector. When you are ready to align with product code paths, see [UPSTREAM_LINKS.md](./UPSTREAM_LINKS.md).
 
 | Piece                          | Role                                                                                   |
 | ------------------------------ | -------------------------------------------------------------------------------------- |
-| `POST /api/getCatalogManifest` | Returns **runtime** `CatalogReleaseManifest` for `upd` / `admu` / `uplb` adapters      |
+| `POST /api/getCatalogManifest` | Returns **runtime** `CatalogReleaseManifest` for `upd` / `admu` / `upb` adapters       |
 | `catalog-client.ts`            | Manifest-first load; IndexedDB key includes **`releaseId`** when present               |
 | `catalog-ingest-contract.ts`   | **Target** shape for partner submissions; **not** enforced on `getCatalogManifest` yet |
 
@@ -142,10 +146,10 @@ Your bundle should remain valid when ingest enforces `validateCanonicalCatalogRe
 
 ---
 
-## 11. Known gaps (track explicitly)
+## 11. Known gaps (plan around these)
 
-- Ingest **control plane** (tables, tokens, upload API) — **not** in this repo.
-- Verifier **PBF** decode — not implemented.
+- Ingest **control plane** (tables, tokens, upload API) — **not** in this repo; connector authors still ship verifier-clean bundles.
+- Verifier **PBF** decode — not implemented; prefer `courses.json` for full gates.
 - **Programs/rooms** — deep row checks may lag; counts vs files must still match manifest rules in `catalog-ingest-contract` when ingest is on.
 - **Runtime vs partner** `sourceType` — use partner enum for new work; runtime may list `supabase_storage` until unified.
 
@@ -160,7 +164,6 @@ Your bundle should remain valid when ingest enforces `validateCanonicalCatalogRe
 | [ops-model.md](./ops-model.md)             | Cadence / ownership                                               |
 | [../README.md](../README.md)               | Package map                                                       |
 | [UPSTREAM_LINKS.md](./UPSTREAM_LINKS.md)   | Main UPSked repo paths (ingest contract, `getCatalogManifest`, …) |
-| [../STANDALONE.md](../STANDALONE.md)       | Publishing **this** tree as its own GitHub repo                   |
 | [../CONTRIBUTING.md](../CONTRIBUTING.md)   | PR checklist (lint, format, CI)                                   |
 | [../SECURITY.md](../SECURITY.md)           | Vulnerability reporting                                           |
 

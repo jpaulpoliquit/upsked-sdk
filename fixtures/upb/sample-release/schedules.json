@@ -1,0 +1,62 @@
+[
+  {
+    "id": "upb-sched-1",
+    "sectionId": "upb-cmsc12-a",
+    "classCode": "2026001",
+    "day": "M",
+    "timeStart": "09:00:00",
+    "timeEnd": "10:00:00",
+    "room": "ICS LH1",
+    "classType": "lec"
+  },
+  {
+    "id": "upb-sched-2",
+    "sectionId": "upb-cmsc12-a",
+    "classCode": "2026001",
+    "day": "W",
+    "timeStart": "09:00:00",
+    "timeEnd": "10:00:00",
+    "room": "ICS LH1",
+    "classType": "lec"
+  },
+  {
+    "id": "upb-sched-3",
+    "sectionId": "upb-cmsc12-b",
+    "classCode": "2026002",
+    "day": "T",
+    "timeStart": "10:00:00",
+    "timeEnd": "11:00:00",
+    "room": "ICS LH2",
+    "classType": "lec"
+  },
+  {
+    "id": "upb-sched-4",
+    "sectionId": "upb-cmsc12-b",
+    "classCode": "2026002",
+    "day": "TH",
+    "timeStart": "10:00:00",
+    "timeEnd": "11:00:00",
+    "room": "ICS LH2",
+    "classType": "lec"
+  },
+  {
+    "id": "upb-sched-5",
+    "sectionId": "upb-math27-a",
+    "classCode": "2026003",
+    "day": "F",
+    "timeStart": "13:00:00",
+    "timeEnd": "15:00:00",
+    "room": "MATH B1",
+    "classType": "lec"
+  },
+  {
+    "id": "upb-sched-6",
+    "sectionId": "upb-math27-b",
+    "classCode": "2026004",
+    "day": "S",
+    "timeStart": "08:00:00",
+    "timeEnd": "11:00:00",
+    "room": "MATH B2",
+    "classType": "lec"
+  }
+]

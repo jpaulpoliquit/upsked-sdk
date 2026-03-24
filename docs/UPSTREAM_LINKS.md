@@ -1,6 +1,8 @@
 # Links to the main UPSked application
 
-This interop repo is developed alongside the UPSked monorepo. After you publish **this** repo on GitHub, these paths refer to the **main** UPSked repository (adjust org/repo names).
+**If you are only building a connector**, you can ignore this file until you need to line up field names with the live app or ingest contract.
+
+**If you are aligning contracts** between this SDK and the product monorepo, the table below lists where related code lives in the **main UPSked** repository (paths assume the standard monorepo layout; adjust org/repo names when you browse GitHub).
 
 | Topic                                      | Path in main UPSked repo                        |
 | ------------------------------------------ | ----------------------------------------------- |
@@ -12,4 +14,4 @@ This interop repo is developed alongside the UPSked monorepo. After you publish 
 | Multi-university architecture doc          | `docs/multi-university-catalog-architecture.md` |
 | Interop strategy (monolith context)        | `docs/interop-repo-strategy.md`                 |
 
-**Contract alignment:** Partner bundles validated here should remain compatible with `canonicalCatalogReleaseManifestSchema` in `catalog-ingest-contract.ts` when UPSked adds ingest APIs.
+**Contract alignment:** Partner bundles validated in this SDK should stay compatible with `canonicalCatalogReleaseManifestSchema` in `catalog-ingest-contract.ts` when UPSked turns on stricter ingest validation.

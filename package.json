@@ -29,7 +29,7 @@
   "scripts": {
     "test": "tsx packages/verifier-sdk/src/__tests__/verifier.test.ts",
     "verify": "tsx packages/verifier-sdk/src/cli.ts",
-    "verify:sample": "tsx packages/verifier-sdk/src/cli.ts fixtures/uplb/sample-release --previous fixtures/uplb/previous-release",
+    "verify:sample": "tsx packages/verifier-sdk/src/cli.ts fixtures/upb/sample-release --previous fixtures/upb/previous-release",
     "fixtures:sync": "tsx scripts/sync-fixture-manifests.ts",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "lint": "eslint packages scripts connectors",

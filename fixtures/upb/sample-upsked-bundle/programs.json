@@ -1,0 +1,200 @@
+[
+  {
+    "id": "upb:16",
+    "program_id": 16,
+    "acronym": "BACOM",
+    "title": "Bachelor of Arts in Communication",
+    "career": "UGRD",
+    "college": "CAC",
+    "degree_id": 160,
+    "max_units": 18,
+    "description": "The BA in Communication program offers specializations in Journalism or Speech Communication. The program allows the two disciplines to share a core curriculum, thus providing a basis for the discussion of affinities in their substantive concerns, conceptual frameworks, methodologies and objectives. The concentration courses give the program a focus, while the option to minor in one of three areas (Journalism, Speech Communication, or Broadcast Communication) provides opportunities not only for developing other skills but also for further exploring the interrelatedness of the communication disciplines."
+  },
+  {
+    "id": "upb:17",
+    "program_id": 17,
+    "acronym": "BALL",
+    "title": "Bachelor of Arts in Language and Literature",
+    "career": "UGRD",
+    "college": "CAC",
+    "degree_id": 189,
+    "max_units": 18,
+    "description": "The BA in Language and Literature (BALL) program provides a balanced study of language and literature, in English or Filipino. The program interfaces language and literature and underlines their integrated significance in everyday life, through its core courses on relevant theories, critical approaches, research methods, and pedagogy. It aims to promote awareness and understanding of the various cultures of the Philippines, with emphasis on linguistic and literary traditions of Northern Luzon."
+  },
+  {
+    "id": "upb:5",
+    "program_id": 5,
+    "acronym": "BASS",
+    "title": "Bachelor of Science in Social Sciences",
+    "career": "UGRD",
+    "college": "CSS",
+    "degree_id": 24,
+    "max_units": 20,
+    "description": "The BA Social Sciences program follows a major-minor scheme. A student of B.A. Social Sciences can choose to major in Economics, History, or Anthropology, and minor in Philosophy, Political Science, Psychology, or Sociology. Students are also required to take core courses on the Social Sciences."
+  },
+  {
+    "id": "upb:15",
+    "program_id": 15,
+    "acronym": "BFA",
+    "title": "Bachelor of Fine arts",
+    "career": "UGRD",
+    "college": "CAC",
+    "degree_id": 3,
+    "max_units": 18,
+    "description": "The BFA curriculum is an expanded version of the Certificate in Fine Arts program, with additional general education courses, core courses, and major courses. While providing training in the traditional studio arts, the program also addresses new requirements in fine arts education and the changing demands of the visual arts profession with its courses on electronic media, photography and new production methods."
+  },
+  {
+    "id": "upb:1",
+    "program_id": 1,
+    "acronym": "BSBIO",
+    "title": "Bachelor of Science in Biology",
+    "career": "UGRD",
+    "college": "CS",
+    "degree_id": 38,
+    "max_units": 23,
+    "description": "The BS Biology program is a four-year thesis program that provides thorough grounding in the biological sciences by instilling in students important biological theories and concepts, keeping them abreast with the latest development in Biology and allied Sciences, honing their skills in research, field and laboratory work, and inculcating in them a scientific and ethical culture of science. It offers three areas of concentration: General Biology, Ecology and Systematics and Microbiology. All areas will have common core courses that will equip students with basic biological concepts and methodologies, and develop competencies in conducting research in the various field of biology."
+  },
+  {
+    "id": "upb:2",
+    "program_id": 2,
+    "acronym": "BSCS",
+    "title": "Bachelor of Science in Computer Science",
+    "career": "UGRD",
+    "college": "CS",
+    "degree_id": 100,
+    "max_units": 21,
+    "description": "The BS Computer Science program is one of the undergraduate programs that UPB offers. It was established in 1996 and was based on the UP system program BS Computer Science initiated by UP Los Baños, which was also adopted by UP Mindanao, UP Visayas, and UP Manila."
+  },
+  {
+    "id": "upb:3",
+    "program_id": 3,
+    "acronym": "BSMAT",
+    "title": "Bachelor of Science in Mathematics",
+    "career": "UGRD",
+    "college": "CS",
+    "degree_id": 101,
+    "max_units": 21,
+    "description": "The BS Mathematics Program is one of the undergraduate programs that UP Baguio (then UP College Baguio) has offered since 1975. Evolving from the BS Physics-Mathematics program, the first batch graduated in 1977. The original BS Mathematics program provided training for teaching, research, or jobs related to statistics, operations research, business management, and more. The current BS Mathematics program is a four-year program that provides solid undergraduate preparation in mathematics. The curriculum covers fundamental and abstract concepts in mathematics and important and emerging fields in applied mathematics. The program allows the students to study different fields in Mathematics, such as Algebra (linear, abstract), Analysis (elementary, advanced, real, complex, numerical), and other areas like Statistics (elementary, mathematical, applied), Modern Geometry, Number Theory, Combinatorics, and Topology."
+  },
+  {
+    "id": "upb:6",
+    "program_id": 6,
+    "acronym": "BSME",
+    "title": "Bachelor of Science in Management Economics",
+    "career": "UGRD",
+    "college": "CSS",
+    "degree_id": 45,
+    "max_units": 20,
+    "description": "The Bachelor of Science in Management Economics (BSME) program provides knowledge and training in business management that is anchored on conceptual foundations developed in the field of economics. The program is envisioned to respond to the growing needs of Northern Luzon for managerial skill and expertise with solid grounding in economics."
+  },
+  {
+    "id": "upb:4",
+    "program_id": 4,
+    "acronym": "BSPHY",
+    "title": "Bachelor of Science in Physics",
+    "career": "UGRD",
+    "college": "CS",
+    "degree_id": 107,
+    "max_units": 20,
+    "description": "The BS Physics program which was first offered in 2002 is the only one of its kind in the region. It prepares students in theoretical and applied physics. It is a rigorous preparatory training for any career in physics whether in the academe, government, or the industry."
+  },
+  {
+    "id": "upb:14",
+    "program_id": 14,
+    "acronym": "CFA",
+    "title": "Certificate in Fine Arts",
+    "career": "UGRD",
+    "college": "CAC",
+    "degree_id": 1,
+    "max_units": 18,
+    "description": "The Certificate in Fine Arts (CFA) is a 3-year program that introduces the student to various areas of the visual arts. Designed to tap the indigenous cultures of Northern Luzon as sources of artistic inspiration, it provides many opportunities to utilize alternative sources of materials for art production. A CFA student can proceed to the BFA upon completion of the certificate program."
+  },
+  {
+    "id": "upb:10",
+    "program_id": 10,
+    "acronym": "ISP",
+    "title": "Doctor of Philosophy in Indigenous Studies Program",
+    "career": "GRAD",
+    "college": "CSS",
+    "degree_id": 915,
+    "max_units": 12,
+    "description": "The PhD in Indigenous Studies is a graduate program that employs interdisciplinary perspectives in engaging historical and contemporary issues confronting Indigenous Peoples in the Philippines and elsewhere. The PhD program also seeks to valorize indigenous epistemologies (ways of knowing) that have been neglected and marginalized by hegemonic scientific epistemologies."
+  },
+  {
+    "id": "upb:11",
+    "program_id": 11,
+    "acronym": "MAHIS",
+    "title": "Master of Arts in History",
+    "career": "GRAD",
+    "college": "CSS",
+    "degree_id": 916,
+    "max_units": 12,
+    "description": "The MA History program seeks to advance the History discipline in the College of Social Sciences through graduate-level instruction and curriculum innovation. The MA History program equips the students with theoretical and methodological foundations in the discipline of History and provides them with relevant exposure and training on ethnohistory and local history."
+  },
+  {
+    "id": "upb:18",
+    "program_id": 18,
+    "acronym": "MALL",
+    "title": "Master of Arts in Language and Literature",
+    "career": "GRAD",
+    "college": "CAC",
+    "degree_id": 41,
+    "max_units": 12,
+    "description": "The MA in Language and Literature (MALL) program is designed to provide training in language and literature as intersecting fields of study. It equips its students with theoretical and pedagogic competencies in these areas of knowledge, and provides a forum for critical discussions and studies on linguistic and literary issues. It also engages its students in significant research projects on various topics related to language, literature, and the wider field of cultural studies."
+  },
+  {
+    "id": "upb:12",
+    "program_id": 12,
+    "acronym": "MASDS",
+    "title": "Master of Arts in Social and Development Studies",
+    "career": "GRAD",
+    "college": "CSS",
+    "degree_id": 921,
+    "max_units": 12,
+    "description": "The Master of Arts in Social and Development Studies (MASDS) is a graduate degree program that utilizes approaches from various social science disciplines to analyze the problems and issues of development. Development is a complex process that brings about change not only in the economy, but also in the politics, culture, and ecology of a society."
+  },
+  {
+    "id": "upb:8",
+    "program_id": 8,
+    "acronym": "MCARE",
+    "title": "Master of Science in Conservation and Restoration Ecology",
+    "career": "GRAD",
+    "college": "CS",
+    "degree_id": 913,
+    "max_units": 12,
+    "description": "M.S. Conservation and Restoration Ecology (MS CaRE) is a master’s level graduate program that ensures its graduates acquire 1) advanced knowledge in the basic areas of conservation and restoration ecology while keeping abreast with recent developments in these fields; 2) creative thinking in the development of research designs in conservation and restoration ecology; 3) independent and critical thinking in recognizing, analyzing and finding adequate solutions to environmental issues and problems; 4) competent oral and written communication skills for excellent writing and presentation of scientific papers; and, 5) integrated knowledge, skills and values that will equip them to pursue Ph.D. programs."
+  },
+  {
+    "id": "upb:13",
+    "program_id": 13,
+    "acronym": "MM",
+    "title": "Master of Management",
+    "career": "GRAD",
+    "college": "CSS",
+    "degree_id": 901,
+    "max_units": 12,
+    "description": "The Master of Management (MM) program seeks to provide qualified students, professionals and practitioners with the theoretical background and skills in management needed in the efficient and effective management of all types of organizations or institutions."
+  },
+  {
+    "id": "upb:7",
+    "program_id": 7,
+    "acronym": "MSMAT",
+    "title": "Master of Science in Mathematics",
+    "career": "GRAD",
+    "college": "CS",
+    "degree_id": 912,
+    "max_units": 12,
+    "description": "The Master of Science in Mathematics program (MS Math), instituted in 2001, provides students with a firm grounding in theoretical mathematics. The curriculum includes courses that further develop in the student the ability to apply mathematical tools of analysis to problems in other disciplines like Engineering, Physics, Life Sciences, Computing Sciences, Statistics, Finance and even Social Sciences."
+  },
+  {
+    "id": "upb:9",
+    "program_id": 9,
+    "acronym": "PHDM",
+    "title": "Doctor of Philosophy in Mathematics",
+    "career": "GRAD",
+    "college": "CS",
+    "degree_id": 914,
+    "max_units": 12,
+    "description": "The Doctor of Philosophy in Mathematics Program (PhD Math) is a doctoral level graduate program that enables students to acquire advanced knowledge in pure and applied mathematics. It enhances the students’ research skills to help them produce quality research outputs and become prolific mathematicians, and future leaders in the academic, industry and professional organizations."
+  }
+]
