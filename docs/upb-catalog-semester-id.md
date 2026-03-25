@@ -6,19 +6,19 @@ UP Baguio does **not** use Diliman CRS numeric ids (`120252`, …). In manifests
 upb-{AY_START}-{TERM}
 ```
 
-| Part | Meaning |
-|------|---------|
-| `upb-` | Fixed prefix (legacy `uplb-` is accepted at API boundaries and normalized to `upb-`). |
-| `AY_START` | **Four-digit calendar year when the academic year begins.** AY spoken as “2526” is `2025` + `2026` → **`2025`**. |
-| `TERM` | `1` = first semester · `2` = second semester · `3` = midyear (same numbering sense as planner term, not CRS encoding). |
+| Part       | Meaning                                                                                                                |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `upb-`     | Fixed prefix (legacy `uplb-` is accepted at API boundaries and normalized to `upb-`).                                  |
+| `AY_START` | **Four-digit calendar year when the academic year begins.** AY spoken as “2526” is `2025` + `2026` → **`2025`**.       |
+| `TERM`     | `1` = first semester · `2` = second semester · `3` = midyear (same numbering sense as planner term, not CRS encoding). |
 
 ### Examples
 
-| Spoken / UI | `semesterId` |
-|-------------|----------------|
-| AY 2025–2026, 1st sem | `upb-2025-1` |
+| Spoken / UI                            | `semesterId` |
+| -------------------------------------- | ------------ |
+| AY 2025–2026, 1st sem                  | `upb-2025-1` |
 | AY 2025–2026, 2nd sem (“2526 2nd sem”) | `upb-2025-2` |
-| AY 2025–2026, midyear | `upb-2025-3` |
+| AY 2025–2026, midyear                  | `upb-2025-3` |
 
 ### Storage and static catalog files
 

@@ -33,8 +33,7 @@ This code does **not** write to UPSked production databases. A verified bundle i
 4. `npm run amis:clean` → `fixtures/upb/sample-upsked-bundle/`.
 5. `npm run amis:export-interop` → writes camelCase JSON to `fixtures/upb/full-upb-2025-2-interop/` (does not touch the tiny `sample-release/` used in CI).
 
-Semester slug convention: [`docs/upb-catalog-semester-id.md`](../../docs/upb-catalog-semester-id.md).
-6. From **this repo root**: `npm run fixtures:sync` only updates `previous-release` + `sample-release` manifests; `npm run verify:sample` checks those.
+Semester slug convention: [`docs/upb-catalog-semester-id.md`](../../docs/upb-catalog-semester-id.md). 6. From **this repo root**: `npm run fixtures:sync` only updates `previous-release` + `sample-release` manifests; `npm run verify:sample` checks those.
 
 ## Monorepo note
 
