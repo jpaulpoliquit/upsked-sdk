@@ -22,7 +22,7 @@ This code does **not** write to UPSked production databases. A verified bundle i
 | `fixtures/upb/sample-amis-classes-merged.json` | Merged AMIS `classes` API export                                      |
 | `fixtures/upb/sample-upsked-bundle/`           | AISIS-style JSON (`sections-upsked.json`, …) for the web app / PBF    |
 | `fixtures/upb/sample-release/`                 | **Tiny** verifier bundle for CI + `fixture.config.json`               |
-| `fixtures/upb/full-upb-2026-1-interop/`        | Full real export (camelCase); default output of `amis:export-interop` |
+| `fixtures/upb/full-upb-2025-2-interop/`        | Full real export (camelCase); default output of `amis:export-interop` |
 | `fixtures/upb/previous-release/`               | Smaller bundle for regression checks                                  |
 
 ## Typical flow
@@ -31,7 +31,9 @@ This code does **not** write to UPSked production databases. A verified bundle i
 2. `npm run amis:pages -- path/to/page1.json path/to/page2.json` (from `connectors/upb/`) → writes `fixtures/upb/sample-amis-classes-merged.json`.
 3. Optional: paginated `courses-only-*.json` + `all-programs*.json` from AMIS → pass to `amis:clean` with `--courses-page` / `--programs`.
 4. `npm run amis:clean` → `fixtures/upb/sample-upsked-bundle/`.
-5. `npm run amis:export-interop` → writes camelCase JSON to `fixtures/upb/full-upb-2026-1-interop/` (does not touch the tiny `sample-release/` used in CI).
+5. `npm run amis:export-interop` → writes camelCase JSON to `fixtures/upb/full-upb-2025-2-interop/` (does not touch the tiny `sample-release/` used in CI).
+
+Semester slug convention: [`docs/upb-catalog-semester-id.md`](../../docs/upb-catalog-semester-id.md).
 6. From **this repo root**: `npm run fixtures:sync` only updates `previous-release` + `sample-release` manifests; `npm run verify:sample` checks those.
 
 ## Monorepo note

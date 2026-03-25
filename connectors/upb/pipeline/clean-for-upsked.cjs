@@ -7,7 +7,7 @@
  *
  * Usage:
  *   node pipeline/clean-for-upsked.cjs
- *   node pipeline/clean-for-upsked.cjs --input ./fixtures/upb/sample-amis-classes-merged.json --out ./fixtures/upb/sample-upsked-bundle --semester-id upb-2026-1
+ *   node pipeline/clean-for-upsked.cjs --input ./fixtures/upb/sample-amis-classes-merged.json --out ./fixtures/upb/sample-upsked-bundle --semester-id upb-2025-2
  */
 const fs = require("fs");
 const path = require("path");
@@ -24,7 +24,7 @@ function parseArgs(argv) {
   const out = {
     input: path.join(REPO_ROOT, "fixtures", "upb", "sample-amis-classes-merged.json"),
     outDir: path.join(REPO_ROOT, "fixtures", "upb", "sample-upsked-bundle"),
-    semesterId: process.env.UPB_SEMESTER_ID || "upb-2026-1",
+    semesterId: process.env.UPB_SEMESTER_ID || "upb-2025-2",
     coursePagePaths: [],
     programsPath: null,
   };

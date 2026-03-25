@@ -33,6 +33,8 @@ UPSked carries **two** manifest shapes on purpose:
 
 **Rule:** implement the **partner bundle** shape in this repo and run the **verifier** locally. The main app’s `getCatalogManifest` is a **runtime adapter** for already-promoted data; it does **not** replace your obligation to produce a verifier-clean partner bundle.
 
+**UP Baguio:** use `semesterId` `upb-{AY_START}-{term}` (not Diliman CRS numeric ids). Every row in `sections.json` must match the manifest `semesterId`. See [`docs/upb-catalog-semester-id.md`](./upb-catalog-semester-id.md).
+
 ---
 
 ## 3. Work order (what you should do)

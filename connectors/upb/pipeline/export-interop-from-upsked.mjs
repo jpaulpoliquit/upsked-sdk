@@ -2,7 +2,7 @@
 /**
  * Convert fixtures/upb/sample-upsked-bundle (snake_case AISIS-style) into verifier row JSON:
  * courses.json, sections.json, schedules.json, metadata.json, programs.json (optional).
- * Does not write manifest.json. Default output is `fixtures/upb/full-upb-2026-1-interop/`
+ * Does not write manifest.json. Default output is `fixtures/upb/full-upb-2025-2-interop/`
  * (large seed) — not `sample-release`, which stays tiny for `npm test` / `verify:sample`.
  */
 import { readFile, writeFile, mkdir } from "node:fs/promises";
@@ -15,7 +15,7 @@ const REPO_ROOT = join(__dirname, "..", "..", "..");
 function parseArgs(argv) {
   const out = {
     inputDir: join(REPO_ROOT, "fixtures/upb/sample-upsked-bundle"),
-    outDir: join(REPO_ROOT, "fixtures/upb/full-upb-2026-1-interop"),
+    outDir: join(REPO_ROOT, "fixtures/upb/full-upb-2025-2-interop"),
   };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];

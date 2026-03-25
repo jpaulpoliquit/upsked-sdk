@@ -1,7 +1,7 @@
 {
   "universityId": "upb",
-  "semesterId": "upb-2026-1",
-  "releaseId": "f87475cb20297b64b0c9",
+  "semesterId": "upb-2025-2",
+  "releaseId": "7cab74063f14794eb25c",
   "schemaVersion": 1,
   "sourceType": "partner_connector",
   "catalogSourceId": "upb-main-catalog",
@@ -30,7 +30,7 @@
       "key": "sections",
       "kind": "sections_json",
       "path": "sections.json",
-      "sha256": "3e26dc2eb2b0f5faa02207b49093e2386397dc97148c59153181a469357d6c37",
+      "sha256": "c0d17bfba4537052456dfa5925111dde19e8bacaf842b1c45a571caddf4ca362",
       "sizeBytes": 730,
       "contentType": "application/json",
       "compression": "identity",
