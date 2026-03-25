@@ -40,7 +40,52 @@ upsked-sdk/
 | Canonical bundle on disk + verifier clean report                     | Runtime manifest, app fetch paths, serving to users |
 | Stable `universityId`, `connectorId`, `connectorVersion` in metadata | Wiring your bundle into production when ready       |
 
-## Commands (from repo root)
+## Getting an ingest token
+
+You do **not** need an ingest token to build or verify a bundle locally.
+
+You **do** need one once your handoff path uses the hosted UPSked ingest flow on **upsked.com**.
+
+### What the ingest token is for
+
+The ingest token is the **credential your connector uses to talk to UPSked’s hosted ingest API**.
+
+In practice, that means the token is used when your integration needs to do things like:
+
+- create an ingest run for a release
+- upload release artifacts
+- submit the release manifest
+- ask UPSked to validate what you uploaded
+
+Without the token, UPSked has no way to know that your connector is allowed to send a release into that ingest pipeline.
+
+### What the ingest token is not for
+
+- It is **not** needed for local extraction, normalization, manifest building, or verifier runs inside `upsked-sdk`.
+- It is **not** a replacement for your source-system credentials. You still need whatever access is required to fetch data from your university system.
+- It is **not** the same thing as production promotion. Connector authors usually use the token to submit data into the ingest flow; deployment-side promotion is handled separately by UPSked operators.
+
+### When you actually need it
+
+You need the token when your workflow moves from:
+
+`verified bundle on disk`
+
+to:
+
+`send this bundle to UPSked's hosted ingest API`
+
+If your current handoff is still manual or out-of-band, you may not need the token yet.
+
+1. Ask to be added to the **integrators list**.
+2. After that is enabled on your account, sign in to **[upsked.com](https://upsked.com)**.
+3. Open **Account Settings**.
+4. Open **Ingest API**.
+5. Generate or copy your ingest token key there.
+
+If you do **not** see the **Ingest API** section in Account Settings yet, your account probably has not been added to the integrators list. Reach out at `john@upsked.com`.
+
+## Commands
 
 - `npm run verify -- <bundleDir> [--previous <dir>]` — verify **your** bundle; fix all errors before handoff.
 - `npm run verify:sample` — runs the small UPB sample in `fixtures/upb/` (sanity check that your checkout works).

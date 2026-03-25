@@ -1,0 +1,71 @@
+{
+  "universityId": "upb",
+  "semesterId": "upb-2025-2",
+  "releaseId": "c16fbc09081a617c4361",
+  "schemaVersion": 1,
+  "sourceType": "partner_connector",
+  "catalogSourceId": "upb-main-catalog",
+  "connectorId": "upb.community.connector",
+  "connectorVersion": "0.1.1",
+  "trustTier": "community",
+  "publishedAt": "2026-03-25T03:00:00.000Z",
+  "sourcePublishedAt": "2026-03-25T02:10:00.000Z",
+  "counts": {
+    "courses": 267,
+    "sections": 536,
+    "schedules": 940,
+    "programs": 18
+  },
+  "artifacts": [
+    {
+      "key": "courses",
+      "kind": "courses_json",
+      "path": "courses.json",
+      "sha256": "8242a44e8c2904e6763035e4136c87ce01e56cd1d13148cc88e13e6bc396604b",
+      "sizeBytes": 30817,
+      "contentType": "application/json",
+      "compression": "identity",
+      "recordCount": 267
+    },
+    {
+      "key": "sections",
+      "kind": "sections_json",
+      "path": "sections.json",
+      "sha256": "cc1e2031edee4815d698cd8635fac3ad555858e07898f7c1e82e280af6ef6452",
+      "sizeBytes": 139527,
+      "contentType": "application/json",
+      "compression": "identity",
+      "recordCount": 536
+    },
+    {
+      "key": "schedules",
+      "kind": "schedules_json",
+      "path": "schedules.json",
+      "sha256": "689a3b44bcf3df0133fda3ec8057fd48ef7093ce0f9709ca8852bda8ed0e027a",
+      "sizeBytes": 209403,
+      "contentType": "application/json",
+      "compression": "identity",
+      "recordCount": 940
+    },
+    {
+      "key": "metadata",
+      "kind": "metadata_json",
+      "path": "metadata.json",
+      "sha256": "a1d90ed61f6901168609d2c57c92694ccf1ce3fc29240a960e5f6d5f6dc30010",
+      "sizeBytes": 129,
+      "contentType": "application/json",
+      "compression": "identity",
+      "recordCount": 1
+    },
+    {
+      "key": "programs",
+      "kind": "programs_json",
+      "path": "programs.json",
+      "sha256": "a7797f48a4d051fb2cd9d8e6f3f4f1b89bc10be9891c0b83ac58c2c1813e53b1",
+      "sizeBytes": 12253,
+      "contentType": "application/json",
+      "compression": "identity",
+      "recordCount": 18
+    }
+  ]
+}

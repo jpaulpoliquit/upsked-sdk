@@ -1,16 +1,16 @@
 {
-  "source": "file:upb-amis-classes-merged.json",
-  "scrapedAt": "2026-03-24T22:17:09.752Z",
+  "source": "file:sample-amis-classes-merged.json",
+  "scrapedAt": "2026-03-25T16:48:50.155Z",
   "term_id": 1252,
   "semester_id": "upb-2025-2",
   "terms": [
     "upb-2025-2"
   ],
   "totalSections": 536,
-  "uniqueCourses": 486,
-  "courseCatalogRows": 486,
-  "orphan_course_codes_not_in_catalog": 0,
-  "departmentsWithData": 52,
+  "uniqueCourses": 267,
+  "courseCatalogRows": null,
+  "orphan_course_codes_not_in_catalog": null,
+  "departmentsWithData": 1,
   "scheduleRows": 940,
   "merged_at": "2026-03-24T21:45:43.840Z",
   "merged_from_files": [
