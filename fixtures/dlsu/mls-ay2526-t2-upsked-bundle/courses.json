@@ -1,0 +1,2338 @@
+[
+  {
+    "id": "ACADRES",
+    "title": "ACADRES"
+  },
+  {
+    "id": "ACCCOB1",
+    "title": "ACCCOB1"
+  },
+  {
+    "id": "ACCCOB2",
+    "title": "ACCCOB2"
+  },
+  {
+    "id": "ACCCOB3",
+    "title": "ACCCOB3"
+  },
+  {
+    "id": "ACCTBA1",
+    "title": "Fundamentals of Accounting"
+  },
+  {
+    "id": "ACMCOMM",
+    "title": "Management and Organizational Communication"
+  },
+  {
+    "id": "ACMCRIT",
+    "title": "Critical Thinking"
+  },
+  {
+    "id": "ACMDIGW",
+    "title": "Management in the Digital World"
+  },
+  {
+    "id": "ACMHUMA",
+    "title": "Humanistic Management"
+  },
+  {
+    "id": "ACMSERV",
+    "title": "Service Management"
+  },
+  {
+    "id": "ACMSUST",
+    "title": "Sustainability Management"
+  },
+  {
+    "id": "ACTBFAR",
+    "title": "ACTBFAR"
+  },
+  {
+    "id": "ACTCOMM",
+    "title": "ACTCOMM"
+  },
+  {
+    "id": "ACTFMKT",
+    "title": "ACTFMKT"
+  },
+  {
+    "id": "ACTREG1",
+    "title": "ACTREG1"
+  },
+  {
+    "id": "ACTREG2",
+    "title": "ACTREG2"
+  },
+  {
+    "id": "ACTREG3",
+    "title": "ACTREG3"
+  },
+  {
+    "id": "ACTREMF",
+    "title": "ACTREMF"
+  },
+  {
+    "id": "ACTREMP",
+    "title": "ACTREMP"
+  },
+  {
+    "id": "ACTTAX1",
+    "title": "ACTTAX1"
+  },
+  {
+    "id": "ACTTAX2",
+    "title": "ACTTAX2"
+  },
+  {
+    "id": "ACTTAX3",
+    "title": "ACTTAX3"
+  },
+  {
+    "id": "ACYAFAR",
+    "title": "ACYAFAR"
+  },
+  {
+    "id": "ACYASR1",
+    "title": "ACYASR1"
+  },
+  {
+    "id": "ACYASR2",
+    "title": "ACYASR2"
+  },
+  {
+    "id": "ACYASR3",
+    "title": "ACYASR3"
+  },
+  {
+    "id": "ACYASR4",
+    "title": "ACYASR4"
+  },
+  {
+    "id": "ACYAUDI",
+    "title": "ACYAUDI"
+  },
+  {
+    "id": "ACYAVA1",
+    "title": "ACYAVA1"
+  },
+  {
+    "id": "ACYAVA2",
+    "title": "ACYAVA2"
+  },
+  {
+    "id": "ACYAVA3",
+    "title": "ACYAVA3"
+  },
+  {
+    "id": "ACYCST1",
+    "title": "ACYCST1"
+  },
+  {
+    "id": "ACYCST2",
+    "title": "ACYCST2"
+  },
+  {
+    "id": "ACYFAR1",
+    "title": "ACYFAR1"
+  },
+  {
+    "id": "ACYFAR2",
+    "title": "ACYFAR2"
+  },
+  {
+    "id": "ACYFAR3",
+    "title": "ACYFAR3"
+  },
+  {
+    "id": "ACYFAR4",
+    "title": "ACYFAR4"
+  },
+  {
+    "id": "ACYFAR5",
+    "title": "ACYFAR5"
+  },
+  {
+    "id": "ACYFARP",
+    "title": "ACYFARP"
+  },
+  {
+    "id": "ACYFMG1",
+    "title": "ACYFMG1"
+  },
+  {
+    "id": "ACYFMG2",
+    "title": "ACYFMG2"
+  },
+  {
+    "id": "ACYITM1",
+    "title": "ACYITM1"
+  },
+  {
+    "id": "ACYITM2",
+    "title": "ACYITM2"
+  },
+  {
+    "id": "ACYMAG1",
+    "title": "ACYMAG1"
+  },
+  {
+    "id": "ACYMAG2",
+    "title": "ACYMAG2"
+  },
+  {
+    "id": "ACYMANS",
+    "title": "ACYMANS"
+  },
+  {
+    "id": "ACYRFBT",
+    "title": "ACYRFBT"
+  },
+  {
+    "id": "ACYTAXN",
+    "title": "ACYTAXN"
+  },
+  {
+    "id": "ADBROAP",
+    "title": "ADBROAP"
+  },
+  {
+    "id": "ADMEDIA",
+    "title": "ADMEDIA"
+  },
+  {
+    "id": "ADOCSAF",
+    "title": "Advanced Occupational Health and Safety"
+  },
+  {
+    "id": "ADRAPTO",
+    "title": "ADRAPTO"
+  },
+  {
+    "id": "ADSTUDY",
+    "title": "Art Studies and History"
+  },
+  {
+    "id": "ADVISUA",
+    "title": "ADVISUA"
+  },
+  {
+    "id": "ADVOCPR",
+    "title": "ADVOCPR"
+  },
+  {
+    "id": "ADWRITE",
+    "title": "ADWRITE"
+  },
+  {
+    "id": "AGRIMAN",
+    "title": "Agribusiness Management"
+  },
+  {
+    "id": "ANATOMY",
+    "title": "ANATOMY"
+  },
+  {
+    "id": "BASCHEM",
+    "title": "BASCHEM"
+  },
+  {
+    "id": "BASIFI1",
+    "title": "BASIFI1"
+  },
+  {
+    "id": "BASIFI2",
+    "title": "BASIFI2"
+  },
+  {
+    "id": "BASIFI3",
+    "title": "BASIFI3"
+  },
+  {
+    "id": "BIGDATA",
+    "title": "BIGDATA"
+  },
+  {
+    "id": "BIMEDIC",
+    "title": "BIMEDIC"
+  },
+  {
+    "id": "BIOERG1",
+    "title": "BIOERG1"
+  },
+  {
+    "id": "BIOKMBI",
+    "title": "BIOKMBI"
+  },
+  {
+    "id": "BIOKMOR",
+    "title": "BIOKMOR"
+  },
+  {
+    "id": "BIOLRES",
+    "title": "BIOLRES"
+  },
+  {
+    "id": "BODIPOL",
+    "title": "BODY POLITICS"
+  },
+  {
+    "id": "BOTAFUN",
+    "title": "BOTAFUN"
+  },
+  {
+    "id": "BOTAONE",
+    "title": "BOTAONE"
+  },
+  {
+    "id": "CALENG1",
+    "title": "CALENG1"
+  },
+  {
+    "id": "CALENG2",
+    "title": "CALENG2"
+  },
+  {
+    "id": "CALENG3",
+    "title": "CALENG3"
+  },
+  {
+    "id": "CAMPUBL",
+    "title": "CAMPUBL"
+  },
+  {
+    "id": "CAMVIDP",
+    "title": "CAMVIDP"
+  },
+  {
+    "id": "CCAPDEV",
+    "title": "Web Application Development"
+  },
+  {
+    "id": "CCDSALG",
+    "title": "Data Structures and Algorithms"
+  },
+  {
+    "id": "CCDSTRU",
+    "title": "Discrete Structures"
+  },
+  {
+    "id": "CCICOMP",
+    "title": "Introduction to Computing"
+  },
+  {
+    "id": "CCINFOM",
+    "title": "Information Management"
+  },
+  {
+    "id": "CCINOV8",
+    "title": "Innovation and Technology Management"
+  },
+  {
+    "id": "CCPROG1",
+    "title": "Logic Formulation and Introductory Programming"
+  },
+  {
+    "id": "CCPROG2",
+    "title": "Programming with Structured Data Types"
+  },
+  {
+    "id": "CCPROG3",
+    "title": "Object-Oriented Programming"
+  },
+  {
+    "id": "CE-MATH",
+    "title": "CE-MATH"
+  },
+  {
+    "id": "CEARTIN",
+    "title": "CEARTIN"
+  },
+  {
+    "id": "CECNTRL",
+    "title": "CECNTRL"
+  },
+  {
+    "id": "CEDISP1",
+    "title": "CEDISP1"
+  },
+  {
+    "id": "CEETRN1",
+    "title": "CEETRN1"
+  },
+  {
+    "id": "CEETRN3",
+    "title": "CEETRN3"
+  },
+  {
+    "id": "CEHDRA2",
+    "title": "CEHDRA2"
+  },
+  {
+    "id": "CELLMOL",
+    "title": "CELLMOL"
+  },
+  {
+    "id": "CEMEDEF",
+    "title": "CEMEDEF"
+  },
+  {
+    "id": "CEMICRO",
+    "title": "CEMICRO"
+  },
+  {
+    "id": "CENUMER",
+    "title": "CENUMER"
+  },
+  {
+    "id": "CEPARCO",
+    "title": "CEPARCO"
+  },
+  {
+    "id": "CESTRUC",
+    "title": "CESTRUC"
+  },
+  {
+    "id": "CHECONO",
+    "title": "CHECONO"
+  },
+  {
+    "id": "CHELE03",
+    "title": "Chemical Engineering Elective 3 (Product, Process, and Systems Design for Sustainability)"
+  },
+  {
+    "id": "CHETHRM",
+    "title": "CHETHRM"
+  },
+  {
+    "id": "CHISSUE",
+    "title": "CHISSUE"
+  },
+  {
+    "id": "CHLANG3",
+    "title": "CHLANG3"
+  },
+  {
+    "id": "CHLANG6",
+    "title": "CHLANG6"
+  },
+  {
+    "id": "CHSOCUL",
+    "title": "CHSOCUL"
+  },
+  {
+    "id": "CITIGOV",
+    "title": "CITIGOV"
+  },
+  {
+    "id": "CLAME01",
+    "title": "CLAME01"
+  },
+  {
+    "id": "CLWETAX",
+    "title": "CLWETAX"
+  },
+  {
+    "id": "CLWTAXN",
+    "title": "CLWTAXN"
+  },
+  {
+    "id": "CMPAIGN",
+    "title": "CMPAIGN"
+  },
+  {
+    "id": "COBCSRG",
+    "title": "COBCSRG"
+  },
+  {
+    "id": "COBECON",
+    "title": "COBECON"
+  },
+  {
+    "id": "COBEDEV",
+    "title": "COBEDEV"
+  },
+  {
+    "id": "COBENTH",
+    "title": "COBENTH"
+  },
+  {
+    "id": "COBGOVE",
+    "title": "COBGOVE"
+  },
+  {
+    "id": "COBIBAC",
+    "title": "COBIBAC"
+  },
+  {
+    "id": "COBIBDS",
+    "title": "COBIBDS"
+  },
+  {
+    "id": "COBIBFM",
+    "title": "COBIBFM"
+  },
+  {
+    "id": "COBIBMA",
+    "title": "COBIBMA"
+  },
+  {
+    "id": "COBLAW1",
+    "title": "COBLAW1"
+  },
+  {
+    "id": "COBLAW2",
+    "title": "COBLAW2"
+  },
+  {
+    "id": "COBOBLI",
+    "title": "COBOBLI"
+  },
+  {
+    "id": "COBQUAL",
+    "title": "COBQUAL"
+  },
+  {
+    "id": "COBSTRM",
+    "title": "COBSTRM"
+  },
+  {
+    "id": "COGERG2",
+    "title": "COGERG2"
+  },
+  {
+    "id": "COLORGR",
+    "title": "COLORGR"
+  },
+  {
+    "id": "COMPANA",
+    "title": "COMPANA"
+  },
+  {
+    "id": "COMSKIL",
+    "title": "COMSKIL"
+  },
+  {
+    "id": "CORPENT",
+    "title": "Corporate Entrepreneurship"
+  },
+  {
+    "id": "COSACIE",
+    "title": "COSACIE"
+  },
+  {
+    "id": "CSALGCM",
+    "title": "Algorithms and Complexity"
+  },
+  {
+    "id": "CSARCH1",
+    "title": "Introduction to Computer Organization and Architecture 1"
+  },
+  {
+    "id": "CSMATH1",
+    "title": "Differential Calculus"
+  },
+  {
+    "id": "CSMATH2",
+    "title": "Linear Algebra for Computer Science"
+  },
+  {
+    "id": "CSMODEL",
+    "title": "Modelling and Simulation"
+  },
+  {
+    "id": "CSSECDV",
+    "title": "Secure Web Development"
+  },
+  {
+    "id": "DAT100M",
+    "title": "DAT100M"
+  },
+  {
+    "id": "DAT101M",
+    "title": "DAT101M"
+  },
+  {
+    "id": "DAT203M",
+    "title": "DAT203M"
+  },
+  {
+    "id": "DAT290M",
+    "title": "DAT290M"
+  },
+  {
+    "id": "DAT801M",
+    "title": "DAT801M"
+  },
+  {
+    "id": "DAT802M",
+    "title": "DAT802M"
+  },
+  {
+    "id": "DAT900M",
+    "title": "DAT900M"
+  },
+  {
+    "id": "DATA101",
+    "title": "DATA101"
+  },
+  {
+    "id": "DATA401",
+    "title": "DATA401"
+  },
+  {
+    "id": "DATAENG",
+    "title": "DATAENG"
+  },
+  {
+    "id": "DATAPRE",
+    "title": "DATAPRE"
+  },
+  {
+    "id": "DECIRES",
+    "title": "Decision Science for Real Estate Management"
+  },
+  {
+    "id": "DEVBIOL",
+    "title": "DEVBIOL"
+  },
+  {
+    "id": "DSILYTC",
+    "title": "DSILYTC"
+  },
+  {
+    "id": "DSIMGTS",
+    "title": "DSIMGTS"
+  },
+  {
+    "id": "DSIOPMA",
+    "title": "DSIOPMA"
+  },
+  {
+    "id": "DSMFINA",
+    "title": "DSMFINA"
+  },
+  {
+    "id": "ECECHDV",
+    "title": "ECECHDV"
+  },
+  {
+    "id": "ECEELEV",
+    "title": "ECEELEV"
+  },
+  {
+    "id": "ECEGUID",
+    "title": "ECEGUID"
+  },
+  {
+    "id": "ECELITC",
+    "title": "ECELITC"
+  },
+  {
+    "id": "ECESCIE",
+    "title": "ECESCIE"
+  },
+  {
+    "id": "ECESPED",
+    "title": "ECESPED"
+  },
+  {
+    "id": "ECETECH",
+    "title": "ECETECH"
+  },
+  {
+    "id": "ECNOMIC",
+    "title": "ECNOMIC"
+  },
+  {
+    "id": "ECOFMET",
+    "title": "ECOFMET"
+  },
+  {
+    "id": "ECOINOV",
+    "title": "ECOINOV"
+  },
+  {
+    "id": "ECOINTE",
+    "title": "ECOINTE"
+  },
+  {
+    "id": "ECOLGEN",
+    "title": "ECOLGEN"
+  },
+  {
+    "id": "ECOMCHE",
+    "title": "ECOMCHE"
+  },
+  {
+    "id": "ECOMMER",
+    "title": "E-commerce"
+  },
+  {
+    "id": "ECONMIC",
+    "title": "ECONMIC"
+  },
+  {
+    "id": "ECONOIE",
+    "title": "ECONOIE"
+  },
+  {
+    "id": "ECOPRIN",
+    "title": "ECOPRIN"
+  },
+  {
+    "id": "ECOSEM2",
+    "title": "ECOSEM2"
+  },
+  {
+    "id": "ELECP01",
+    "title": "ELECP01"
+  },
+  {
+    "id": "ELEPRIN",
+    "title": "ELEPRIN"
+  },
+  {
+    "id": "EMBRYOL",
+    "title": "EMBRYOL"
+  },
+  {
+    "id": "ENGCHEM",
+    "title": "ENGCHEM"
+  },
+  {
+    "id": "ENGDAT1",
+    "title": "ENGDAT1"
+  },
+  {
+    "id": "ENGDAT2",
+    "title": "ENGDAT2"
+  },
+  {
+    "id": "ENGENVI",
+    "title": "ENGENVI"
+  },
+  {
+    "id": "ENGMANA",
+    "title": "ENGMANA"
+  },
+  {
+    "id": "ENGMEC1",
+    "title": "ENGMEC1"
+  },
+  {
+    "id": "ENGMEC2",
+    "title": "ENGMEC2"
+  },
+  {
+    "id": "ENGMEC3",
+    "title": "ENGMEC3"
+  },
+  {
+    "id": "ENGMECH",
+    "title": "ENGMECH"
+  },
+  {
+    "id": "ENGPHYS",
+    "title": "ENGPHYS"
+  },
+  {
+    "id": "ENGTREP",
+    "title": "ENGTREP"
+  },
+  {
+    "id": "ENSRVMN",
+    "title": "Enterprise Service Management"
+  },
+  {
+    "id": "ENTEGRT",
+    "title": "Business Integration"
+  },
+  {
+    "id": "ENTINOV",
+    "title": "ENTINOV"
+  },
+  {
+    "id": "ENTPLA1",
+    "title": "ENTPLA1"
+  },
+  {
+    "id": "ENTPLA2",
+    "title": "ENTPLA2"
+  },
+  {
+    "id": "ENTPRIN",
+    "title": "ENTPRIN"
+  },
+  {
+    "id": "ENTSOCI",
+    "title": "ENTSOCI"
+  },
+  {
+    "id": "ENVIEDU",
+    "title": "ENVIEDU"
+  },
+  {
+    "id": "ENVIPHI",
+    "title": "Environmental  \nPhilosophy"
+  },
+  {
+    "id": "EPIDEMI",
+    "title": "EPIDEMI"
+  },
+  {
+    "id": "ERPPLAN",
+    "title": "Enterprise Systems"
+  },
+  {
+    "id": "EUECONO",
+    "title": "EUECONO"
+  },
+  {
+    "id": "EUISSUE",
+    "title": "EUISSUE"
+  },
+  {
+    "id": "EUSOCUL",
+    "title": "EUSOCUL"
+  },
+  {
+    "id": "EVENTMA",
+    "title": "Events Management"
+  },
+  {
+    "id": "FACILIT",
+    "title": "FACILIT"
+  },
+  {
+    "id": "FDNACCT",
+    "title": "FDNACCT"
+  },
+  {
+    "id": "FDNBUSF",
+    "title": "FDNBUSF"
+  },
+  {
+    "id": "FDNBUSM",
+    "title": "FDNBUSM"
+  },
+  {
+    "id": "FDNECON",
+    "title": "FDNECON"
+  },
+  {
+    "id": "FDNMANP",
+    "title": "FDNMANP"
+  },
+  {
+    "id": "FDNMARK",
+    "title": "FDNMARK"
+  },
+  {
+    "id": "FINADVA",
+    "title": "FINADVA"
+  },
+  {
+    "id": "FINAMAT",
+    "title": "FINAMAT"
+  },
+  {
+    "id": "FINARTS",
+    "title": "FINARTS"
+  },
+  {
+    "id": "FINBAFI",
+    "title": "FINBAFI"
+  },
+  {
+    "id": "FINBEHF",
+    "title": "Behavioral Finance"
+  },
+  {
+    "id": "FINBSRE",
+    "title": "FINBSRE"
+  },
+  {
+    "id": "FINCEBM",
+    "title": "FINCEBM"
+  },
+  {
+    "id": "FINCFAP",
+    "title": "Preparatory Elective Course for Level 1 Chartered Financial Analyst Certification Program"
+  },
+  {
+    "id": "FINCPMA",
+    "title": "FINCPMA"
+  },
+  {
+    "id": "FINCRDM",
+    "title": "FINCRDM"
+  },
+  {
+    "id": "FINFSAF",
+    "title": "FINFSAF"
+  },
+  {
+    "id": "FININMU",
+    "title": "International Finance & Multinational Business Operations"
+  },
+  {
+    "id": "FININPM",
+    "title": "FININPM"
+  },
+  {
+    "id": "FININSM",
+    "title": "Insurance Operations"
+  },
+  {
+    "id": "FINIVBA",
+    "title": "Investment Banking"
+  },
+  {
+    "id": "FINLYTS",
+    "title": "FINLYTS"
+  },
+  {
+    "id": "FINMEAC",
+    "title": "Mergers, Acquisitions, and Private Equity"
+  },
+  {
+    "id": "FINRISD",
+    "title": "FINRISD"
+  },
+  {
+    "id": "FINSPTO",
+    "title": "FINSPTO"
+  },
+  {
+    "id": "FINSTAD",
+    "title": "FINSTAD"
+  },
+  {
+    "id": "FINTECM",
+    "title": "Financial Technology"
+  },
+  {
+    "id": "FINTREO",
+    "title": "Treasury Management and Operations"
+  },
+  {
+    "id": "FINTRUF",
+    "title": "Trust and Funds Management (SPECIAL CLASS ONLY)"
+  },
+  {
+    "id": "FINTSMA",
+    "title": "Strategic Financial Management"
+  },
+  {
+    "id": "FINWEAM",
+    "title": "Wealth Management"
+  },
+  {
+    "id": "FMDFINA",
+    "title": "FMDFINA"
+  },
+  {
+    "id": "FNDMATH",
+    "title": "FNDMATH"
+  },
+  {
+    "id": "FNDSTAT",
+    "title": "FNDSTAT"
+  },
+  {
+    "id": "FOODMIC",
+    "title": "FOODMIC"
+  },
+  {
+    "id": "FOODSNS",
+    "title": "FOODSNS"
+  },
+  {
+    "id": "FOTJORN",
+    "title": "FOTJORN"
+  },
+  {
+    "id": "FRENCH3",
+    "title": "FRENCH3"
+  },
+  {
+    "id": "FRENCH6",
+    "title": "FRENCH6"
+  },
+  {
+    "id": "FUNDATA",
+    "title": "FUNDATA"
+  },
+  {
+    "id": "FUNGENE",
+    "title": "FUNGENE"
+  },
+  {
+    "id": "GDAPDEV",
+    "title": "GDAPDEV"
+  },
+  {
+    "id": "GEARTAP",
+    "title": "Art Appreciation"
+  },
+  {
+    "id": "GEDANCE",
+    "title": "Physical Fitness and Wellness in Dance"
+  },
+  {
+    "id": "GEETHIC",
+    "title": "Ethics"
+  },
+  {
+    "id": "GEFTWEL",
+    "title": "Physical Fitness and Wellness"
+  },
+  {
+    "id": "GELITPH",
+    "title": "Literatures of the Philippines"
+  },
+  {
+    "id": "GELITWO",
+    "title": "GELITWO"
+  },
+  {
+    "id": "GEMATMW",
+    "title": "Mathematics in the Modern World"
+  },
+  {
+    "id": "GEPCOMM",
+    "title": "Purposive Communication"
+  },
+  {
+    "id": "GERIZAL",
+    "title": "Life and Works of Rizal"
+  },
+  {
+    "id": "GERPHIS",
+    "title": "Readings in Philippine History"
+  },
+  {
+    "id": "GESPORT",
+    "title": "Physical Fitness and Wellness in Individual/Dual Sports"
+  },
+  {
+    "id": "GESTSOC",
+    "title": "Science, Technology, and Society"
+  },
+  {
+    "id": "GETEAMS",
+    "title": "Physical Fitness and Wellness in Team Sports"
+  },
+  {
+    "id": "GEUSELF",
+    "title": "Understanding the Self"
+  },
+  {
+    "id": "GEWORLD",
+    "title": "The Contemporary World"
+  },
+  {
+    "id": "GLOBDEV",
+    "title": "GLOBDEV"
+  },
+  {
+    "id": "GLOBMGT",
+    "title": "Global Management for Business Students"
+  },
+  {
+    "id": "GREATWK",
+    "title": "GREATWK"
+  },
+  {
+    "id": "HISTHER",
+    "title": "HERITAGE TOURISM AND HISTORIC SPACES"
+  },
+  {
+    "id": "HISTOLO",
+    "title": "HISTOLO"
+  },
+  {
+    "id": "HISTPUB",
+    "title": "PUBLIC HISTORY"
+  },
+  {
+    "id": "IBSFASH",
+    "title": "Fashion Industry for IBS students"
+  },
+  {
+    "id": "IBSFILM",
+    "title": "Film Industry for IBS Students"
+  },
+  {
+    "id": "IBSFOOD",
+    "title": "Food Industry for IBS Students"
+  },
+  {
+    "id": "IEMERES",
+    "title": "IEMERES"
+  },
+  {
+    "id": "IEOCSAF",
+    "title": "IEOCSAF"
+  },
+  {
+    "id": "IEOPER1",
+    "title": "IEOPER1"
+  },
+  {
+    "id": "IEOPER2",
+    "title": "IEOPER2"
+  },
+  {
+    "id": "IEOPER3",
+    "title": "IEOPER3"
+  },
+  {
+    "id": "IEPRODE",
+    "title": "IEPRODE"
+  },
+  {
+    "id": "IETHERM",
+    "title": "IETHERM"
+  },
+  {
+    "id": "IMEMARK",
+    "title": "IMEMARK"
+  },
+  {
+    "id": "INDUMAT",
+    "title": "INDUMAT"
+  },
+  {
+    "id": "INDUORG",
+    "title": "INDUORG"
+  },
+  {
+    "id": "INFORSY",
+    "title": "INFORSY"
+  },
+  {
+    "id": "INNOVTE",
+    "title": "INNOVTE"
+  },
+  {
+    "id": "INOFABU",
+    "title": "Innovation in Family Business Management"
+  },
+  {
+    "id": "INTECHE",
+    "title": "INTECHE"
+  },
+  {
+    "id": "INTGLOS",
+    "title": "INTGLOS"
+  },
+  {
+    "id": "INTLAWS",
+    "title": "PUBLIC INTERNATIONAL LAW FOR POLITICAL SCIENCE"
+  },
+  {
+    "id": "INTOECO",
+    "title": "Economics"
+  },
+  {
+    "id": "IRM685M",
+    "title": "IRM685M"
+  },
+  {
+    "id": "IRM740M",
+    "title": "IRM740M"
+  },
+  {
+    "id": "ISDIPCO",
+    "title": "ISDIPCO"
+  },
+  {
+    "id": "ISNTLAW",
+    "title": "ISNTLAW"
+  },
+  {
+    "id": "ISORDEV",
+    "title": "ISORDEV"
+  },
+  {
+    "id": "ISPOLEC",
+    "title": "ISPOLEC"
+  },
+  {
+    "id": "ITISDEV",
+    "title": "ITISDEV"
+  },
+  {
+    "id": "ITISORG",
+    "title": "ITISORG"
+  },
+  {
+    "id": "ITSYSOP",
+    "title": "ITSYSOP"
+  },
+  {
+    "id": "JAPLAN3",
+    "title": "JAPLAN3"
+  },
+  {
+    "id": "JAPLAN6",
+    "title": "JAPLAN6"
+  },
+  {
+    "id": "JAPLAN7",
+    "title": "JAPLAN7"
+  },
+  {
+    "id": "JPECONO",
+    "title": "JPECONO"
+  },
+  {
+    "id": "JPISSUE",
+    "title": "JPISSUE"
+  },
+  {
+    "id": "JPSOCUL",
+    "title": "JPSOCUL"
+  },
+  {
+    "id": "KEMANA3",
+    "title": "KEMANA3"
+  },
+  {
+    "id": "KEMBIO1",
+    "title": "KEMBIO1"
+  },
+  {
+    "id": "KEMBIO2",
+    "title": "KEMBIO2"
+  },
+  {
+    "id": "KEMELE1",
+    "title": "KEMELE1"
+  },
+  {
+    "id": "KEMELE3",
+    "title": "KEMELE3"
+  },
+  {
+    "id": "KEMESS1",
+    "title": "KEMESS1"
+  },
+  {
+    "id": "KEMESS2",
+    "title": "KEMESS2"
+  },
+  {
+    "id": "KEMESS3",
+    "title": "KEMESS3"
+  },
+  {
+    "id": "KEMINO1",
+    "title": "KEMINO1"
+  },
+  {
+    "id": "KEMORG1",
+    "title": "KEMORG1"
+  },
+  {
+    "id": "KEMORG2",
+    "title": "KEMORG2"
+  },
+  {
+    "id": "KEMORG3",
+    "title": "KEMORG3"
+  },
+  {
+    "id": "KEMPRN1",
+    "title": "KEMPRN1"
+  },
+  {
+    "id": "KEMPRN2",
+    "title": "KEMPRN2"
+  },
+  {
+    "id": "KEMPYS3",
+    "title": "KEMPYS3"
+  },
+  {
+    "id": "KEMRESC",
+    "title": "KEMRESC"
+  },
+  {
+    "id": "KEMSEMI",
+    "title": "KEMSEMI"
+  },
+  {
+    "id": "KEMZEL1",
+    "title": "KEMZEL1"
+  },
+  {
+    "id": "KNOWMAN",
+    "title": "Strategic Knowledge Management"
+  },
+  {
+    "id": "KOFISCI",
+    "title": "Coffee Science Across Disciplines"
+  },
+  {
+    "id": "LASARE1",
+    "title": "Lasallian Recollection 1"
+  },
+  {
+    "id": "LASARE2",
+    "title": "Lasallian Recollection 2"
+  },
+  {
+    "id": "LASARE3",
+    "title": "Lasallian Recollection 3"
+  },
+  {
+    "id": "LAWENG2",
+    "title": "LAWENG2"
+  },
+  {
+    "id": "LAWENG3",
+    "title": "LAWENG3"
+  },
+  {
+    "id": "LAWPOLS",
+    "title": "LAW, POLITICS AND SOCIETY"
+  },
+  {
+    "id": "LBBBIO1",
+    "title": "LBBBIO1"
+  },
+  {
+    "id": "LBBBIO8",
+    "title": "LBBBIO8"
+  },
+  {
+    "id": "LBBBIOA",
+    "title": "LBBBIOA"
+  },
+  {
+    "id": "LBBBION",
+    "title": "LBBBION"
+  },
+  {
+    "id": "LBYACST",
+    "title": "LBYACST"
+  },
+  {
+    "id": "LBYBI20",
+    "title": "LBYBI20"
+  },
+  {
+    "id": "LBYCISA",
+    "title": "LBYCISA"
+  },
+  {
+    "id": "LBYCPF3",
+    "title": "CpE Elective 1 Laboratory"
+  },
+  {
+    "id": "LBYCPG2",
+    "title": "LBYCPG2"
+  },
+  {
+    "id": "LBYCPG4",
+    "title": "LBYCPG4"
+  },
+  {
+    "id": "LBYCV1A",
+    "title": "LBYCV1A"
+  },
+  {
+    "id": "LBYCV2C",
+    "title": "LBYCV2C"
+  },
+  {
+    "id": "LBYCV2D",
+    "title": "LBYCV2D"
+  },
+  {
+    "id": "LBYCV2E",
+    "title": "LBYCV2E"
+  },
+  {
+    "id": "LBYCVR2",
+    "title": "LBYCVR2"
+  },
+  {
+    "id": "LBYDISP",
+    "title": "LBYDISP"
+  },
+  {
+    "id": "LBYEC2A",
+    "title": "LBYEC2A"
+  },
+  {
+    "id": "LBYEC3A",
+    "title": "LBYEC3A"
+  },
+  {
+    "id": "LBYEC3C",
+    "title": "LBYEC3C"
+  },
+  {
+    "id": "LBYIE2A",
+    "title": "LBYIE2A"
+  },
+  {
+    "id": "LBYIE2E",
+    "title": "LBYIE2E"
+  },
+  {
+    "id": "LBYIE2F",
+    "title": "LBYIE2F"
+  },
+  {
+    "id": "LBYIE2G",
+    "title": "LBYIE2G"
+  },
+  {
+    "id": "LBYIE3A",
+    "title": "LBYIE3A"
+  },
+  {
+    "id": "LBYIE3B",
+    "title": "LBYIE3B"
+  },
+  {
+    "id": "LBYIE3C",
+    "title": "LBYIE3C"
+  },
+  {
+    "id": "LBYIE3F",
+    "title": "LBYIE3F"
+  },
+  {
+    "id": "LBYIE3G",
+    "title": "LBYIE3G"
+  },
+  {
+    "id": "LBYIE3J",
+    "title": "LBYIE3J"
+  },
+  {
+    "id": "LBYIE3K",
+    "title": "LBYIE3K"
+  },
+  {
+    "id": "LBYKM12",
+    "title": "LBYKM12"
+  },
+  {
+    "id": "LBYKM21",
+    "title": "LBYKM21"
+  },
+  {
+    "id": "LBYKM23",
+    "title": "LBYKM23"
+  },
+  {
+    "id": "LBYKM32",
+    "title": "LBYKM32"
+  },
+  {
+    "id": "LBYKM41",
+    "title": "LBYKM41"
+  },
+  {
+    "id": "LBYKM42",
+    "title": "LBYKM42"
+  },
+  {
+    "id": "LBYME1A",
+    "title": "LBYME1A"
+  },
+  {
+    "id": "LBYME1C",
+    "title": "LBYME1C"
+  },
+  {
+    "id": "LBYMET2",
+    "title": "LBYMET2"
+  },
+  {
+    "id": "LBYMF2E",
+    "title": "LBYMF2E"
+  },
+  {
+    "id": "LBYMF3C",
+    "title": "LBYMF3C"
+  },
+  {
+    "id": "LBYPH01",
+    "title": "Physics Fundamentals (lab)"
+  },
+  {
+    "id": "LBYPH03",
+    "title": "LBYPH03"
+  },
+  {
+    "id": "LBYPH1A",
+    "title": "LBYPH1A"
+  },
+  {
+    "id": "LBYTRN1",
+    "title": "LBYTRN1"
+  },
+  {
+    "id": "LBYTRN3",
+    "title": "LBYTRN3"
+  },
+  {
+    "id": "LCASEAN",
+    "title": "The Filipino and ASEAN"
+  },
+  {
+    "id": "LCENWRD",
+    "title": "Encountering the Word in the World"
+  },
+  {
+    "id": "LCFAITH",
+    "title": "Faith Worth Living"
+  },
+  {
+    "id": "LCFILIC",
+    "title": "Lasallian core (paired with GELECAH per USG FAQ)"
+  },
+  {
+    "id": "LCLSONE",
+    "title": "Lasallian Studies 1"
+  },
+  {
+    "id": "LCLSTRI",
+    "title": "Lasallian Studies 3"
+  },
+  {
+    "id": "LCLSTWO",
+    "title": "Lasallian Studies 2"
+  },
+  {
+    "id": "LEANOVA",
+    "title": "Learning and Innovation in Organization"
+  },
+  {
+    "id": "LITPERF",
+    "title": "Introduction to Performance"
+  },
+  {
+    "id": "LMGCONS",
+    "title": "LMGCONS"
+  },
+  {
+    "id": "LMGPROT",
+    "title": "LMGPROT"
+  },
+  {
+    "id": "LMGTRAN",
+    "title": "LMGTRAN"
+  },
+  {
+    "id": "LOGDSGN",
+    "title": "LOGDSGN"
+  },
+  {
+    "id": "MACHELM",
+    "title": "MACHELM"
+  },
+  {
+    "id": "MADCUBE",
+    "title": "MADCUBE"
+  },
+  {
+    "id": "MADDANA",
+    "title": "Digital Analytics"
+  },
+  {
+    "id": "MADDIGI",
+    "title": "MADDIGI"
+  },
+  {
+    "id": "MADDISC",
+    "title": "MADDISC"
+  },
+  {
+    "id": "MADFUND",
+    "title": "MADFUND"
+  },
+  {
+    "id": "MADGCOM",
+    "title": "MADGCOM"
+  },
+  {
+    "id": "MADINMC",
+    "title": "MADINMC"
+  },
+  {
+    "id": "MADSMAN",
+    "title": "MADSMAN"
+  },
+  {
+    "id": "MADSMED",
+    "title": "Social Media Marketing"
+  },
+  {
+    "id": "MADSRCH",
+    "title": "MADSRCH"
+  },
+  {
+    "id": "MADTOUR",
+    "title": "Tourism Marketing"
+  },
+  {
+    "id": "MANACIE",
+    "title": "MANACIE"
+  },
+  {
+    "id": "MANCREA",
+    "title": "MANCREA"
+  },
+  {
+    "id": "MARICOL",
+    "title": "MARICOL"
+  },
+  {
+    "id": "MARKAD2",
+    "title": "Principles and Techniques of Broadcast Advertising"
+  },
+  {
+    "id": "MARKCOM",
+    "title": "E-Commerce in Marketing"
+  },
+  {
+    "id": "MARKEVE",
+    "title": "Events Management"
+  },
+  {
+    "id": "MARKEXP",
+    "title": "Export Marketing"
+  },
+  {
+    "id": "MARKFSH",
+    "title": "Fashion Marketing"
+  },
+  {
+    "id": "MARKHOS",
+    "title": "Hospitality Marketing"
+  },
+  {
+    "id": "MARKMGT",
+    "title": "MARKMGT"
+  },
+  {
+    "id": "MARKPRD",
+    "title": "MARKPRD"
+  },
+  {
+    "id": "MARKPUB",
+    "title": "Public Relations"
+  },
+  {
+    "id": "MARKRTL",
+    "title": "Retail Marketing"
+  },
+  {
+    "id": "MARKSOC",
+    "title": "Social Marketing"
+  },
+  {
+    "id": "MARKSRV",
+    "title": "MARKSRV"
+  },
+  {
+    "id": "MARKSTA",
+    "title": "MARKSTA"
+  },
+  {
+    "id": "MATEPRO",
+    "title": "MATEPRO"
+  },
+  {
+    "id": "MATPY00",
+    "title": "MATPY00"
+  },
+  {
+    "id": "MCROBIO",
+    "title": "MCROBIO"
+  },
+  {
+    "id": "MDMICRO",
+    "title": "MDMICRO"
+  },
+  {
+    "id": "MDPARAS",
+    "title": "MDPARAS"
+  },
+  {
+    "id": "MEADMAT",
+    "title": "MEADMAT"
+  },
+  {
+    "id": "MEHETRA",
+    "title": "MEHETRA"
+  },
+  {
+    "id": "MELECT1",
+    "title": "Vehicle Engineering"
+  },
+  {
+    "id": "MELECT2",
+    "title": "3D Printing"
+  },
+  {
+    "id": "MFAIMFG",
+    "title": "MFAIMFG"
+  },
+  {
+    "id": "MFELEC1",
+    "title": "Mechatronics and Robotics Track"
+  },
+  {
+    "id": "MFMCDS1",
+    "title": "MFMCDS1"
+  },
+  {
+    "id": "MFTHSCI",
+    "title": "MFTHSCI"
+  },
+  {
+    "id": "MGTREND",
+    "title": "Management Trends"
+  },
+  {
+    "id": "MIGDEVT",
+    "title": "MIGDEVT"
+  },
+  {
+    "id": "MTH101A",
+    "title": "Foundation Course in Mathematics"
+  },
+  {
+    "id": "MTH121A",
+    "title": "MTH121A"
+  },
+  {
+    "id": "MTH122A",
+    "title": "MTH122A"
+  },
+  {
+    "id": "MTH123A",
+    "title": "MTH123A"
+  },
+  {
+    "id": "MTH124A",
+    "title": "MTH124A"
+  },
+  {
+    "id": "MTH201A",
+    "title": "Mathematical Analysis 1"
+  },
+  {
+    "id": "MTH210A",
+    "title": "Introduction to Set Theory"
+  },
+  {
+    "id": "MTH221A",
+    "title": "Linear Algebra"
+  },
+  {
+    "id": "MTH223A",
+    "title": "Abstract Algebra 1"
+  },
+  {
+    "id": "MTH230A",
+    "title": "Modern Geometry"
+  },
+  {
+    "id": "MTH241A",
+    "title": "Differential Equations"
+  },
+  {
+    "id": "MTH242A",
+    "title": "Numerical Analysis"
+  },
+  {
+    "id": "MTH243A",
+    "title": "Complex Analysis"
+  },
+  {
+    "id": "MTH253A",
+    "title": "Operations Research 1"
+  },
+  {
+    "id": "MTH257A",
+    "title": "Statistical Theory 1"
+  },
+  {
+    "id": "MTH258A",
+    "title": "Statistical Theory 2"
+  },
+  {
+    "id": "MTH300A",
+    "title": "Theory of Interest"
+  },
+  {
+    "id": "MTPROG1",
+    "title": "Computational Thinking in Python"
+  },
+  {
+    "id": "MULTGEN",
+    "title": "MULTGEN"
+  },
+  {
+    "id": "NSTP101",
+    "title": "National Service Training Program–General Orientation"
+  },
+  {
+    "id": "NSTPCW1",
+    "title": "NSTP–CWTS / LTS / ROTC (formation phase)"
+  },
+  {
+    "id": "NSTPCW2",
+    "title": "NSTP–CWTS / LTS / ROTC (community / service module)"
+  },
+  {
+    "id": "OSDCHAM",
+    "title": "Change Management"
+  },
+  {
+    "id": "OSDKNOW",
+    "title": "Knowledge Transfer and Development"
+  },
+  {
+    "id": "OSDSSTH",
+    "title": "Social Systems Theory"
+  },
+  {
+    "id": "PE1CRDO",
+    "title": "PE1CRDO"
+  },
+  {
+    "id": "PE2FTEX",
+    "title": "PE2FTEX"
+  },
+  {
+    "id": "PEDFOUR",
+    "title": "PE 4 — generic"
+  },
+  {
+    "id": "PETHREE",
+    "title": "PE 3 — generic"
+  },
+  {
+    "id": "PHSAKMI",
+    "title": "Pagsulat ng Akdang Popular sa Filipino"
+  },
+  {
+    "id": "PHSMCRI",
+    "title": "Kritisismong Pang Midya sa Filipino"
+  },
+  {
+    "id": "PHSSOCI",
+    "title": "Mga Napapanahong Isyu sa Lipunang Pilipino"
+  },
+  {
+    "id": "PHSTURO",
+    "title": "Teorya at Praktika sa Pagtuturo ng Wikang Filipino"
+  },
+  {
+    "id": "PHYS102",
+    "title": "PHYS102"
+  },
+  {
+    "id": "PHYS103",
+    "title": "PHYS103"
+  },
+  {
+    "id": "PHYSC01",
+    "title": "PHYSC01"
+  },
+  {
+    "id": "PIPOLEC",
+    "title": "PIPOLEC"
+  },
+  {
+    "id": "PLMEDVL",
+    "title": "Medieval Philosophy"
+  },
+  {
+    "id": "PLMINDI",
+    "title": "Indian Philosophy Religion"
+  },
+  {
+    "id": "PLMMETA",
+    "title": "Contemporary Metaphysics"
+  },
+  {
+    "id": "PLMMIND",
+    "title": "Philosophy of Mind"
+  },
+  {
+    "id": "PLMMORP",
+    "title": "Moral Philosophy"
+  },
+  {
+    "id": "PLMRELS",
+    "title": "Philosophy of  \nReligion"
+  },
+  {
+    "id": "PLMRES2",
+    "title": "PLMRES2"
+  },
+  {
+    "id": "PLMSCIE",
+    "title": "Philosophy of Science"
+  },
+  {
+    "id": "PLMSCIF",
+    "title": "Philosophy and Science Fiction"
+  },
+  {
+    "id": "POLECON",
+    "title": "POLECON"
+  },
+  {
+    "id": "POLQUAL",
+    "title": "POLQUAL"
+  },
+  {
+    "id": "PRASES1",
+    "title": "Assessment in Learning 1"
+  },
+  {
+    "id": "PRASES2",
+    "title": "PRASES2"
+  },
+  {
+    "id": "PRCACTY",
+    "title": "PRCACTY"
+  },
+  {
+    "id": "PRCAMCN",
+    "title": "PRCAMCN"
+  },
+  {
+    "id": "PRCBCHM",
+    "title": "PRCBCHM"
+  },
+  {
+    "id": "PRCCC01",
+    "title": "PRCCC01"
+  },
+  {
+    "id": "PRCCHEM",
+    "title": "PRCCHEM"
+  },
+  {
+    "id": "PRCCHNA",
+    "title": "PRCCHNA"
+  },
+  {
+    "id": "PRCEARD",
+    "title": "PRCEARD"
+  },
+  {
+    "id": "PRCEURN",
+    "title": "PRCEURN"
+  },
+  {
+    "id": "PRCFSCI",
+    "title": "PRCFSCI"
+  },
+  {
+    "id": "PRCJAPN",
+    "title": "PRCJAPN"
+  },
+  {
+    "id": "PRFACIL",
+    "title": "Facilitating Learner-Centered Teaching"
+  },
+  {
+    "id": "PRFIEL1",
+    "title": "PRFIEL1"
+  },
+  {
+    "id": "PRLEARN",
+    "title": "PRLEARN"
+  },
+  {
+    "id": "PROBDSI",
+    "title": "Problem Solving And Decision-Making For Managers"
+  },
+  {
+    "id": "PROMGT1",
+    "title": "PROMGT1"
+  },
+  {
+    "id": "PROMGT2",
+    "title": "PROMGT2"
+  },
+  {
+    "id": "PROMGT3",
+    "title": "PROMGT3"
+  },
+  {
+    "id": "PRTSCUR",
+    "title": "The Teacher and the School Curriculum"
+  },
+  {
+    "id": "PSYABNP",
+    "title": "PSYABNP"
+  },
+  {
+    "id": "PSYBIOP",
+    "title": "PSYBIOP"
+  },
+  {
+    "id": "PSYCOGP",
+    "title": "PSYCOGP"
+  },
+  {
+    "id": "PSYDEVE",
+    "title": "PSYDEVE"
+  },
+  {
+    "id": "PSYEMTN",
+    "title": "Psychology of Emotions"
+  },
+  {
+    "id": "PSYPILI",
+    "title": "PSYPILI"
+  },
+  {
+    "id": "PSYSOCI",
+    "title": "PSYSOCI"
+  },
+  {
+    "id": "PSYTHEO",
+    "title": "PSYTHEO"
+  },
+  {
+    "id": "PUBFINA",
+    "title": "PUBFINA"
+  },
+  {
+    "id": "QLY-ISD",
+    "title": "QLY-ISD"
+  },
+  {
+    "id": "SAS1000",
+    "title": "Student Affairs Services 1000"
+  },
+  {
+    "id": "SAS2000",
+    "title": "SAS2000"
+  },
+  {
+    "id": "SAS3000",
+    "title": "SAS3000"
+  },
+  {
+    "id": "SOCENVD",
+    "title": "Sociology of Environment and Disasters"
+  },
+  {
+    "id": "SOCHEAL",
+    "title": "Sociology of Health and Well-being"
+  },
+  {
+    "id": "SOCIGEN",
+    "title": "SOCIGEN"
+  },
+  {
+    "id": "SOCIORG",
+    "title": "Sociology of Organizations and Institutions"
+  },
+  {
+    "id": "SOCTHE2",
+    "title": "SOCTHE2"
+  },
+  {
+    "id": "SOCTOUR",
+    "title": "Sociology of Tourism and Liesure"
+  },
+  {
+    "id": "SPANSIX",
+    "title": "SPANSIX"
+  },
+  {
+    "id": "SPANTRI",
+    "title": "SPANTRI"
+  },
+  {
+    "id": "SPECVID",
+    "title": "SPECVID"
+  },
+  {
+    "id": "SPOJOUR",
+    "title": "Sport Journalism"
+  },
+  {
+    "id": "SPOQLRE",
+    "title": "Qualitative Social Research Methods"
+  },
+  {
+    "id": "SPOQNRE",
+    "title": "Quantitative Social Research Methods"
+  },
+  {
+    "id": "SPOSOCY",
+    "title": "Sports Sociology"
+  },
+  {
+    "id": "ST-MATH",
+    "title": "Integral Calculus for Computer Science Students"
+  },
+  {
+    "id": "STALGCM",
+    "title": "Advanced Algorithms and Complexities"
+  },
+  {
+    "id": "STINTSY",
+    "title": "Advanced Intelligent Systems"
+  },
+  {
+    "id": "STSWENG",
+    "title": "Advanced Software Engineering"
+  },
+  {
+    "id": "STT101A",
+    "title": "Foundation Course in Statistics"
+  },
+  {
+    "id": "STT141A",
+    "title": "Linear Models"
+  },
+  {
+    "id": "STT151A",
+    "title": "STT151A"
+  },
+  {
+    "id": "STT153A",
+    "title": "Statistics for Human Biology"
+  },
+  {
+    "id": "STT161A",
+    "title": "Applied Multivariate Analysis"
+  },
+  {
+    "id": "STT200A",
+    "title": "Mathematical Reasoning"
+  },
+  {
+    "id": "STT201A",
+    "title": "Exploratory Data Analysis"
+  },
+  {
+    "id": "STT202A",
+    "title": "STT202A"
+  },
+  {
+    "id": "STT203A",
+    "title": "Statistical Packages"
+  },
+  {
+    "id": "STT220A",
+    "title": "STT220A"
+  },
+  {
+    "id": "STT222A",
+    "title": "STT222A"
+  },
+  {
+    "id": "STT226A",
+    "title": "STT226A"
+  },
+  {
+    "id": "STT241A",
+    "title": "STT241A"
+  },
+  {
+    "id": "STT245A",
+    "title": "STT245A"
+  },
+  {
+    "id": "STT280A",
+    "title": "STT280A"
+  },
+  {
+    "id": "STT302A",
+    "title": "STT302A"
+  },
+  {
+    "id": "STT320A",
+    "title": "STT320A"
+  },
+  {
+    "id": "SUPCHAN",
+    "title": "SUPCHAN"
+  },
+  {
+    "id": "SUREESG",
+    "title": "ESG Reporting Framework, Assurance, and Rating Systems"
+  },
+  {
+    "id": "SUREGTI",
+    "title": "Global ESG Trends and Innovation"
+  },
+  {
+    "id": "SUREMAG",
+    "title": "Principles of Corporate ESG Strategy and Data Management"
+  },
+  {
+    "id": "SURESDG",
+    "title": "Foundations of Sustainability and Sustainable Development Goals"
+  },
+  {
+    "id": "SUSTBUS",
+    "title": "Managing Sustainable Business in a Global Environment"
+  },
+  {
+    "id": "SYSENG1",
+    "title": "SYSENG1"
+  },
+  {
+    "id": "SYSENG2",
+    "title": "SYSENG2"
+  },
+  {
+    "id": "SYSTENT",
+    "title": "System of Enterprise Business Concept"
+  },
+  {
+    "id": "TECNEUR",
+    "title": "Technopreneurship and Innovation Theories"
+  },
+  {
+    "id": "THBIOL3",
+    "title": "THBIOL3"
+  },
+  {
+    "id": "THINKIN",
+    "title": "THINKIN"
+  },
+  {
+    "id": "THS1EAR",
+    "title": "THS1EAR"
+  },
+  {
+    "id": "THS2EAR",
+    "title": "THS2EAR"
+  },
+  {
+    "id": "THSAMN1",
+    "title": "THSAMN1"
+  },
+  {
+    "id": "THSBCMA",
+    "title": "THSBCMA"
+  },
+  {
+    "id": "THSBCMB",
+    "title": "THSBCMB"
+  },
+  {
+    "id": "THSBCMC",
+    "title": "THSBCMC"
+  },
+  {
+    "id": "THSBSAF",
+    "title": "THSBSAF"
+  },
+  {
+    "id": "THSBSAP",
+    "title": "THSBSAP"
+  },
+  {
+    "id": "THSCE03",
+    "title": "THSCE03"
+  },
+  {
+    "id": "THSCHS1",
+    "title": "THSCHS1"
+  },
+  {
+    "id": "THSCHYA",
+    "title": "THSCHYA"
+  },
+  {
+    "id": "THSCHYB",
+    "title": "THSCHYB"
+  },
+  {
+    "id": "THSCHYC",
+    "title": "THSCHYC"
+  },
+  {
+    "id": "THSEC13",
+    "title": "THSEC13"
+  },
+  {
+    "id": "THSEUN1",
+    "title": "THSEUN1"
+  },
+  {
+    "id": "THSEUN2",
+    "title": "THSEUN2"
+  },
+  {
+    "id": "THSFSCA",
+    "title": "THSFSCA"
+  },
+  {
+    "id": "THSFSCB",
+    "title": "THSFSCB"
+  },
+  {
+    "id": "THSFSCC",
+    "title": "THSFSCC"
+  },
+  {
+    "id": "THSIE4A",
+    "title": "THSIE4A"
+  },
+  {
+    "id": "THSIE4B",
+    "title": "THSIE4B"
+  },
+  {
+    "id": "THSJPN1",
+    "title": "THSJPN1"
+  },
+  {
+    "id": "THSJPN2",
+    "title": "THSJPN2"
+  },
+  {
+    "id": "TRSPCYB",
+    "title": "Contemporary Spirituality: Cyber-Spirituality"
+  },
+  {
+    "id": "TRSPREL",
+    "title": "Spiritualities for Religious and Non-Religious"
+  },
+  {
+    "id": "USECONO",
+    "title": "USECONO"
+  },
+  {
+    "id": "USFREXT",
+    "title": "USFREXT"
+  },
+  {
+    "id": "USISSUE",
+    "title": "USISSUE"
+  },
+  {
+    "id": "WRIFILM",
+    "title": "WRIFILM"
+  },
+  {
+    "id": "ZOOLFUN",
+    "title": "ZOOLFUN"
+  }
+]

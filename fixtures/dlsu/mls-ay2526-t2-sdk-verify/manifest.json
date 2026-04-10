@@ -1,0 +1,60 @@
+{
+  "universityId": "dlsu",
+  "semesterId": "dlsu-2025-2",
+  "releaseId": "7e0c15652cc5da9b42ef",
+  "schemaVersion": 1,
+  "sourceType": "partner_connector",
+  "catalogSourceId": "dlsu-mls-catalog",
+  "connectorId": "dlsu.experimental.mls",
+  "connectorVersion": "0.1.0",
+  "trustTier": "community",
+  "publishedAt": "2026-03-26T20:05:53.800Z",
+  "sourcePublishedAt": "2026-03-26T19:55:29.399547Z",
+  "counts": {
+    "courses": 584,
+    "sections": 3225,
+    "schedules": 3334
+  },
+  "artifacts": [
+    {
+      "key": "courses",
+      "kind": "courses_json",
+      "path": "courses.json",
+      "sha256": "ec4c3a11f375262da8bdb4aada91f0384bcfafeca0c2917d25efc43df424b082",
+      "sizeBytes": 37039,
+      "contentType": "application/json",
+      "compression": "identity",
+      "recordCount": 584
+    },
+    {
+      "key": "sections",
+      "kind": "sections_json",
+      "path": "sections.json",
+      "sha256": "8bfe9e283589cc86dc05814debd7b2612af23261bb8d321928c6ca9aa7166090",
+      "sizeBytes": 694087,
+      "contentType": "application/json",
+      "compression": "identity",
+      "recordCount": 3225
+    },
+    {
+      "key": "schedules",
+      "kind": "schedules_json",
+      "path": "schedules.json",
+      "sha256": "af2ac943e8ea1477c232602565d3b2e2e6b40ecb57f2664c9b948f68f8ac1039",
+      "sizeBytes": 526992,
+      "contentType": "application/json",
+      "compression": "identity",
+      "recordCount": 3334
+    },
+    {
+      "key": "metadata",
+      "kind": "metadata_json",
+      "path": "metadata.json",
+      "sha256": "0bf5b7577c0565c3ec87cb8fe4918e666c07569e088459aa41973ae3a641a36d",
+      "sizeBytes": 1279,
+      "contentType": "application/json",
+      "compression": "identity",
+      "recordCount": 1
+    }
+  ]
+}

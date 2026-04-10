@@ -1,0 +1,17 @@
+{
+  "university_id": "dlsu",
+  "semester_id": "dlsu-2025-2",
+  "source_catalog": "out/catalog-unified.json",
+  "source_term": "Second Trimester, AY 2025 - 2026",
+  "counts": {
+    "courses": 584,
+    "sections": 3225,
+    "section_schedules": 3334
+  },
+  "sections_by_course_type": {
+    "unknown": 2231,
+    "Core": 813,
+    "PE": 181
+  },
+  "scraper_upload": "Set universityId='dlsu'. Order: uploadCourses(courses.json), uploadSections(sections.json), uploadSchedules(section_schedules.json, classCodeMap)."
+}

@@ -1,0 +1,226 @@
+[
+  {
+    "abbr": "LBASC",
+    "full_name": "Los Baños Animal Science Cluster"
+  },
+  {
+    "abbr": "LBASI",
+    "full_name": "Los Baños Agricultural Systems Institute"
+  },
+  {
+    "abbr": "LBDAAE",
+    "full_name": "Los Baños Department of Agricultural and Applied Economics"
+  },
+  {
+    "abbr": "LBDABSE",
+    "full_name": "Los Baños Department of Agricultural and Biosystems Engineering"
+  },
+  {
+    "abbr": "LBDAECO",
+    "full_name": "Los Baños Department of Agribusiness Economics"
+  },
+  {
+    "abbr": "LBDAME",
+    "full_name": "Los Baños Department of Agricultural and Marine Engineering"
+  },
+  {
+    "abbr": "LBDAMPE",
+    "full_name": "Los Baños Department of Agricultural and Marine Power Engineering"
+  },
+  {
+    "abbr": "LBDBTC",
+    "full_name": "Los Baños Dairy Training Center"
+  },
+  {
+    "abbr": "LBDBVS",
+    "full_name": "Los Baños Department of Basic Veterinary Sciences"
+  },
+  {
+    "abbr": "LBDCE",
+    "full_name": "Los Baños Department of Civil Engineering"
+  },
+  {
+    "abbr": "LBDCERP",
+    "full_name": "Los Baños Department of Chemical Engineering and Renewable Energy Processes"
+  },
+  {
+    "abbr": "LBDCHE",
+    "full_name": "Los Baños Department of Chemical Engineering"
+  },
+  {
+    "abbr": "LBDDBT",
+    "full_name": "Los Baños Department of Development Biotechnology"
+  },
+  {
+    "abbr": "LBDDJ",
+    "full_name": "Los Baños Department of Design and Journalism"
+  },
+  {
+    "abbr": "LBDE",
+    "full_name": "Los Baños Department of Engineering"
+  },
+  {
+    "abbr": "LBDEC",
+    "full_name": "Los Baños Department of Economics"
+  },
+  {
+    "abbr": "LBDECO",
+    "full_name": "Los Baños Department of Development Communication"
+  },
+  {
+    "abbr": "LBDEE",
+    "full_name": "Los Baños Department of Electrical Engineering"
+  },
+  {
+    "abbr": "LBDENSC",
+    "full_name": "Los Baños Department of Environmental Science"
+  },
+  {
+    "abbr": "LBDFBS",
+    "full_name": "Los Baños Department of Food Science"
+  },
+  {
+    "abbr": "LBDFPPS",
+    "full_name": "Los Baños Department of Food, Pharma, and Packaging Science"
+  },
+  {
+    "abbr": "LBDHFDS",
+    "full_name": "Los Baños Department of Human Food and Design Science"
+  },
+  {
+    "abbr": "LBDHK",
+    "full_name": "Los Baños Department of Hotel and Kitchen Management"
+  },
+  {
+    "abbr": "LBDHUM",
+    "full_name": "Los Baños Department of Human Kinetics"
+  },
+  {
+    "abbr": "LBDIE",
+    "full_name": "Los Baños Department of Industrial Engineering"
+  },
+  {
+    "abbr": "LBDLWRE",
+    "full_name": "Los Baños Department of Land, Water, and Resources Engineering"
+  },
+  {
+    "abbr": "LBDME",
+    "full_name": "Los Baños Department of Mechanical Engineering"
+  },
+  {
+    "abbr": "LBDMST",
+    "full_name": "Los Baños Department of Materials Science and Technology"
+  },
+  {
+    "abbr": "LBDOCFNR",
+    "full_name": "Los Baños Department of Other College of Forestry and Natural Resources"
+  },
+  {
+    "abbr": "LBDSC",
+    "full_name": "Los Baños Department of Statistics"
+  },
+  {
+    "abbr": "LBDSDS",
+    "full_name": "Los Baños Department of Social Developmental Services"
+  },
+  {
+    "abbr": "LBDSFFG",
+    "full_name": "Los Baños Department of Small Farm and Fisheries Globalization"
+  },
+  {
+    "abbr": "LBDSS",
+    "full_name": "Los Baños Department of Social Sciences"
+  },
+  {
+    "abbr": "LBDVCS",
+    "full_name": "Los Baños Department of Veterinary Clinical Sciences"
+  },
+  {
+    "abbr": "LBDVPS",
+    "full_name": "Los Baños Department of Veterinary Paraclinical Sciences"
+  },
+  {
+    "abbr": "LBFBS",
+    "full_name": "Los Baños Food Biotechnology Society"
+  },
+  {
+    "abbr": "LBFPPS",
+    "full_name": "Los Baños Forest Products and Paper Science"
+  },
+  {
+    "abbr": "LBFSC",
+    "full_name": "Los Baños Forestry Sciences Cluster"
+  },
+  {
+    "abbr": "LBIABE",
+    "full_name": "Los Baños Institute of Animal Biology and Ecology"
+  },
+  {
+    "abbr": "LBIAS",
+    "full_name": "Los Baños Institute of Animal Science"
+  },
+  {
+    "abbr": "LBIBS",
+    "full_name": "Los Baños Institute of Biological Sciences"
+  },
+  {
+    "abbr": "LBIC",
+    "full_name": "Los Baños Institute of Chemistry"
+  },
+  {
+    "abbr": "LBICOPED",
+    "full_name": "Los Baños Institute of Community Outreach, Planning, and Extension for Development"
+  },
+  {
+    "abbr": "LBICROPS",
+    "full_name": "Los Baños Institute of Crop Science"
+  },
+  {
+    "abbr": "LBICS",
+    "full_name": "Los Baños Institute of Computer Studies"
+  },
+  {
+    "abbr": "LBIFST",
+    "full_name": "Los Baños Institute of Food Science and Technology"
+  },
+  {
+    "abbr": "LBIGRD",
+    "full_name": "Los Baños Institute of Graduate Research and Development"
+  },
+  {
+    "abbr": "LBIHNF",
+    "full_name": "Los Baños Institute of Human Nutrition and Food"
+  },
+  {
+    "abbr": "LBIMS",
+    "full_name": "Los Baños Institute of Mathematical Sciences"
+  },
+  {
+    "abbr": "LBIMSP",
+    "full_name": "Los Baños Institute of Management and Strategic Planning"
+  },
+  {
+    "abbr": "LBINSTAT",
+    "full_name": "Los Baños Institute of Statistics"
+  },
+  {
+    "abbr": "LBIoP",
+    "full_name": "Los Baños Institute of Politics"
+  },
+  {
+    "abbr": "LBIRNR",
+    "full_name": "Los Baños Institute of Renewable Natural Resources"
+  },
+  {
+    "abbr": "LBIWEP",
+    "full_name": "Los Baños Institute of Weed and Environmental Protection"
+  },
+  {
+    "abbr": "LBOVCCA",
+    "full_name": "Los Baños Office of the Vice Chancellor for Academic Affairs"
+  },
+  {
+    "abbr": "LBSESAM",
+    "full_name": "Los Baños School of Environmental Science and Management"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "abbr": "CA",
+    "full_name": "College of Agriculture"
+  },
+  {
+    "abbr": "CAFS",
+    "full_name": "College of Agriculture and Food Science"
+  },
+  {
+    "abbr": "CAS",
+    "full_name": "College of Arts and Sciences"
+  },
+  {
+    "abbr": "CDC",
+    "full_name": "College of Development Communication"
+  },
+  {
+    "abbr": "CEAT",
+    "full_name": "College of Engineering and Agro-industrial Technology"
+  },
+  {
+    "abbr": "CEM",
+    "full_name": "College of Economics and Management"
+  },
+  {
+    "abbr": "CFNR",
+    "full_name": "College of Forestry and Natural Resources"
+  },
+  {
+    "abbr": "CHE",
+    "full_name": "College of Human Ecology"
+  },
+  {
+    "abbr": "CPAF",
+    "full_name": "CPAF"
+  },
+  {
+    "abbr": "CVM",
+    "full_name": "College of Veterinary Medicine"
+  },
+  {
+    "abbr": "SESAM",
+    "full_name": "School of Environmental Science and Management"
+  }
+]

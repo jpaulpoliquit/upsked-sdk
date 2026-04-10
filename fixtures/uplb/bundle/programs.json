@@ -1,0 +1,2983 @@
+[
+  {
+    "program_id": 246,
+    "acronym": "MSNRC",
+    "title": "Master of Science in Natural Resources Conservation",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 249,
+    "acronym": "MSPHY",
+    "title": "Master of Science in Physics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 251,
+    "acronym": "PDGEN",
+    "title": "Doctor of Philosophy in Genetics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 252,
+    "acronym": "MSRS",
+    "title": "Master of Science in Rural Sociology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 253,
+    "acronym": "MSSF",
+    "title": "Master of Science in Forestry: Social Forestry",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 254,
+    "acronym": "PDMBB",
+    "title": "Doctor of Philosophy in Molecular Biology and Biotechnology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 255,
+    "acronym": "PDMCB",
+    "title": "Doctor of Philosophy in Microbiology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 256,
+    "acronym": "PDPBR",
+    "title": "Doctor of Philosophy in Plant Breeding",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 342,
+    "acronym": "CRCAS",
+    "title": "Cross Registration-CAS",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": []
+  },
+  {
+    "program_id": 344,
+    "acronym": "CRCEM",
+    "title": "Cross Registration-CEM",
+    "career": "UGRD",
+    "college": "CEM",
+    "curricula": []
+  },
+  {
+    "program_id": 369,
+    "acronym": "BSMatE",
+    "title": "Bachelor of Science in Materials Engineering",
+    "career": "UGRD",
+    "college": "CEAT",
+    "curricula": [
+      {
+        "curriculum_id": 180,
+        "code": "BSMatE_2022",
+        "name": "BSMatE General 2022",
+        "course_count": 58
+      }
+    ]
+  },
+  {
+    "program_id": 257,
+    "acronym": "MSSFI",
+    "title": "Master of Science in Forestry: Silviculture and Forest Influences",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 258,
+    "acronym": "MSSSC",
+    "title": "Master of Science in Soil Science",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 259,
+    "acronym": "MSSTT",
+    "title": "Master of Science in Statistics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 260,
+    "acronym": "MSVET",
+    "title": "Master of Science in Veterinary Medicine",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 261,
+    "acronym": "MSVPH",
+    "title": "No Available DATA",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 262,
+    "acronym": "MSVPY",
+    "title": "No Available DATA",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 263,
+    "acronym": "MSWLD",
+    "title": "Master of Science in Wildlife Studies",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 264,
+    "acronym": "MSWST",
+    "title": "Master of Science in Forestry: Wood Science & Technology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 268,
+    "acronym": "PDACH",
+    "title": "Doctor of Philosophy in Agricultural Chemistry",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 269,
+    "acronym": "PDAE",
+    "title": "Doctor of Philosophy in Agricultural Engineering",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 270,
+    "acronym": "PDAEC",
+    "title": "Doctor of Philosophy in Agricultural Economics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 271,
+    "acronym": "PDAED",
+    "title": "No Available DATA",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 272,
+    "acronym": "PDAGR",
+    "title": "Doctor of Philosophy in Agronomy",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 204,
+    "acronym": "MPSPP",
+    "title": "Master in Public Affairs in Strategic Planning & Public Policy",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 314,
+    "acronym": "PDRES",
+    "title": "Doctor of Philosophy by Research in Environmental Science",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 315,
+    "acronym": "PDRFB",
+    "title": "Doctor of Philosophy by Research in Forestry Forest Biological Sciences",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 316,
+    "acronym": "PDRFM",
+    "title": "Doctor of Philosophy by Research in Forestry Forest Resources Management",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 318,
+    "acronym": "PDRGE",
+    "title": "Doctor of Philosophy by Research in Genetics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 319,
+    "acronym": "PDRHN",
+    "title": "Doctor of Philosophy by Research in Human Nutrition",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 320,
+    "acronym": "PDRHR",
+    "title": "Doctor of Philosophy by Research in Horticulture",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 321,
+    "acronym": "PDRMB",
+    "title": "Doctor of Philosophy by Research in Molecular Biology and Biotechnology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 322,
+    "acronym": "PDRMC",
+    "title": "Doctor of Philosophy by Research in Microbiology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 323,
+    "acronym": "PDRPB",
+    "title": "Doctor of Philosophy by Research in Plant Breeding",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 324,
+    "acronym": "PDRPP",
+    "title": "Doctor of Philosophy by Research in Plant Pathology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 325,
+    "acronym": "PDRSI",
+    "title": "Doctor of Philosophy by Research in Forestry: Silviculture and Forest Influences",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 326,
+    "acronym": "PDRSS",
+    "title": "Doctor of Philosophy by Research in Soil Science",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 327,
+    "acronym": "PDRST",
+    "title": "Doctor of Philosophy by Research in Statistics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 329,
+    "acronym": "PDRWT",
+    "title": "Doctor of Philosophy by Research in Forestry Wood Science & Technology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 330,
+    "acronym": "PDSFF",
+    "title": "Doctor of Philosophy in Forestry Social Forestry and Forest Governance",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 331,
+    "acronym": "PDSFI",
+    "title": "Doctor of Philosophy in Forestry: Silviculture and Forest Influences",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 338,
+    "acronym": "DENP",
+    "title": "Graduate Diploma in Environmental Planning",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 339,
+    "acronym": "CRGS",
+    "title": "Cross Registration Graduate School",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 181,
+    "acronym": "MCN",
+    "title": "Master in Clinical Nutrition",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 370,
+    "acronym": "MSVPR",
+    "title": "Master of Science in Veterinary Parasitology",
+    "career": "GRAD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 372,
+    "acronym": "PDVM",
+    "title": "Doctor of Philosophy in Veterinary Medicine",
+    "career": "GRAD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 373,
+    "acronym": "PMTME",
+    "title": "PM Tropical Marine Ecosystem Management",
+    "career": "GRAD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 216,
+    "acronym": "MSAED",
+    "title": "Master of Science in Agricultural Education",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 217,
+    "acronym": "MSPPT",
+    "title": "Master of Science in Plant Pathology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 374,
+    "acronym": "SPEGS",
+    "title": "Special GS",
+    "career": "GRAD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 494,
+    "acronym": "PDAP",
+    "title": "Doctor of Philosophy in Applied Physics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 495,
+    "acronym": "PDRAP",
+    "title": "Doctor of Philosophy by Research in Applied Physics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 23,
+    "acronym": "BSEE",
+    "title": "Bachelor of Science in Electrical Engineering",
+    "career": "UGRD",
+    "college": "CEAT",
+    "curricula": [
+      {
+        "curriculum_id": 107,
+        "code": "BSEE_2018_COMPUTER_ENGINEERING_INNOVATIONEERING",
+        "name": "BSEE 2018 Computer Engineering Innovationeering",
+        "course_count": 78
+      },
+      {
+        "curriculum_id": 108,
+        "code": "BSEE_2018_COMPUTER_ENGINEERING_ENGINEERING_INDUSTRY_RESEARCH",
+        "name": "BSEE 2018 Computer Engineering Engineering Industry Research",
+        "course_count": 78
+      },
+      {
+        "curriculum_id": 109,
+        "code": "BSEE_2018_ELECTRONICS_ENGINEERING_THESIS",
+        "name": "BSEE 2018 Electronics Engineering Thesis",
+        "course_count": 78
+      },
+      {
+        "curriculum_id": 111,
+        "code": "BSEE_2018_ELECTRONICS_ENGINEERING_INDUSTRY_RESEARCH",
+        "name": "BSEE 2018 Electronics Engineering Engineering",
+        "course_count": 78
+      },
+      {
+        "curriculum_id": 104,
+        "code": "BSEE_2018_POWER_INNOVATIONEERING",
+        "name": "BSEE 2018 Power Engineering Innovationeering",
+        "course_count": 78
+      },
+      {
+        "curriculum_id": 105,
+        "code": "BSEE_2018_POWER_ENGINEERING_INDUSTRY_RESEARCH",
+        "name": "BSEE 2018 Power Engineering Engineering Industry Research",
+        "course_count": 78
+      },
+      {
+        "curriculum_id": 103,
+        "code": "BSEE_2018_POWER_THESIS",
+        "name": "BSEE 2018 Power Engineering Thesis",
+        "course_count": 78
+      },
+      {
+        "curriculum_id": 106,
+        "code": "BSEE_2018_COMPUTER_ENGINEERING_THESIS",
+        "name": "BSEE 2018 Computer Engineering Thesis",
+        "course_count": 78
+      },
+      {
+        "curriculum_id": 110,
+        "code": "BSEE_2018_ELECTRONICS_ENGINEERING_INNOVATIONEERING",
+        "name": "BSEE 2018 Electronics Engineering Innovationeering",
+        "course_count": 78
+      },
+      {
+        "curriculum_id": 164,
+        "code": "BSEE_2018_ELECTRICAL_GENERAL",
+        "name": "Bachelor of Science in Electrical Engineering",
+        "course_count": 77
+      },
+      {
+        "curriculum_id": 163,
+        "code": "BSEE_2018_COMPUTER_ENGG_GENERAL",
+        "name": "BSEE 2018 Computer Engineering General",
+        "course_count": 70
+      },
+      {
+        "curriculum_id": 162,
+        "code": "BSEE_2018_POWER_ENGG_GENERAL",
+        "name": "BSEE 2018 Power Engineering General",
+        "course_count": 70
+      }
+    ]
+  },
+  {
+    "program_id": 529,
+    "acronym": "MSAP",
+    "title": "Master of Science in Applied Physics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 562,
+    "acronym": "PDSTAT",
+    "title": "Doctor of Philosophy in Statistics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 188,
+    "acronym": "MFSFI",
+    "title": "Master of Forestry: Silviculture & Forest Influences",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 19,
+    "acronym": "BSECO",
+    "title": "Bachelor of Science in Economics",
+    "career": "UGRD",
+    "college": "CEM",
+    "curricula": [
+      {
+        "curriculum_id": 130,
+        "code": "BSECON_2018_DEVELOPMENT_ECON",
+        "name": "BSECON 2018 Development Economics",
+        "course_count": 87
+      },
+      {
+        "curriculum_id": 131,
+        "code": "BSECON_2018_ENVRMENTAL_ECON",
+        "name": "BSECON 2018 Environmental Economics",
+        "course_count": 87
+      },
+      {
+        "curriculum_id": 169,
+        "code": "BSECON_2018_GENERAL",
+        "name": "BSECON 2018 General",
+        "course_count": 74
+      }
+    ]
+  },
+  {
+    "program_id": 1,
+    "acronym": "BSA",
+    "title": "Bachelor of Science in Agriculture",
+    "career": "UGRD",
+    "college": "CAFS",
+    "curricula": [
+      {
+        "curriculum_id": 2,
+        "code": "BSA_2018_ANSC_MPSP",
+        "name": "BSA 2018 Animal Science (Major Problem/Special Problem)",
+        "course_count": 84
+      },
+      {
+        "curriculum_id": 1,
+        "code": "BSA_2018_ANSC_THPR",
+        "name": "BSA 2018 Animal Science (Thesis/Practicum)",
+        "course_count": 84
+      },
+      {
+        "curriculum_id": 141,
+        "code": "BSA_2018_GENERAL",
+        "name": "BSA 2018 General",
+        "course_count": 54
+      },
+      {
+        "curriculum_id": 4,
+        "code": "BSA_2018_AGR_CRP_PROD_MGMT_THPR",
+        "name": "BSA 2018 Agriculture Crop Production Manangement (Thesis/Practicum)",
+        "course_count": 89
+      },
+      {
+        "curriculum_id": 7,
+        "code": "BSA_2018_AGR_CRP_PROD_MGMT_MPSP",
+        "name": "BSA 2018 Agriculture Crop Production Manangement (Major Problem/Special Problem)",
+        "course_count": 89
+      },
+      {
+        "curriculum_id": 9,
+        "code": "BSA_2018_HORT_LANDSCAPE_THPR",
+        "name": "BSA 2018 Horticulture Landscape (Thesis/Practicum)",
+        "course_count": 80
+      },
+      {
+        "curriculum_id": 10,
+        "code": "BSA_2018_HORT_CPM_VEG_THPR",
+        "name": "BSA 2018 Horticulture Crop Production Management Vegtables (Thesis/Practicum)",
+        "course_count": 78
+      },
+      {
+        "curriculum_id": 13,
+        "code": "BSA_2018_HORT_PH_THPR",
+        "name": "BSA 2018 Horticulture Postharvest (Thesis/Practicum)",
+        "course_count": 72
+      },
+      {
+        "curriculum_id": 14,
+        "code": "BSA_2018_HORT_PHYSIO_TISSUE_CULTURE",
+        "name": "BSA 2018 Horticulture Physiology Tissue Culture",
+        "course_count": 69
+      },
+      {
+        "curriculum_id": 16,
+        "code": "BSA_2018_HORT_LANDSCAPE_MPSP",
+        "name": "BSA 2018 Horticulture Landscape (Major Problem/Special Problem)",
+        "course_count": 79
+      },
+      {
+        "curriculum_id": 19,
+        "code": "BSA_2018_HORT_CPM_FRUITS_MPSP",
+        "name": "BSA 2018 Horticulture Crop Production Management Fruits (Major Problem/Special Problem)",
+        "course_count": 75
+      },
+      {
+        "curriculum_id": 20,
+        "code": "BSA_2018_HORT_PH_MPSP",
+        "name": "BSA 2018 Horticulture Postharvest (Major Problem/Special Problem)",
+        "course_count": 71
+      },
+      {
+        "curriculum_id": 23,
+        "code": "BSA_2018_ENT_THPR",
+        "name": "BSA 2018 Entomology (Thesis/Practicum)",
+        "course_count": 74
+      },
+      {
+        "curriculum_id": 24,
+        "code": "BSA_2018_ENT_MPSP",
+        "name": "BSA 2018 Entomology (Major Problem/Special Problem)",
+        "course_count": 74
+      },
+      {
+        "curriculum_id": 26,
+        "code": "BSA_2018_PPTH_MPSP",
+        "name": "BSA 2018 Plant Pathology (Major Problem/Special Problem)",
+        "course_count": 85
+      },
+      {
+        "curriculum_id": 28,
+        "code": "BSA_2018_WEEDS_MPSP",
+        "name": "BSA 2018 Weeds (Major Problem/Special Problem)",
+        "course_count": 82
+      },
+      {
+        "curriculum_id": 31,
+        "code": "BSA_2018_SOIL_THPR",
+        "name": "BSA 2018 Soil (Thesis/Practicum)",
+        "course_count": 91
+      },
+      {
+        "curriculum_id": 32,
+        "code": "BSA_2018_SOIL_MPSP",
+        "name": "BSA 2018 Soil (Major Problem/Special Problem)",
+        "course_count": 91
+      },
+      {
+        "curriculum_id": 34,
+        "code": "BSA_2018_ASYS_MPSP",
+        "name": "BSA 2018 Agricultural System (Major Problem/Special Problem)",
+        "course_count": 75
+      },
+      {
+        "curriculum_id": 36,
+        "code": "BSA_2018_LAF_MPSP",
+        "name": "BSA 2018 Landscape Agroforestry (Major Problem/Special Problem)",
+        "course_count": 74
+      },
+      {
+        "curriculum_id": 3,
+        "code": "BSA_2018_AGR_PLNT_BRDNG_THPR",
+        "name": "BSA 2018 Agriculture Plant Breeding Breeding (Thesis/Practicum)",
+        "course_count": 96
+      },
+      {
+        "curriculum_id": 5,
+        "code": "BSA_2018_AGR_SEED_SCI_TECH_THPR",
+        "name": "BSA 2018 Agriculture Seed Science Technology (Thesis/Practicum)",
+        "course_count": 86
+      },
+      {
+        "curriculum_id": 6,
+        "code": "BSA_2018_AGR_PLNT_BRDNG_MPSP",
+        "name": "BSA 2018 Agriculture Plant Breeding Breeding (Major Problem/Special Problem)",
+        "course_count": 89
+      },
+      {
+        "curriculum_id": 8,
+        "code": "BSA_2018_AGR_SEED_SCI_TECH_MPSP",
+        "name": "BSA 2018 Agriculture Seed Science Technology (Major Problem/Special Problem)",
+        "course_count": 86
+      },
+      {
+        "curriculum_id": 11,
+        "code": "BSA_2018_HORT_CPM_ORN_THPR",
+        "name": "BSA 2018 Horticulture Crop Production Management Ornamentals (Thesis/Practicum)",
+        "course_count": 80
+      },
+      {
+        "curriculum_id": 12,
+        "code": "BSA_2018_HORT_CPM_FRUITS_THPR",
+        "name": "BSA 2018 Horticulture Crop Production Management Fruits (Thesis/Practicum)",
+        "course_count": 76
+      },
+      {
+        "curriculum_id": 15,
+        "code": "BSA_2018_HORT_PB_THPR",
+        "name": "BSA 2018 Horticulture Plant Breeding (Thesis/Practicum)",
+        "course_count": 84
+      },
+      {
+        "curriculum_id": 17,
+        "code": "BSA_2018_HORT_CPM_VEG_MPSP",
+        "name": "BSA 2018 Horticulture Crop Production Management Vegtables (Major Problem/Special Problem)",
+        "course_count": 77
+      },
+      {
+        "curriculum_id": 18,
+        "code": "BSA_2018_HORT_CPM_ORN_MPSP",
+        "name": "BSA 2018 Horticulture Crop Production Management Ornamentals (Major Problem/Special Problem)",
+        "course_count": 79
+      },
+      {
+        "curriculum_id": 21,
+        "code": "SHEET 12",
+        "name": "BSA 2018 Horticulture Physiology Tissue Culture (Major Problem/Special Problem)",
+        "course_count": 68
+      },
+      {
+        "curriculum_id": 22,
+        "code": "BSA_2018_HORT_PB_MPSP",
+        "name": "BSA 2018 Horticulture Plant Breeding (Major Problem/Special Problem)",
+        "course_count": 84
+      },
+      {
+        "curriculum_id": 25,
+        "code": "BSA_2018_PPTH_THPR",
+        "name": "BSA 2018 Plant Pathology (Thesis/Practicum)",
+        "course_count": 85
+      },
+      {
+        "curriculum_id": 27,
+        "code": "BSA_2018_WEEDS_THPR",
+        "name": "BSA 2018 Weeds (Thesis/Practicum)",
+        "course_count": 82
+      },
+      {
+        "curriculum_id": 29,
+        "code": "BSA_2018_AERS_THPR",
+        "name": "BSA 2018 Agricultural Extension (Thesis/Practicum)",
+        "course_count": 76
+      },
+      {
+        "curriculum_id": 30,
+        "code": "BSA_2018_AERS_MPSP",
+        "name": "BSA 2018 Agricultural Extension (Major Problem/Special Problem)",
+        "course_count": 76
+      },
+      {
+        "curriculum_id": 33,
+        "code": "BSA_2018_ASYS_THPR",
+        "name": "BSA 2018 Agricultural System (Thesis/Practicum)",
+        "course_count": 75
+      },
+      {
+        "curriculum_id": 35,
+        "code": "BSA_2018_LAF_THPR",
+        "name": "BSA 2018 Landscape Agroforestry (Thesis/Practicum)",
+        "course_count": 74
+      }
+    ]
+  },
+  {
+    "program_id": 366,
+    "acronym": "PDRVM",
+    "title": "Doctor of Philisophy by Research in Veterinary",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 31,
+    "acronym": "MACA",
+    "title": "Master of Arts in Communication Arts",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 4,
+    "acronym": "BACA",
+    "title": "Bachelor of Arts in Communication Arts",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": [
+      {
+        "curriculum_id": 47,
+        "code": "BACA_2018_SPCM",
+        "name": "BACA 2018 Speech Communication",
+        "course_count": 71
+      },
+      {
+        "curriculum_id": 48,
+        "code": "BACA_2018_THEA",
+        "name": "BACA 2018 Theatre Arts",
+        "course_count": 69
+      },
+      {
+        "curriculum_id": 49,
+        "code": "BACA_2018_WRITING",
+        "name": "BACA 2018 Writing",
+        "course_count": 72
+      },
+      {
+        "curriculum_id": 144,
+        "code": "BACA_2018_GENERAL",
+        "name": "BACA 2018 General",
+        "course_count": 57
+      }
+    ]
+  },
+  {
+    "program_id": 175,
+    "acronym": "MAENT",
+    "title": "Master of Agriculture in Entomology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 172,
+    "acronym": "AScF",
+    "title": "Associate of Science in Forestry",
+    "career": "ASSO",
+    "college": "CFNR",
+    "curricula": []
+  },
+  {
+    "program_id": 363,
+    "acronym": "ASDC",
+    "title": "Associate in Science in Development Communication",
+    "career": "ASSO",
+    "college": "CDC",
+    "curricula": []
+  },
+  {
+    "program_id": 17,
+    "acronym": "BSAAE",
+    "title": "Bachelor of Science in Agricultural and Applied Economics",
+    "career": "UGRD",
+    "college": "CEM",
+    "curricula": [
+      {
+        "curriculum_id": 118,
+        "code": "BSAAE_2018_PEFM_TH",
+        "name": "BSAAE 2018 Production Economics and Farm Management Thesis",
+        "course_count": 67
+      },
+      {
+        "curriculum_id": 120,
+        "code": "BSAAE_2018_AMP_TH",
+        "name": "BSAAE 2018 Agricultural Marketing and Prices Thesis",
+        "course_count": 67
+      },
+      {
+        "curriculum_id": 121,
+        "code": "BSAAE_2018_AMP_MP",
+        "name": "BSAAE 2018 Agricultural Marketing and Prices Major Problem",
+        "course_count": 67
+      },
+      {
+        "curriculum_id": 123,
+        "code": "BSAAE_2018_RFC_MP",
+        "name": "BSAAE 2018 Rural Finance and Cooperatives Major Problem",
+        "course_count": 68
+      },
+      {
+        "curriculum_id": 125,
+        "code": "BSAAE_2018_NRE_MP",
+        "name": "BSAAE 2018 Natural Resource Economics Major Problem",
+        "course_count": 69
+      },
+      {
+        "curriculum_id": 127,
+        "code": "BSAAE_2018_FNE_MP",
+        "name": "BSAAE 2018 Food and Nutrition Economics Major Problem",
+        "course_count": 67
+      },
+      {
+        "curriculum_id": 119,
+        "code": "BSAAE_2018_PEFM_MP",
+        "name": "BSAAE 2018 Production Economics and Farm Management Major Problem",
+        "course_count": 67
+      },
+      {
+        "curriculum_id": 122,
+        "code": "BSAAE_2018_RFC_TH",
+        "name": "BSAAE 2018 Rural Finance and Cooperatives Thesis",
+        "course_count": 68
+      },
+      {
+        "curriculum_id": 124,
+        "code": "BSAAE_2018_NRE_TH",
+        "name": "BSAAE 2018 Natural Resource Economics Thesis",
+        "course_count": 69
+      },
+      {
+        "curriculum_id": 126,
+        "code": "BSAAE_2018_FNE_TH",
+        "name": "BSAAE 2018 Food and Nutrition Economics Thesis",
+        "course_count": 67
+      },
+      {
+        "curriculum_id": 167,
+        "code": "BSAAE_2018_GENERAL",
+        "name": "BSAAE 2018 General",
+        "course_count": 64
+      }
+    ]
+  },
+  {
+    "program_id": 183,
+    "acronym": "MFE",
+    "title": "Master in Food Engineering",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 460,
+    "acronym": "MA/MS",
+    "title": "Master of Arts/Master of Science (With Thesis)",
+    "career": "GS",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 184,
+    "acronym": "MFFBS",
+    "title": "Master of Forestry: Forest Biological Science",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 185,
+    "acronym": "MFFOR",
+    "title": "Master of Forestry: Forestry",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 186,
+    "acronym": "MFFRM",
+    "title": "Master of Forestry: Forest Resource Management",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 187,
+    "acronym": "MFSF",
+    "title": "Master of Forestry: Social Forestry",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 189,
+    "acronym": "MFWST",
+    "title": "Master of Forestry: Wood science & Technology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 27,
+    "acronym": "BSN",
+    "title": "Bachelor of Science in Nutrition",
+    "career": "UGRD",
+    "college": "CHE",
+    "curricula": [
+      {
+        "curriculum_id": 139,
+        "code": "BSN_2018",
+        "name": "BSN 2018",
+        "course_count": 50
+      }
+    ]
+  },
+  {
+    "program_id": 190,
+    "acronym": "MIT",
+    "title": "Master of Information Technology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 232,
+    "acronym": "MSECN",
+    "title": "Master of Science in Economics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 233,
+    "acronym": "MSEED",
+    "title": "Master of Science in Extension Education",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 234,
+    "acronym": "MSENS",
+    "title": "Master of Science in Environmental Science",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 295,
+    "acronym": "PDRA",
+    "title": "Doctor of Philosophy by Research in Agricultural Economics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 289,
+    "acronym": "PDHNU",
+    "title": "Doctor of Philosophy in Human Nutrition",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 290,
+    "acronym": "PDHRT",
+    "title": "Doctor of Philosophy in Horticulture",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 294,
+    "acronym": "PDPPT",
+    "title": "Doctor of Philosophy in Plant Pathology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 26,
+    "acronym": "BSHE",
+    "title": "Bachelor of Science in Human Ecology",
+    "career": "UGRD",
+    "college": "CHE",
+    "curricula": [
+      {
+        "curriculum_id": 137,
+        "code": "BSHE_2018_SOCIAL TECHNOLOGY (ST)",
+        "name": "BSHE 2018 Social Technology (ST)",
+        "course_count": 54
+      },
+      {
+        "curriculum_id": 138,
+        "code": "BSHE_2018_HUMAN AND FAMILY DEVELOPME",
+        "name": "BSHE 2018 Human and Family Development",
+        "course_count": 61
+      },
+      {
+        "curriculum_id": 136,
+        "code": "BSHE_2018_HUMAN SETTLEMENTS PLANNING",
+        "name": "BSHE 2018 Human Settlements Planning",
+        "course_count": 57
+      },
+      {
+        "curriculum_id": 171,
+        "code": "BSHE_2018_GENERAL",
+        "name": "BSHE 2018 General",
+        "course_count": 35
+      }
+    ]
+  },
+  {
+    "program_id": 9,
+    "acronym": "BSBIO",
+    "title": "Bachelor of Science in Biology",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": [
+      {
+        "curriculum_id": 149,
+        "code": "BSBIO_2018_GENERAL",
+        "name": "BSBIO 2018 General",
+        "course_count": 50
+      },
+      {
+        "curriculum_id": 59,
+        "code": "BSBIO_2018_ECOLOGY",
+        "name": "BSBIO 2018 Ecology",
+        "course_count": 117
+      },
+      {
+        "curriculum_id": 60,
+        "code": "BSBIO_2018_GENETICS",
+        "name": "BSBIO 2018 Genetics",
+        "course_count": 82
+      },
+      {
+        "curriculum_id": 61,
+        "code": "BSBIO_2018_MICROBIOLOGY",
+        "name": "BSBIO 2018 Microbiology",
+        "course_count": 80
+      },
+      {
+        "curriculum_id": 63,
+        "code": "BSBIO_2018_SYSTEMATICS",
+        "name": "BSBIO 2018 Systematics",
+        "course_count": 101
+      },
+      {
+        "curriculum_id": 64,
+        "code": "BSBIO_2018_WILDLIFE_BIOLOGY",
+        "name": "BSBIO 2018 Wildlife Biology",
+        "course_count": 78
+      },
+      {
+        "curriculum_id": 58,
+        "code": "BSBIO_2018_CELL_AND_MOLECULAR_BIOLOG",
+        "name": "BSBIO 2018 Cell and Molecular Biology",
+        "course_count": 88
+      },
+      {
+        "curriculum_id": 62,
+        "code": "BSBIO_2018_PLANT BIOLOGY",
+        "name": "BSBIO 2018 Plant Biology",
+        "course_count": 83
+      },
+      {
+        "curriculum_id": 65,
+        "code": "BSBIO_2018_ZOOLOGY",
+        "name": "BSBIO 2018 Zoology",
+        "course_count": 82
+      }
+    ]
+  },
+  {
+    "program_id": 298,
+    "acronym": "PDRAD",
+    "title": "Doctor of Philosophy by Research in Agricultural Education",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 299,
+    "acronym": "PDRAE",
+    "title": "Doctor of Philosophy by Research in Agricultural Engineering",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 300,
+    "acronym": "PDRAG",
+    "title": "Doctor of Philosophy by Research in Agronomy",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 332,
+    "acronym": "PDSSC",
+    "title": "Doctor of Philosophy in Soil Science",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 371,
+    "acronym": "PDRHD",
+    "title": "Doctor of Philosophy by Research in Human Development",
+    "career": "GRAD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 394,
+    "acronym": "PDRZO",
+    "title": "Doctor of Philosophy in Research in Zoology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 356,
+    "acronym": "EXGS",
+    "title": "Exchange-GS",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 358,
+    "acronym": "PDWST",
+    "title": "Doctor of Philosophy Wood Science and Technology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 360,
+    "acronym": "PDRCE",
+    "title": "Doctor of Philosophy by Research in CHemical Engineering",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 173,
+    "acronym": "BSAcc",
+    "title": "Bachelor of Science in Accountancy",
+    "career": "UGRD",
+    "college": "CEM",
+    "curricula": [
+      {
+        "curriculum_id": 172,
+        "code": "BSAcc_2022_GENERAL",
+        "name": "BSAcc 2022 General",
+        "course_count": 71
+      }
+    ]
+  },
+  {
+    "program_id": 595,
+    "acronym": "MSDS",
+    "title": "Master in Social Development and Sustainability",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 598,
+    "acronym": "BSS",
+    "title": "Bachelor of Sport Science",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 597,
+    "acronym": "PM-ReS",
+    "title": "Professional Master in Resilience Studies",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 378,
+    "acronym": "CRCDC",
+    "title": "Cross Registration-CDC",
+    "career": "UGRD",
+    "college": "CDC",
+    "curricula": []
+  },
+  {
+    "program_id": 379,
+    "acronym": "CRCFN",
+    "title": "Cross Registration-CFNR",
+    "career": "UGRD",
+    "college": "CFNR",
+    "curricula": []
+  },
+  {
+    "program_id": 380,
+    "acronym": "CRCHE",
+    "title": "Cross Registration-CHE",
+    "career": "UGRD",
+    "college": "CHE",
+    "curricula": []
+  },
+  {
+    "program_id": 381,
+    "acronym": "DAM",
+    "title": "Diploma in Agribusiness Management",
+    "career": "UGRD",
+    "college": "CEM",
+    "curricula": []
+  },
+  {
+    "program_id": 382,
+    "acronym": "DCS",
+    "title": "Diploma in Computer Science",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": []
+  },
+  {
+    "program_id": 383,
+    "acronym": "DEE",
+    "title": "Diploma in Electrical Engineering",
+    "career": "UGRD",
+    "college": "CEAT",
+    "curricula": []
+  },
+  {
+    "program_id": 384,
+    "acronym": "DPE",
+    "title": "Diploma in Physical Education",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": []
+  },
+  {
+    "program_id": 385,
+    "acronym": "EXCCS",
+    "title": "Exchange-CACAS",
+    "career": "UGRD",
+    "college": "CACAS",
+    "curricula": []
+  },
+  {
+    "program_id": 346,
+    "acronym": "BSAE",
+    "title": "Bachelor of Science in Agricultural Egineering",
+    "career": "UGRD",
+    "college": "CEAT",
+    "curricula": []
+  },
+  {
+    "program_id": 386,
+    "acronym": "EXCVM",
+    "title": "Exchange-CVM",
+    "career": "UGRD",
+    "college": "CVM",
+    "curricula": []
+  },
+  {
+    "program_id": 387,
+    "acronym": "NDCA",
+    "title": "Non Degree-CAFS",
+    "career": "UGRD",
+    "college": "CAFS",
+    "curricula": []
+  },
+  {
+    "program_id": 388,
+    "acronym": "NDCDC",
+    "title": "Non Degree-CDC",
+    "career": "UGRD",
+    "college": "CDC",
+    "curricula": []
+  },
+  {
+    "program_id": 389,
+    "acronym": "NDCEA",
+    "title": "Non Degree-CEAT",
+    "career": "UGRD",
+    "college": "CEAT",
+    "curricula": []
+  },
+  {
+    "program_id": 343,
+    "acronym": "CRCEA",
+    "title": "Cross Registration-CEAT",
+    "career": "UGRD",
+    "college": "CEAT",
+    "curricula": []
+  },
+  {
+    "program_id": 345,
+    "acronym": "EXCEA",
+    "title": "Exchange-CEAT",
+    "career": "UGRD",
+    "college": "CEAT",
+    "curricula": []
+  },
+  {
+    "program_id": 30,
+    "acronym": "CIF",
+    "title": "Certificate in Forestry",
+    "career": "UGRD",
+    "college": "CFNR",
+    "curricula": [
+      {
+        "curriculum_id": 135,
+        "code": "CIF_2018",
+        "name": "CIF 2018",
+        "course_count": 31
+      }
+    ]
+  },
+  {
+    "program_id": 390,
+    "acronym": "NDCFN",
+    "title": "Non Degree-CFNR",
+    "career": "UGRD",
+    "college": "CFNR",
+    "curricula": []
+  },
+  {
+    "program_id": 391,
+    "acronym": "NDCVM",
+    "title": "Non Degree-CVM",
+    "career": "UGRD",
+    "college": "CVM",
+    "curricula": []
+  },
+  {
+    "program_id": 297,
+    "acronym": "PDRAC",
+    "title": "Doctor of Philosophy by Research in Agricultural Chemistry",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 182,
+    "acronym": "MDMG",
+    "title": "Master in Development Management & Governance",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 273,
+    "acronym": "PDAMT",
+    "title": "Doctor of Philosophy in Applied Mathematics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 361,
+    "acronym": "MSF",
+    "title": "Master of Science in Forestry",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 274,
+    "acronym": "PDASC",
+    "title": "Doctor of Philosophy in Animal Science",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 275,
+    "acronym": "PDBCH",
+    "title": "Doctor of Philosophy in Biochemistry",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 277,
+    "acronym": "PDCD",
+    "title": "Doctor of Philosophy in Community Development",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 278,
+    "acronym": "PDCHM",
+    "title": "Doctor of Philosophy in Chemistry",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 279,
+    "acronym": "PDCSC",
+    "title": "Doctor of Philosophy in Computer Science",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 6,
+    "acronym": "BASOC",
+    "title": "Bachelor of Arts in Sociology",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": [
+      {
+        "curriculum_id": 146,
+        "code": "BASOC_2018_GENERAL",
+        "name": "BASOC 2018 General",
+        "course_count": 75
+      },
+      {
+        "curriculum_id": 53,
+        "code": "BASOC_2018_PRACTICUM",
+        "name": "BASOC 2018 Practicum",
+        "course_count": 61
+      },
+      {
+        "curriculum_id": 52,
+        "code": "BASOC_2018_THESIS",
+        "name": "BASOC 2018 Thesis",
+        "course_count": 61
+      }
+    ]
+  },
+  {
+    "program_id": 596,
+    "acronym": "PDRWLDS",
+    "title": "Doctor of Philosophy by Research (Wildlife Science)",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 349,
+    "acronym": "NDCEM",
+    "title": "Non Degree-CEM",
+    "career": "UGRD",
+    "college": "CEM",
+    "curricula": []
+  },
+  {
+    "program_id": 350,
+    "acronym": "EXCEM",
+    "title": "Exchange-CEM",
+    "career": "UGRD",
+    "college": "CEM",
+    "curricula": []
+  },
+  {
+    "program_id": 3,
+    "acronym": "BSFST",
+    "title": "Bachelor of Science in Food Science and Technology",
+    "career": "UGRD",
+    "college": "CAFS",
+    "curricula": [
+      {
+        "curriculum_id": 143,
+        "code": "BSFST_2018_GENERAL",
+        "name": "BSFST 2018 General",
+        "course_count": 110
+      },
+      {
+        "curriculum_id": 46,
+        "code": "BSFT_2018_PRSP",
+        "name": "BSFT 2018 PRSP",
+        "course_count": 109
+      },
+      {
+        "curriculum_id": 45,
+        "code": "BSFST_2018_THPR",
+        "name": "BSFST 2018 THPR",
+        "course_count": 109
+      }
+    ]
+  },
+  {
+    "program_id": 218,
+    "acronym": "MSAGM",
+    "title": "Master of Science in Agrometeorology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 280,
+    "acronym": "PDDVC",
+    "title": "Doctor of Philosophy in Development Communication",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 224,
+    "acronym": "MSCD",
+    "title": "Master of Science in Community Development",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 219,
+    "acronym": "MSAGR",
+    "title": "Master of Science in Agronomy",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 220,
+    "acronym": "MSAPN",
+    "title": "Master of Science in Applied Nutrition",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 222,
+    "acronym": "MSBCH",
+    "title": "Master of Science in Biochemistry",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 225,
+    "acronym": "MSCHE",
+    "title": "Master of Science in Chemical Engineering",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 226,
+    "acronym": "MSCHM",
+    "title": "Master of Science in Chemistry",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 362,
+    "acronym": "PDEDN",
+    "title": "Doctor of Philosophy in Environmental Diplomacy & Negotiations",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 364,
+    "acronym": "MPSDC",
+    "title": "Master of Professional Studies",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 205,
+    "acronym": "MSABM",
+    "title": "Master of Science in Agricultural Business Management",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 206,
+    "acronym": "MSACH",
+    "title": "Master of Science in Agricultural Chemistry",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 12,
+    "acronym": "BSMATH",
+    "title": "Bachelor of Science in Mathematics",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": [
+      {
+        "curriculum_id": 69,
+        "code": "BSMATH_2018_SP",
+        "name": "BSMATH 2018 Special Problem",
+        "course_count": 69
+      },
+      {
+        "curriculum_id": 68,
+        "code": "BSMATH_2018_THESIS",
+        "name": "BSMATH 2018 Thesis",
+        "course_count": 70
+      },
+      {
+        "curriculum_id": 151,
+        "code": "BSMATH_2018_GENERAL",
+        "name": "BSMATH 2018 General",
+        "course_count": 58
+      }
+    ]
+  },
+  {
+    "program_id": 16,
+    "acronym": "BSDC",
+    "title": "Bachelor of Science in Development Communication",
+    "career": "UGRD",
+    "college": "CDC",
+    "curricula": [
+      {
+        "curriculum_id": 79,
+        "code": "BSDC_2018",
+        "name": "BSDC 2018",
+        "course_count": 306
+      }
+    ]
+  },
+  {
+    "program_id": 207,
+    "acronym": "MSFSC",
+    "title": "Master of Science in Food Science",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 281,
+    "acronym": "PDDVS",
+    "title": "Doctor of Philosophy in Development Studies",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 282,
+    "acronym": "PDEED",
+    "title": "Doctor of Philosophy in Extension Education",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 283,
+    "acronym": "PDENS",
+    "title": "Doctor of Philosophy in Environmental Science",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 191,
+    "acronym": "MSASC",
+    "title": "Master of Science in Animal Science",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 192,
+    "acronym": "MMABM",
+    "title": "Master of Management Agribusiness Management",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 193,
+    "acronym": "MSBOT",
+    "title": "Master of Science in Botany",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 194,
+    "acronym": "MMAME",
+    "title": "Master of Management Agribusiness Management & Entprepreneur",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 195,
+    "acronym": "MMBM",
+    "title": "Master of Management in Business Management",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 29,
+    "acronym": "BSME",
+    "title": "Bachelor of Science in Mechanical Engineering",
+    "career": "UGRD",
+    "college": "CEAT",
+    "curricula": [
+      {
+        "curriculum_id": 116,
+        "code": "BSME_2018_INNOVATIONEERING",
+        "name": "BSME 2018 Innovationeering",
+        "course_count": 78
+      },
+      {
+        "curriculum_id": 115,
+        "code": "BSME_2018_THESIS",
+        "name": "BSME 2018 Thesis",
+        "course_count": 78
+      },
+      {
+        "curriculum_id": 117,
+        "code": "BSME_2018_ENGINEERING_INDUSTRY_RESEARCH",
+        "name": "BSME 2018 Engineering Industry Research",
+        "course_count": 78
+      },
+      {
+        "curriculum_id": 166,
+        "code": "BSME_2018_GENERAL",
+        "name": "BSME 2018 General",
+        "course_count": 76
+      }
+    ]
+  },
+  {
+    "program_id": 174,
+    "acronym": "AAEntrep",
+    "title": "Associate in Arts (Entrepreneurship)",
+    "career": "ASSO",
+    "college": "CEM",
+    "curricula": [
+      {
+        "curriculum_id": 173,
+        "code": "AAEntrep_2022_GENERAL",
+        "name": "AAEntrep 2022 General",
+        "course_count": 27
+      }
+    ]
+  },
+  {
+    "program_id": 196,
+    "acronym": "MMCM",
+    "title": "Master of Management in Cooperative Management",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 197,
+    "acronym": "MMDM",
+    "title": "Master of Management Development Management",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 198,
+    "acronym": "MPARD",
+    "title": "Master in Public Affairs Agrarian & Rurban Development Studies",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 199,
+    "acronym": "MPCPM",
+    "title": "Master in Public Affairs Cooperative Management",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 200,
+    "acronym": "MPEDM",
+    "title": "Master in Public Affairs in Education Management",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 201,
+    "acronym": "MPLGD",
+    "title": "Master in Public Affairs Local Governance & Development",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 365,
+    "acronym": "MAENP",
+    "title": "MA in Environmental Planning",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 284,
+    "acronym": "PDENT",
+    "title": "Doctor of Philosophy in Entomology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 212,
+    "acronym": "MSAE",
+    "title": "Master of Science in Agricultural Engineering",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 213,
+    "acronym": "MSAEC",
+    "title": "Master of Science in Agricultural Economics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 208,
+    "acronym": "MSGEN",
+    "title": "Master of Science in Genetics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 22,
+    "acronym": "BSCE",
+    "title": "Bachelor of Science in Civil Engineering",
+    "career": "UGRD",
+    "college": "CEAT",
+    "curricula": [
+      {
+        "curriculum_id": 92,
+        "code": "BSCE_2018_THESIS",
+        "name": "BSCE 2018 Thesis",
+        "course_count": 61
+      },
+      {
+        "curriculum_id": 93,
+        "code": "BSCE_2018_INNOVATIONEERING",
+        "name": "BSCE 2018 Innovationeering",
+        "course_count": 61
+      },
+      {
+        "curriculum_id": 158,
+        "code": "BSCE_2018_GENERAL",
+        "name": "BSCE 2018 General",
+        "course_count": 59
+      }
+    ]
+  },
+  {
+    "program_id": 209,
+    "acronym": "MSHRT",
+    "title": "Master of Science in Horticulture",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 210,
+    "acronym": "MSMBB",
+    "title": "Master of Science in Molecular Biology and Biotechnology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 211,
+    "acronym": "MSMCB",
+    "title": "Master of Science in Microbiology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 214,
+    "acronym": "MSPBR",
+    "title": "Master of Science in Plant Breeding",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 215,
+    "acronym": "MSPGR",
+    "title": "Master of Science in Plant Genetics Resources Conservation and Management",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 285,
+    "acronym": "PDFBS",
+    "title": "Doctor of Philosophy in Forestry: Forest Biological Sciences",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 286,
+    "acronym": "PDFRM",
+    "title": "Doctor of Philosophy in Forestry: Forest Resources Management",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 287,
+    "acronym": "PDFSC",
+    "title": "Doctor of Philosophy in Food Science",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 301,
+    "acronym": "PDRAM",
+    "title": "Doctor of Philosophy by Research in Agribusiness Management & Entpreneurship",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 302,
+    "acronym": "PDRAS",
+    "title": "Doctor of Philosophy by Research in Animal Science",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 303,
+    "acronym": "PDRBC",
+    "title": "Doctor of Philosophy by Research in Biochemistry",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 304,
+    "acronym": "PDRBO",
+    "title": "Doctor of Philosophy by Research in Botany",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 305,
+    "acronym": "PDRCD",
+    "title": "Doctor of Philosophy by Research in Community Development",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 176,
+    "acronym": "MAGA",
+    "title": "Master of Agriculture in Agronomy",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 177,
+    "acronym": "MAGH",
+    "title": "Master of Agriculture in Horticulture",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 178,
+    "acronym": "MAN",
+    "title": "Master in Animal Nutrition",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 179,
+    "acronym": "MASOC",
+    "title": "Master of Arts in Sociology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 227,
+    "acronym": "MSCSC",
+    "title": "Master of Science in Computer Science",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 228,
+    "acronym": "MSZOO",
+    "title": "Master in Science in Zoology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 229,
+    "acronym": "MVE",
+    "title": "Master in Veterinary Epidemiology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 230,
+    "acronym": "MSDMG",
+    "title": "Master of Science in Development Management and Governance",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 231,
+    "acronym": "MSDVC",
+    "title": "Master of Science in Development Communication",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 202,
+    "acronym": "MPSFN",
+    "title": "Master of Professional Studies in Food & Nutrition Planning",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 203,
+    "acronym": "MSENT",
+    "title": "Master of Science in Entomology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 334,
+    "acronym": "BSAECO",
+    "title": "Bachelor of Science in Agricultutal Economics",
+    "career": "UGRD",
+    "college": "CEM",
+    "curricula": []
+  },
+  {
+    "program_id": 335,
+    "acronym": "NDCAS",
+    "title": "No degree - CAS",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": []
+  },
+  {
+    "program_id": 180,
+    "acronym": "MCA",
+    "title": "Master Communication Arts",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 236,
+    "acronym": "MSFBS",
+    "title": "Master of Science in Forestry: Forest Biological Sciences",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 237,
+    "acronym": "MSFFR",
+    "title": "Master of Science in Forestry: Forest Resources Management",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 238,
+    "acronym": "MSFRM",
+    "title": "Master of Science in Family Resource Management",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 239,
+    "acronym": "PDBOT",
+    "title": "Doctor of Philosophy in Botany",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 245,
+    "acronym": "MSMTH",
+    "title": "Master of Science in Mathematics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 267,
+    "acronym": "NDGS",
+    "title": "Non Degree - GS",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 306,
+    "acronym": "PDRCS",
+    "title": "Doctor of Philosophy by Research in Computer Science",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 307,
+    "acronym": "PDRDA",
+    "title": "Doctor of Philosophy by Research in Data Analytics and Informatics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 308,
+    "acronym": "PDRDC",
+    "title": "Doctor of Philosophy by Research in Development Communication",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 309,
+    "acronym": "PDRDS",
+    "title": "Doctor of Philosophy by Research in Development Studies",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 13,
+    "acronym": "BSMST",
+    "title": "Bachelor of Science in Math and Science Teaching",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": [
+      {
+        "curriculum_id": 74,
+        "code": "BSMST_2018_BIO",
+        "name": "BSMST 2018 Biology",
+        "course_count": 65
+      },
+      {
+        "curriculum_id": 76,
+        "code": "BSMST_2018_MATH",
+        "name": "BSMST 2018 Mathematics",
+        "course_count": 65
+      },
+      {
+        "curriculum_id": 77,
+        "code": "BSMST_2018_PHYS",
+        "name": "BSMST 2018 Physics",
+        "course_count": 65
+      },
+      {
+        "curriculum_id": 75,
+        "code": "BSMST_2018_CHEM",
+        "name": "BSMST 2018 Chemistry",
+        "course_count": 65
+      },
+      {
+        "curriculum_id": 153,
+        "code": "BSMST_2018_GENERAL",
+        "name": "BSMST 2018 General",
+        "course_count": 51
+      }
+    ]
+  },
+  {
+    "program_id": 375,
+    "acronym": "BSABM",
+    "title": "Bachelor of Science in Agribusiness Management",
+    "career": "UGRD",
+    "college": "CEM",
+    "curricula": []
+  },
+  {
+    "program_id": 310,
+    "acronym": "PDRDU",
+    "title": "Dual Doctor of Philosophy by Research",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 311,
+    "acronym": "PDREC",
+    "title": "Doctor of Philosophy by Research in Economics",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 377,
+    "acronym": "CRCA",
+    "title": "Cross Registration-CAFS",
+    "career": "UGRD",
+    "college": "CAFS",
+    "curricula": []
+  },
+  {
+    "program_id": 312,
+    "acronym": "PDRED",
+    "title": "Doctor of Philosophy by Research in Extension Education",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 313,
+    "acronym": "PDREN",
+    "title": "Doctor of Philosophy by Research in Entomology",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 317,
+    "acronym": "PDRFS",
+    "title": "Doctor of Philosophy by Research in Food Science",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 496,
+    "acronym": "MSIE",
+    "title": "Master of Science in Industrial Engineering",
+    "career": "GRD",
+    "college": "GS",
+    "curricula": []
+  },
+  {
+    "program_id": 462,
+    "acronym": "EXCA",
+    "title": "Exchange-CAFS",
+    "career": "UGRD",
+    "college": "CAFS",
+    "curricula": []
+  },
+  {
+    "program_id": 461,
+    "acronym": "NDCAFS",
+    "title": "Non Degree - CAFS",
+    "career": "UGRD",
+    "college": "CAFS",
+    "curricula": []
+  },
+  {
+    "program_id": 2,
+    "acronym": "BSABT",
+    "title": "Bachelor of Science in Agricultural Biotechnology",
+    "career": "UGRD",
+    "college": "CAFS",
+    "curricula": [
+      {
+        "curriculum_id": 142,
+        "code": "BSABT_2018_GENERAL",
+        "name": "BSABT 2018 General",
+        "course_count": 60
+      },
+      {
+        "curriculum_id": 39,
+        "code": "BSABT_2018_CRPPROTBIO_THPR",
+        "name": "BSABT 2018 Crop Protection Biotechnology (Thesis/Practicum)",
+        "course_count": 116
+      },
+      {
+        "curriculum_id": 41,
+        "code": "BSABT_2018_ANBIO_THPR",
+        "name": "BSABT 2018 Animal Biotechnology (Thesis/Practicum)",
+        "course_count": 121
+      },
+      {
+        "curriculum_id": 43,
+        "code": "BSABT_2018_FOODBIO_THPR",
+        "name": "BSABT 2018 Food Biotechnology (Thesis/Practicum)",
+        "course_count": 110
+      },
+      {
+        "curriculum_id": 44,
+        "code": "BSABT_2018_FOODBIO_MPSP",
+        "name": "BSABT 2018 Food Biotechnology (Major Problem/Special Problem)",
+        "course_count": 110
+      },
+      {
+        "curriculum_id": 37,
+        "code": "BSABT_2018_CROPBIO_THPR",
+        "name": "BSABT 2018 Crop/Plant Biotechnology (Thesis/Practicum)",
+        "course_count": 90
+      },
+      {
+        "curriculum_id": 38,
+        "code": "BSABT_2018_CROPBIO_MPSP",
+        "name": "BSABT 2018 Crop/Plant Biotechnology (Major Problem/Special Problem)",
+        "course_count": 89
+      },
+      {
+        "curriculum_id": 40,
+        "code": "BSABT_2018_CRPPROTBIO_MPSP",
+        "name": "BSABT 2018 Crop Protection Biotechnology (Major Problem/Special Problem)",
+        "course_count": 116
+      },
+      {
+        "curriculum_id": 42,
+        "code": "BSABT_2018_ANBIO_MPSP",
+        "name": "BSABT 2018 Animal Biotechnology (Major Problem/Special Problem)",
+        "course_count": 121
+      }
+    ]
+  },
+  {
+    "program_id": 392,
+    "acronym": "SPCAS",
+    "title": "Special CAS",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": []
+  },
+  {
+    "program_id": 18,
+    "acronym": "BSABME",
+    "title": "Bachelor of Science in Agribusiness Management and Entrepreneuship",
+    "career": "UGRD",
+    "college": "CEM",
+    "curricula": [
+      {
+        "curriculum_id": 129,
+        "code": "BSABME_2018_AGRI_ENTRE",
+        "name": "BSABME 2018 AgriculturaI Entrepreneurship",
+        "course_count": 62
+      },
+      {
+        "curriculum_id": 128,
+        "code": "BSABME_2018_AGRI_MGMT",
+        "name": "BSABME 2018 AgriculturaI Management",
+        "course_count": 62
+      },
+      {
+        "curriculum_id": 168,
+        "code": "BSABME_2018_GENERAL",
+        "name": "BSABME 2018 General",
+        "course_count": 58
+      }
+    ]
+  },
+  {
+    "program_id": 10,
+    "acronym": "BSCHEM",
+    "title": "Bachelor of Science in Chemistry",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": [
+      {
+        "curriculum_id": 152,
+        "code": "BSCHEM_2018_GENERAL",
+        "name": "BSCHEM 2018 General",
+        "course_count": 68
+      },
+      {
+        "curriculum_id": 73,
+        "code": "BSCHEM_2020",
+        "name": "BSCHEM 2020",
+        "course_count": 78
+      },
+      {
+        "curriculum_id": 72,
+        "code": "BSCHEM_2018",
+        "name": "BSCHEM 2018",
+        "course_count": 78
+      }
+    ]
+  },
+  {
+    "program_id": 7,
+    "acronym": "BSAM",
+    "title": "Bachelor of Science in Applied Mathematics",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": [
+      {
+        "curriculum_id": 54,
+        "code": "BSAM_2018_THESIS",
+        "name": "BSAM 2018 Thesis",
+        "course_count": 73
+      },
+      {
+        "curriculum_id": 55,
+        "code": "BSAM_2018_SP",
+        "name": "BSAM 2018 Special Problem",
+        "course_count": 43
+      },
+      {
+        "curriculum_id": 147,
+        "code": "BSAM_2018_GENERAL",
+        "name": "BSAM 2018 General",
+        "course_count": 63
+      }
+    ]
+  },
+  {
+    "program_id": 11,
+    "acronym": "BSCS",
+    "title": "Bachelor of Science in Computer Science",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": [
+      {
+        "curriculum_id": 66,
+        "code": "BSCS_2018_THESIS",
+        "name": "BSCS 2018 Thesis",
+        "course_count": 97
+      },
+      {
+        "curriculum_id": 67,
+        "code": "BSCS_2018_PRACTICUM",
+        "name": "BSCS 2018 Practicum",
+        "course_count": 97
+      },
+      {
+        "curriculum_id": 150,
+        "code": "BSCS_2018_GENERAL",
+        "name": "BSCS 2018 General",
+        "course_count": 50
+      }
+    ]
+  },
+  {
+    "program_id": 14,
+    "acronym": "BSSTAT",
+    "title": "Bachelor of Science in Statistics",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": [
+      {
+        "curriculum_id": 78,
+        "code": "BSSTAT_2018",
+        "name": "BSSTAT 2018",
+        "course_count": 133
+      }
+    ]
+  },
+  {
+    "program_id": 8,
+    "acronym": "BSAP",
+    "title": "Bachelor of Science in Applied Physics",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": [
+      {
+        "curriculum_id": 56,
+        "code": "BSAP_2018_THESIS",
+        "name": "BSAP 2018 Thesis",
+        "course_count": 72
+      },
+      {
+        "curriculum_id": 57,
+        "code": "BSAP_2018_SP",
+        "name": "BSAP 2018 Special Problem",
+        "course_count": 0
+      },
+      {
+        "curriculum_id": 148,
+        "code": "BSAP_2018_GENERAL",
+        "name": "BSAP 2018 General",
+        "course_count": 41
+      }
+    ]
+  },
+  {
+    "program_id": 20,
+    "acronym": "BSABE",
+    "title": "Bachelor of Science in Agricultural and Biosystems Engineering",
+    "career": "UGRD",
+    "college": "CEAT",
+    "curricula": [
+      {
+        "curriculum_id": 85,
+        "code": "BSABE_2018_AMPE_ENGINEERING_INDUSTRY_RESEARCH",
+        "name": "BSABE 2018 Agribiosystems Machinery Power Engineering Engineering Industry Research",
+        "course_count": 58
+      },
+      {
+        "curriculum_id": 91,
+        "code": "BSABE_2018_LWRE_ENGINEERING_INDUSTRY_RESEARCH",
+        "name": "BSABE 2018 Land and Water Resources Engineering Engineering Industry Research",
+        "course_count": 58
+      },
+      {
+        "curriculum_id": 90,
+        "code": "BSABE_2018_LWRE_INNOVATIONEERING",
+        "name": "BSABE 2018 Land and Water Resources Engineering Innovationeering",
+        "course_count": 58
+      },
+      {
+        "curriculum_id": 156,
+        "code": "BSABE_2018_IABE_GENERAL",
+        "name": "BSABE 2018 Agricultural, Food and Bioprocess Engineering General",
+        "course_count": 53
+      },
+      {
+        "curriculum_id": 155,
+        "code": "BSABE_2018_AMPE_GENERAL",
+        "name": "BSABE 2018 Agribiosystems Machinery Power Engineering General",
+        "course_count": 46
+      },
+      {
+        "curriculum_id": 88,
+        "code": "BSABE_2018_AFBE_ENGINEERING_INDUSTRY_RESEARCH",
+        "name": "BSABE 2018 Agricultural, Food and Bioprocess Engineering Engineering Industry Research",
+        "course_count": 58
+      },
+      {
+        "curriculum_id": 83,
+        "code": "BSABE_2018_AMPE_THESIS",
+        "name": "BSABE 2018 Agribiosystems Machinery Power Engineering Thesis",
+        "course_count": 58
+      },
+      {
+        "curriculum_id": 86,
+        "code": "BSABE_2018_AFBE_THESIS",
+        "name": "BSABE 2018 Agricultural, Food and Bioprocess Engineering Thesis",
+        "course_count": 58
+      },
+      {
+        "curriculum_id": 89,
+        "code": "BSABE_2018_LWRE_THESIS",
+        "name": "BSABE 2018 Land and Water Resources Engineering Thesis",
+        "course_count": 58
+      },
+      {
+        "curriculum_id": 82,
+        "code": "BSABE_2018_ABSEE_ENGINEERING_INDUSTRY_RESEARCH",
+        "name": "BSABE 2018 Agrometeorology, Bio-Structures, and Environment Engineering Engineering Industry Research",
+        "course_count": 58
+      },
+      {
+        "curriculum_id": 80,
+        "code": "BSABE_2018_ABSEE_THESIS",
+        "name": "BSABE 2018 Agrometeorology, Bio-Structures, and Environment Engineering Thesis",
+        "course_count": 58
+      },
+      {
+        "curriculum_id": 81,
+        "code": "BSABE_2018_ABSEE_INNOVATIONEERING",
+        "name": "BSABE 2018 Agrometeorology, Bio-Structures, and Environment Engineering Innovationeering",
+        "course_count": 58
+      },
+      {
+        "curriculum_id": 84,
+        "code": "BSABE_2018_AMPE_INNOVATIONEERING",
+        "name": "BSABE 2018 Agribiosystems Machinery Power Engineering Innovationeering",
+        "course_count": 58
+      },
+      {
+        "curriculum_id": 87,
+        "code": "BSABE_2018_AFBE_INNOVATIONEERING",
+        "name": "BSABE 2018 Agricultural, Food and Bioprocess Engineering Innovationeering",
+        "course_count": 58
+      },
+      {
+        "curriculum_id": 154,
+        "code": "BSABE_2018_ABSEE_GENERAL",
+        "name": "BSABE 2018 Agrometeorology, Bio-Structures, and Environment Engineering General",
+        "course_count": 46
+      },
+      {
+        "curriculum_id": 157,
+        "code": "BSABE_2018_LWRE_GENERAL",
+        "name": "BSABE 2018 Land and Water Resources General",
+        "course_count": 45
+      }
+    ]
+  },
+  {
+    "program_id": 25,
+    "acronym": "BSF",
+    "title": "Bachelor of Science in Forestry",
+    "career": "UGRD",
+    "college": "CFNR",
+    "curricula": [
+      {
+        "curriculum_id": 132,
+        "code": "BSF_2018_ENVIRONMENTAL FORESTRY",
+        "name": "BSF 2018 Environmental Forestry",
+        "course_count": 92
+      },
+      {
+        "curriculum_id": 134,
+        "code": "BSF_2018_SOCIAL FORESTRY AND AGROFOR",
+        "name": "BSF 2018 Social Forestry and Agroforestry",
+        "course_count": 78
+      },
+      {
+        "curriculum_id": 133,
+        "code": "BSF_2018_PRODUCTION AND INDUSTRIAL F",
+        "name": "BSF 2018 Production and Industrial Forestry",
+        "course_count": 99
+      },
+      {
+        "curriculum_id": 170,
+        "code": "BSF_2018_GENERAL",
+        "name": "BSF 2018 General",
+        "course_count": 62
+      }
+    ]
+  },
+  {
+    "program_id": 15,
+    "acronym": "BSAC",
+    "title": "Bachelor of Science in Agricultural Chemistry",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": [
+      {
+        "curriculum_id": 70,
+        "code": "BSAC_2018",
+        "name": "BSAC 2018",
+        "course_count": 80
+      },
+      {
+        "curriculum_id": 71,
+        "code": "BSAC_2020",
+        "name": "BSAC 2020",
+        "course_count": 127
+      }
+    ]
+  },
+  {
+    "program_id": 5,
+    "acronym": "BAPHLO",
+    "title": "Bachelor of Arts in Philosophy",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": [
+      {
+        "curriculum_id": 50,
+        "code": "BAPHLO_2018_THESIS",
+        "name": "BAPHLO 2018 Thesis",
+        "course_count": 53
+      },
+      {
+        "curriculum_id": 51,
+        "code": "BAPHLO_2018_SP",
+        "name": "BAPHLO 2018 Special Problem",
+        "course_count": 54
+      },
+      {
+        "curriculum_id": 145,
+        "code": "BAPHLO_2018_GENERAL",
+        "name": "BAPHLO 2018 General",
+        "course_count": 45
+      }
+    ]
+  },
+  {
+    "program_id": 368,
+    "acronym": "AASS",
+    "title": "Associate  in Arts Sports Studies",
+    "career": "ASSO",
+    "college": "CAS",
+    "curricula": []
+  },
+  {
+    "program_id": 21,
+    "acronym": "BSCHE",
+    "title": "Bachelor of Science in Chemical Engineering",
+    "career": "UGRD",
+    "college": "CEAT",
+    "curricula": [
+      {
+        "curriculum_id": 99,
+        "code": "BSChE_2018_SUGAR_TECHNOLOGY_ENGINEERING_INDUSTRY_RESEARCH",
+        "name": "BSChE 2018 Sugar Technology Engineering Industry Research",
+        "course_count": 73
+      },
+      {
+        "curriculum_id": 101,
+        "code": "BSChE_2018_PULP_AND_PAPER_INNOVATIONEERING",
+        "name": "BSChE 2018 Pulp and Paper Innovationeering",
+        "course_count": 75
+      },
+      {
+        "curriculum_id": 102,
+        "code": "BSChE_2018_PULP_AND_PAPER_ENGINEERING_INDUSTRY_RESEARCH",
+        "name": "BSChE 2018 Pulp and Paper Engineering Industry Research",
+        "course_count": 75
+      },
+      {
+        "curriculum_id": 159,
+        "code": "BSCHE_2018_CHEMICAL_ENGINEERING_BASE",
+        "name": "BSCHE 2018 General Track",
+        "course_count": 70
+      },
+      {
+        "curriculum_id": 94,
+        "code": "BSChE_2018_GENERAL_THESIS",
+        "name": "BSChE 2018 General Thesis",
+        "course_count": 109
+      },
+      {
+        "curriculum_id": 95,
+        "code": "BSChE_2018_GENERAL_INNOVATIONEERING",
+        "name": "BSChE 2018 General Innovationeering",
+        "course_count": 75
+      },
+      {
+        "curriculum_id": 97,
+        "code": "BSChE_2018_SUGAR_TECHNOLOGY_THESIS",
+        "name": "BSChE 2018 Sugar Technology Thesis",
+        "course_count": 73
+      },
+      {
+        "curriculum_id": 98,
+        "code": "BSChE_2018_SUGAR_TECHNOLOGY_INNOVATIONEERING",
+        "name": "BSChE 2018 Sugar Technology Innovationeering",
+        "course_count": 73
+      },
+      {
+        "curriculum_id": 100,
+        "code": "BSChE_2018_PULP_AND_PAPER_THESIS",
+        "name": "BSChE 2018 Pulp and Paper Thesis",
+        "course_count": 75
+      },
+      {
+        "curriculum_id": 96,
+        "code": "BSChE_2018_GENERAL_ENGINEERING_INDUSTRY_RESEARCH",
+        "name": "BSChE 2018 General Engineering Industry Research",
+        "course_count": 109
+      },
+      {
+        "curriculum_id": 161,
+        "code": "BSCHE_2018_PPT_GENERAL",
+        "name": "BSCHE 2018 Pulp and Paper Technology Track General",
+        "course_count": 66
+      },
+      {
+        "curriculum_id": 160,
+        "code": "BSCHE_2018_SUTC_GENERAL",
+        "name": "BSCHE 2018 Sugar Technology Track General",
+        "course_count": 64
+      }
+    ]
+  },
+  {
+    "program_id": 28,
+    "acronym": "DVM",
+    "title": "Doctor of Veterinary Medicine",
+    "career": "UGRD",
+    "college": "CVM",
+    "curricula": [
+      {
+        "curriculum_id": 140,
+        "code": "DVM_2018",
+        "name": "DVM 2018",
+        "course_count": 77
+      }
+    ]
+  },
+  {
+    "program_id": 24,
+    "acronym": "BSIE",
+    "title": "Bachelor of Science in Industrial Engineering",
+    "career": "UGRD",
+    "college": "CEAT",
+    "curricula": [
+      {
+        "curriculum_id": 112,
+        "code": "BSIE_2018_THESIS",
+        "name": "BSIE 2018 Thesis",
+        "course_count": 72
+      },
+      {
+        "curriculum_id": 113,
+        "code": "BSIE_2018_INNOVATIONEERING",
+        "name": "BSIE 2018 Innovationeering",
+        "course_count": 72
+      },
+      {
+        "curriculum_id": 114,
+        "code": "BSIE_2018_ENGINEERING_INDUSTRY_RESEARCH",
+        "name": "BSIE 2018 Engineering Industry Research",
+        "course_count": 72
+      },
+      {
+        "curriculum_id": 165,
+        "code": "BSIE_2018_GENERAL",
+        "name": "BSIE 2018 General",
+        "course_count": 70
+      }
+    ]
+  },
+  {
+    "program_id": 393,
+    "acronym": "SPCEM",
+    "title": "Special CEM",
+    "career": "UGRD",
+    "college": "CEM",
+    "curricula": []
+  },
+  {
+    "program_id": 347,
+    "acronym": "NDCPF",
+    "title": "Non Degree-CPAF",
+    "career": "UGRD",
+    "college": "CPAF",
+    "curricula": []
+  },
+  {
+    "program_id": 348,
+    "acronym": "NDCHE",
+    "title": "Non Degree-CHE",
+    "career": "UGRD",
+    "college": "CHE",
+    "curricula": []
+  },
+  {
+    "program_id": 352,
+    "acronym": "EXCFN",
+    "title": "Exchange-CFNR",
+    "career": "UGRD",
+    "college": "CFNR",
+    "curricula": []
+  },
+  {
+    "program_id": 353,
+    "acronym": "EXCHE",
+    "title": "Exchange-CHE",
+    "career": "UGRD",
+    "college": "CHE",
+    "curricula": []
+  },
+  {
+    "program_id": 354,
+    "acronym": "EXCAS",
+    "title": "Exchange-CAS",
+    "career": "UGRD",
+    "college": "CAS",
+    "curricula": []
+  },
+  {
+    "program_id": 355,
+    "acronym": "EXCDC",
+    "title": "Exchange-CDC",
+    "career": "UGRD",
+    "college": "CDC",
+    "curricula": []
+  },
+  {
+    "program_id": 357,
+    "acronym": "SPCAT",
+    "title": "Special CEAT",
+    "career": "UGRD",
+    "college": "CEAT",
+    "curricula": []
+  },
+  {
+    "program_id": 376,
+    "acronym": "BSAEC",
+    "title": "Bachelor  of Science in Agricultural Economics",
+    "career": "UGRD",
+    "college": "CEM",
+    "curricula": []
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "source": "experimental/dlsu-cloudscraper/out/catalog-unified.json",
+  "scrapedAt": "2026-03-26T19:55:29.399547Z",
+  "university_id": "dlsu",
+  "semester_id": "dlsu-2025-2",
+  "term_label": "Second Trimester, AY 2025 - 2026",
+  "totalSections": 3225,
+  "uniqueCourses": 584,
+  "scheduleRows": 3334,
+  "collected_at": "2026-03-27T03:47:49+0800",
+  "merge_sources": [
+    {
+      "file": "out/catalog.json",
+      "sections_in_file": 2429,
+      "unique_class_nbrs_added": 2429
+    },
+    {
+      "file": "out/catalog-research.json",
+      "sections_in_file": 934,
+      "unique_class_nbrs_added": 105
+    },
+    {
+      "file": "out/catalog-reddit.json",
+      "sections_in_file": 658,
+      "unique_class_nbrs_added": 66
+    },
+    {
+      "file": "out/catalog-offerings.json",
+      "sections_in_file": 510,
+      "unique_class_nbrs_added": 510
+    },
+    {
+      "file": "out/catalog-bscs-st.json",
+      "sections_in_file": 696,
+      "unique_class_nbrs_added": 0
+    },
+    {
+      "file": "out/catalog-ibs-electives.json",
+      "sections_in_file": 175,
+      "unique_class_nbrs_added": 115
+    }
+  ],
+  "generatedAt": "2026-03-26T20:05:53.785Z",
+  "connectorVersion": "0.1.0",
+  "sourceType": "partner_connector",
+  "sourcePublishedAt": "2026-03-26T19:55:29.399547Z"
+}
