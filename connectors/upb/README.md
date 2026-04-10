@@ -5,11 +5,11 @@ This folder shows the shape of an **`upsked-sdk` connector**.
 The source system can be anything: AMIS, an official API, CSV exports, registrar dumps, browser-captured JSON. The job stays the same:
 
 1. extract raw data from the school system
-2. normalize it into UPSked artifacts
+2. normalize it into Upsked artifacts
 3. build a verifier-ready release bundle
 4. hand that bundle to whatever ingest / promote process your deployment uses
 
-This repo stops at the **verified bundle on disk**. It does **not** write to UPSked production by itself.
+This repo stops at the **verified bundle on disk**. It does **not** write to Upsked production by itself.
 
 Generic SDK rules: [CONTRIBUTOR_GUIDE.md](../../docs/CONTRIBUTOR_GUIDE.md), [connector-spec.md](../../docs/connector-spec.md).  
 Semester id slugs (`upb-2025-2`, ...): [upb-catalog-semester-id.md](../../docs/upb-catalog-semester-id.md).
@@ -57,7 +57,7 @@ cd upsked-sdk
 # 1) Merge source pages for this reference connector
 npm run amis:pages -w @upsked/connector-upb -- path/to/classes-page1.json path/to/classes-page2.json
 
-# 2) Build UPSked-style bundle → fixtures/upb/sample-upsked-bundle/
+# 2) Build Upsked-style bundle → fixtures/upb/sample-upsked-bundle/
 npm run amis:clean -w @upsked/connector-upb
 
 # 3) Export camelCase interop rows for the verifier → fixtures/upb/full-upb-2025-2-interop/
@@ -229,7 +229,7 @@ npm run verify:sample
 ## After you have a verified bundle
 
 1. **Definition of done:** verifier exits **0** (no blocking errors) on the directory you will ship—after **`manifest.json`** exists, `npm run verify -- <dir>` should also exit **0** (see [CONTRIBUTOR_GUIDE.md](../../docs/CONTRIBUTOR_GUIDE.md) §3–4).
-2. **Handoff:** deliver that directory + verifier report through the channel your UPSked deployment defines. That may be an out-of-band folder handoff, an ingest API, or an internal release pipeline.
+2. **Handoff:** deliver that directory + verifier report through the channel your Upsked deployment defines. That may be an out-of-band folder handoff, an ingest API, or an internal release pipeline.
 3. **Promote:** partners / connector authors usually stop here. Promote belongs to the deployment side, not the connector itself.
 
 ---
@@ -256,7 +256,7 @@ Treat this repo as standalone.
 | `fixtures/upb/…`                  | Role                                                              |
 | --------------------------------- | ----------------------------------------------------------------- |
 | `sample-amis-classes-merged.json` | Merged AMIS `classes` export                                      |
-| `sample-upsked-bundle/`           | UPSked-shaped normalized JSON bundle                              |
+| `sample-upsked-bundle/`           | Upsked-shaped normalized JSON bundle                              |
 | `sample-release/`                 | **Small** verifier bundle for CI                                  |
 | `full-upb-2025-2-interop/`        | Full interop JSON; default `amis:export-interop` output           |
 | `previous-release/`               | Prior bundle for regression in `npm run verify -- … --previous …` |

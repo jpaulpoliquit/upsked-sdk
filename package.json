@@ -2,7 +2,7 @@
   "name": "upsked-sdk",
   "version": "0.0.0",
   "private": true,
-  "description": "UPSked partner connectors: schema, verifier SDK, and sample bundles (standalone from main app)",
+  "description": "Upsked partner connectors: schema, verifier SDK, and sample bundles (standalone from main app)",
   "keywords": [
     "upsked",
     "catalog",

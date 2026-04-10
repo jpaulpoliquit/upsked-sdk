@@ -1,5 +1,5 @@
 /**
- * UP Baguio (UPB) AMIS → UPSked JSON bundle (same artifacts as AISIS: courses, departments,
+ * UP Baguio (UPB) AMIS → Upsked JSON bundle (same artifacts as AISIS: courses, departments,
  * sections-upsked, schedules-upsked, metadata).
  *
  * Input shape (merged export): { classes: { data: AmisClass[] } }

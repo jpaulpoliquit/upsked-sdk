@@ -1,8 +1,10 @@
-# Connector author guide — UPSked SDK
+# Connector author guide — Upsked SDK
 
-**Audience:** teams building a **school-specific connector** (scraper, browser script, API client, or batch export) so UPSked can consume their catalog. You implement extraction and normalization; UPSked implements ingest, promotion, and product UI.
+**Audience:** teams building a **school-specific connector** (scraper, browser script, API client, or batch export) so Upsked can consume their catalog. You implement extraction and normalization; Upsked implements ingest, promotion, and product UI.
 
-**Read this document before** you assume a database schema, Supabase row, or “push to production” step exists. **v0 handoff** is a **verified release bundle** on disk (JSON + `manifest.json`), not a live write to UPSked.
+**Multi-university:** Upsked is not limited to UP Diliman (UPD). The same bundle and verifier contract apply per school—see fixtures for UPLB, UPB, DLSU, and others.
+
+**Read this document before** you assume a database schema, Supabase row, or “push to production” step exists. **v0 handoff** is a **verified release bundle** on disk (JSON + `manifest.json`), not a live write to Upsked.
 
 ---
 
@@ -10,17 +12,17 @@
 
 | In scope                                                          | Out of scope                              |
 | ----------------------------------------------------------------- | ----------------------------------------- |
-| Canonical **row shapes** + on-disk **bundle** (`packages/schema`) | Postgres, RLS, direct writes to UPSked DB |
+| Canonical **row shapes** + on-disk **bundle** (`packages/schema`) | Postgres, RLS, direct writes to Upsked DB |
 | **Verification** (`packages/verifier-sdk`)                        | Serving catalogs to end users             |
 | **Fixtures** + local CI                                           | Secrets, session tokens, raw HARs in git  |
 
-**Definition of done (today):** `npm run verify -- <your-bundle>` exits **0** with **zero verifier errors**, and you can hand the directory to UPSked under the agreed ingest path. **Not required yet:** automated upload, Supabase row, or promotion job.
+**Definition of done (today):** `npm run verify -- <your-bundle>` exits **0** with **zero verifier errors**, and you can hand the directory to Upsked under the agreed ingest path. **Not required yet:** automated upload, Supabase row, or promotion job.
 
 ---
 
 ## 2. Two contracts (do not confuse them)
 
-UPSked carries **two** manifest shapes on purpose:
+Upsked carries **two** manifest shapes on purpose:
 
 |                   | **Partner bundle** (this repo)                                                   | **Runtime manifest** (`catalog-release-manifest` in main app)    |
 | ----------------- | -------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
@@ -45,7 +47,7 @@ UPSked carries **two** manifest shapes on purpose:
 4. **Build manifest** — `buildManifestFromLocalArtifacts` + `fixture.config.json`, or `npm run fixtures:sync` for fixtures. Do not hand-edit hashes.
 5. **Verify** — `npm run verify -- <bundleDir> [--previous <dir>]` (§8). **Errors block handoff.**
 6. **Regression** — When the semester already had an accepted release, pass that directory as `--previous` and fix any regression failures.
-7. **Handoff** — Deliver the bundle (and verifier report if requested) to UPSked through the channel they specify. **Automated ingest** may arrive later; your bundle must still match this contract.
+7. **Handoff** — Deliver the bundle (and verifier report if requested) to Upsked through the channel they specify. **Automated ingest** may arrive later; your bundle must still match this contract.
 
 ---
 
@@ -134,7 +136,7 @@ Flow: edit JSON → `fixtures:sync` → `npm run test` → commit.
 
 ---
 
-## 10. How this connects to the UPSked app (expectations)
+## 10. How this connects to the Upsked app (expectations)
 
 You do **not** need the main app repo to finish a connector. When you are ready to align with product code paths, see [UPSTREAM_LINKS.md](./UPSTREAM_LINKS.md).
 
@@ -165,7 +167,7 @@ Your bundle should remain valid when ingest enforces `validateCanonicalCatalogRe
 | [validation-spec.md](./validation-spec.md) | Layer definitions                                                 |
 | [ops-model.md](./ops-model.md)             | Cadence / ownership                                               |
 | [../README.md](../README.md)               | Package map                                                       |
-| [UPSTREAM_LINKS.md](./UPSTREAM_LINKS.md)   | Main UPSked repo paths (ingest contract, `getCatalogManifest`, …) |
+| [UPSTREAM_LINKS.md](./UPSTREAM_LINKS.md)   | Main Upsked repo paths (ingest contract, `getCatalogManifest`, …) |
 | [../CONTRIBUTING.md](../CONTRIBUTING.md)   | PR checklist (lint, format, CI)                                   |
 | [../SECURITY.md](../SECURITY.md)           | Vulnerability reporting                                           |
 

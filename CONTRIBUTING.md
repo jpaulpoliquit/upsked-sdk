@@ -5,7 +5,7 @@
 1. Read **[docs/CONTRIBUTOR_GUIDE.md](docs/CONTRIBUTOR_GUIDE.md)** first — it defines the bundle layout, verifier workflow, and definition of done.
 2. Use **[docs/connector-spec.md](docs/connector-spec.md)** as a checklist while you implement.
 3. Keep secrets and live session data **out** of git; use redacted fixtures only.
-4. Before you share a bundle with UPSked, run:
+4. Before you share a bundle with Upsked, run:
 
    ```bash
    npm run verify -- path/to/your-bundle --previous path/to/last-accepted-bundle
@@ -13,7 +13,7 @@
 
    and resolve **all** verifier errors (see the guide for `--previous` when the semester already had an accepted release).
 
-5. Open issues or PRs **in this repository** for schema or verifier bugs. Product or account questions go through your UPSked contact.
+5. Open issues or PRs **in this repository** for schema or verifier bugs. Product or account questions go through your Upsked contact.
 
 ## If you are changing the SDK, schema, or verifier (maintainers)
 

@@ -4,7 +4,7 @@
 
 Do **not** open a public GitHub issue for undisclosed security problems.
 
-- Email the maintainers of the main UPSked project, or use GitHub **private vulnerability reporting** if enabled on this repository.
+- Email the maintainers of the main Upsked project, or use GitHub **private vulnerability reporting** if enabled on this repository.
 - Include: affected paths, reproduction steps, and impact (data exposure, RCE, etc.).
 
 ## Scope

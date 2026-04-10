@@ -1,12 +1,14 @@
 # Connector spec (checklist)
 
-**Who this is for:** anyone implementing a **new school connector** that must interoperate with UPSked. Follow this checklist while you build; use **[CONTRIBUTOR_GUIDE.md](./CONTRIBUTOR_GUIDE.md)** for the full explanation, edge cases, and commands.
+**Who this is for:** anyone implementing a **new school connector** that must interoperate with Upsked. Follow this checklist while you build; use **[CONTRIBUTOR_GUIDE.md](./CONTRIBUTOR_GUIDE.md)** for the full explanation, edge cases, and commands.
+
+**Product scope:** Upsked is **multi-university** (not UPD-only). Each connector targets one school’s source system and its tenant / `university_id` in ingest.
 
 **Outcome:** one **release bundle** per drop that passes `npm run verify -- <bundle>` with **zero errors**.
 
 ## Goal
 
-Turn your school’s source system (portal, API, files) into one canonical UPSked **release bundle**: a directory of JSON files + `manifest.json` that the verifier in this SDK accepts.
+Turn your school’s source system (portal, API, files) into one canonical Upsked **release bundle**: a directory of JSON files + `manifest.json` that the verifier in this SDK accepts.
 
 ## Required steps
 
@@ -16,7 +18,7 @@ Turn your school’s source system (portal, API, files) into one canonical UPSke
 4. Build `manifest.json` using `buildManifestFromLocalArtifacts` (or your connector’s wrapper). **Do not** hand-edit hashes or `releaseId`.
 5. Run `npm run verify -- <bundle> [--previous <dir>]`. Fix every error before handoff.
 6. When the same semester already had an accepted release, keep a copy of that bundle and pass it as `--previous` for regression checks.
-7. Deliver the bundle to UPSked through their agreed channel. **Upload APIs** may come later; the on-disk contract stays the same.
+7. Deliver the bundle to Upsked through their agreed channel. **Upload APIs** may come later; the on-disk contract stays the same.
 
 ## Required release bundle
 
@@ -35,7 +37,7 @@ Optional:
 
 ## Required manifest fields
 
-Stay aligned with `canonicalCatalogReleaseManifestSchema` in the main UPSked app (`catalog-ingest-contract.ts`) — see [UPSTREAM_LINKS.md](./UPSTREAM_LINKS.md):
+Stay aligned with `canonicalCatalogReleaseManifestSchema` in the main Upsked app (`catalog-ingest-contract.ts`) — see [UPSTREAM_LINKS.md](./UPSTREAM_LINKS.md):
 
 - `universityId`, `semesterId`, `releaseId`, `schemaVersion`
 - `sourceType`, `catalogSourceId`, `connectorId`, `connectorVersion`, `trustTier`

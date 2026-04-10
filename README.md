@@ -1,100 +1,51 @@
-# UPSked SDK
+# Interop (connector ↔ Upsked)
 
-**If you are building a university connector** so your school’s catalog can plug into UPSked, this repository is your contract and tooling. You do **not** need the main UPSked app repo to validate a release bundle.
+This tree is the **in-repo placeholder** for the separate connector/interop repository described in [`docs/interop-repo-strategy.md`](../docs/interop-repo-strategy.md). Partner fixtures may live under `fixtures/`; Upsked ships the **verifiers** in `apps/scraper` and `apps/web`.
 
-## What you build
+Upsked is **multi-university**: connectors here are per-school tenants, not a UPD-only pipeline.
 
-1. **Extract** course/section/schedule data from your source (portal, API, export).
-2. **Normalize** it into this SDK’s canonical row types (`packages/schema`).
-3. **Emit** a single **release bundle** directory: JSON + `manifest.json` (hashes, `releaseId`).
-4. **Run the verifier** (`packages/verifier-sdk`) until it reports **zero errors**. That bundle is what you hand to UPSked for ingest when the integration is wired.
+## UPLB Los Baños — verify a bundle
 
-The UP Baguio (**UPB**) material under `connectors/upb/` and `fixtures/upb/` is a **reference pipeline** (AMIS → normalized JSON → interop rows), not a requirement to copy file-for-file.
+From the **repository root**:
 
-## Where to read next
-
-| You want to…                                                          | Open                                                   |
-| --------------------------------------------------------------------- | ------------------------------------------------------ |
-| **End-to-end steps, contracts, and definition of done**               | [docs/CONTRIBUTOR_GUIDE.md](docs/CONTRIBUTOR_GUIDE.md) |
-| **Short checklist** (same rules, less prose)                          | [docs/connector-spec.md](docs/connector-spec.md)       |
-| **How this maps to code paths inside the main UPSked app** (optional) | [docs/UPSTREAM_LINKS.md](docs/UPSTREAM_LINKS.md)       |
-| **PRs and CI on this repo**                                           | [CONTRIBUTING.md](CONTRIBUTING.md)                     |
-| **Security disclosures**                                              | [SECURITY.md](SECURITY.md)                             |
-
-## Repository layout
-
-```text
-upsked-sdk/
-  packages/schema/       # Types + validators for rows and manifest (your contract)
-  packages/verifier-sdk/ # CLI: verify a bundle, optional regression vs previous release
-  connectors/<id>/       # Example or partner-owned extract/normalize scripts
-  fixtures/<id>/         # Sample bundles for tests and documentation
-  docs/                  # Specs and contributor guides
+```bash
+# Default: interop-repo/fixtures/uplb/bundle (override with UPLB_BUNDLE_DIR)
+npx tsx interop-repo/scripts/verify-uplb-interop.ts
 ```
 
-## What UPSked owns vs what you own
+This runs:
 
-| You (connector author)                                               | UPSked (product)                                    |
-| -------------------------------------------------------------------- | --------------------------------------------------- |
-| Extractor, rate limits, credentials outside git                      | Ingest APIs, promotion, storage                     |
-| Canonical bundle on disk + verifier clean report                     | Runtime manifest, app fetch paths, serving to users |
-| Stable `universityId`, `connectorId`, `connectorVersion` in metadata | Wiring your bundle into production when ready       |
+1. **Catalog + optional curricula/requisites** — `apps/scraper/scripts/verify-uplb-bundle.ts`  
+   Referential checks, canonical `uplb:` ids when `metadata.university_id` is `uplb`, semester consistency, metadata counts.
 
-## Getting an ingest token
+2. **Curriculum → Upsked `CurriculumBundle`** — `apps/web/scripts/verify-uplb-curriculum-compat.ts`  
+   Builds the normalized bundle in memory (`normalize-uplb-from-bundle.ts`): `meta.universityId === 'uplb'`, non-empty `programIndex` / `snapshots`, `uplb:` program summary ids.
 
-You do **not** need an ingest token to build or verify a bundle locally.
+**Curriculum validation elsewhere:** ADMU/UPD use `npm run test:curriculum` (graph + placement). UPLB curriculum is validated by the script above (full `CurriculumBundle` build). Ingest **manifest** validation for catalog releases is `validateCanonicalCatalogReleaseManifest` in `apps/web/lib/catalog-ingest-contract.ts` (used by `simulate:ingest`); it does **not** include `curricula.json` today — curriculum artifacts are generated separately (`curriculum:generate` + `UPLB_CATALOG_BUNDLE_DIR`).
 
-You **do** need one once your handoff path uses the hosted UPSked ingest flow on **upsked.com**.
+### Systems map — what is / is not guaranteed
 
-### What the ingest token is for
+| Artifact                                                             | Single source of truth in pipeline       | `verify-uplb-bundle`                                                                                                                                             | `verify-uplb-curriculum-compat` |
+| -------------------------------------------------------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| `courses.json`                                                       | `buildCourseIdMaps` + `buildCoursesJson` | ids, titles, duplicates, canonical id for `metadata.university_id`                                                                                               | units lookup for rows           |
+| `sections.json` / `schedules.json`                                   | SQLite classes + maps                    | FK to courses, semester = metadata, class_code ↔ schedules                                                                                                       | —                               |
+| `curricula.json`                                                     | same maps as courses                     | line count vs metadata; `course_id_canonical` ∈ courses; **namespace** `uplb:` vs `upb:` when `university_id` is uplb; `program_id` ∈ `programs.json` if present | full normalizer                 |
+| `course_requisites.json`                                             | cleaned courses + maps                   | row/edge counts vs metadata; FK to courses; namespace                                                                                                            | —                               |
+| `programs.json` / `rooms.json` / `institutes.json` / `colleges.json` | optional exports                         | array length vs `metadata.counts.*` when file exists                                                                                                             | —                               |
+| `metadata.json`                                                      | emitter                                  | schemaVersion, counts parity                                                                                                                                     | —                               |
 
-The ingest token is the **credential your connector uses to talk to UPSked’s hosted ingest API**.
+**Not validated here:** protobuf ingest, Supabase promotion, room **strings** in schedules vs `rooms.json` GIS rows (schedules use free-text room labels), planner graph solvers, or MCP runtime. Those are separate layers. **Handoff for linking schedules ↔ rooms:** [`fixtures/uplb/HANDOFF-schedules-rooms.md`](./fixtures/uplb/HANDOFF-schedules-rooms.md).
 
-In practice, that means the token is used when your integration needs to do things like:
+## Live Upsked ingest (any university)
 
-- create an ingest run for a release
-- upload release artifacts
-- submit the release manifest
-- ask UPSked to validate what you uploaded
+1. Provision DB rows (`universities`, `catalog_sources`, `semesters`) — migration seed, admin **Integrations**, or automated **`POST /api/ingest/v1/tenant/bootstrap`** (see [`docs/partner-tenant-bootstrap.md`](../docs/partner-tenant-bootstrap.md), env `CATALOG_INGEST_TENANT_BOOTSTRAP_SECRET`).
+2. Mint an ingest token for the `catalog_sources` row (manifest **`catalogSourceId`** = `source_key`).
+3. Build canonical manifest + upload via [`packages/ingest-client`](../packages/ingest-client/) — local dry-run: `cd apps/web && npm run simulate:ingest:uplb` (UPLB interop bundle, `catalogSourceId` **`uplb-interop-bundle`**, semester **`uplb-2025-2`**).
+4. Operator **promote** after `staged`. Runtime uses promoted manifest for **any** `universities.id` (see [`docs/catalog-ingest-artifact-strategy.md`](../docs/catalog-ingest-artifact-strategy.md)).
 
-Without the token, UPSked has no way to know that your connector is allowed to send a release into that ingest pipeline.
+Room linkage note: `verify-uplb-bundle` now emits warning-only `rooms.json` coverage for `schedules.json` labels using heuristic matching, and `npx tsx apps/scraper/scripts/analyze-uplb-room-links.ts [bundleDir]` prints the detailed report. Schedule rows still do not carry a hard room foreign key.
 
-### What the ingest token is not for
+## Fixtures
 
-- It is **not** needed for local extraction, normalization, manifest building, or verifier runs inside `upsked-sdk`.
-- It is **not** a replacement for your source-system credentials. You still need whatever access is required to fetch data from your university system.
-- It is **not** the same thing as production promotion. Connector authors usually use the token to submit data into the ingest flow; deployment-side promotion is handled separately by UPSked operators.
-
-### When you actually need it
-
-You need the token when your workflow moves from:
-
-`verified bundle on disk`
-
-to:
-
-`send this bundle to UPSked's hosted ingest API`
-
-If your current handoff is still manual or out-of-band, you may not need the token yet.
-
-1. Ask to be added to the **integrators list**.
-2. After that is enabled on your account, sign in to **[upsked.com](https://upsked.com)**.
-3. Open **Account Settings**.
-4. Open **Ingest API**.
-5. Generate or copy your ingest token key there.
-
-If you do **not** see the **Ingest API** section in Account Settings yet, your account probably has not been added to the integrators list. Reach out at `john@upsked.com`.
-
-## Commands
-
-- `npm run verify -- <bundleDir> [--previous <dir>]` — verify **your** bundle; fix all errors before handoff.
-- `npm run verify:sample` — runs the small UPB sample in `fixtures/upb/` (sanity check that your checkout works).
-- `npm run fixtures:sync` — regenerates `manifest.json` for fixture dirs that use `fixture.config.json` (see `fixtures/README.md`).
-- `npm run test` — verifier tests against repo fixtures.
-- `npm run ci` — same checks as GitHub Actions (lint, format, typecheck, test, `verify:sample`).
-
-## Packages (for integrators)
-
-- **`packages/schema`** — `CourseRow`, `SectionRow`, `ScheduleRow`, manifest types, validators.
-- **`packages/verifier-sdk`** — semantic checks, hashing, regression vs `--previous`, report output.
-- **`scripts/sync-fixture-manifests.ts`** — used to rebuild fixture manifests after editing row JSON in this repo.
+- `fixtures/uplb/bundle/` — canonical checked-in (or local) **UPLB catalog bundle**; `npm run verify:uplb` uses this by default. Regenerate with `uplb:amis-to-bundle --out interop-repo/fixtures/uplb/bundle`. Override with `UPLB_BUNDLE_DIR` / `INGEST_SIM_BUNDLE_DIR` when needed.
+- UP Baguio sample paths referenced in the app: `fixtures/upb/sample-upsked-bundle` (clone from SDK when available).

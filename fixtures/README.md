@@ -26,7 +26,7 @@ fixtures/upb/sample-release/
   fixture.config.json     # inputs for manifest builder + sync; may reference previous bundle for regression
 
 fixtures/upb/sample-upsked-bundle/
-  courses.json            # AISIS-style snake_case + UPSked fields (sections-upsked, …)
+  courses.json            # AISIS-style snake_case + Upsked fields (sections-upsked, …)
   sections-upsked.json
   schedules-upsked.json
   departments.json

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Read merged AMIS classes JSON and write UPSked-shaped bundle (courses, departments,
+ * Read merged AMIS classes JSON and write Upsked-shaped bundle (courses, departments,
  * sections-upsked, schedules-upsked, metadata, optional programs).
  *
  * Optional: --courses-page for paginated course catalog JSONs; --programs for all-programs export.
@@ -88,7 +88,7 @@ function main() {
 
   writeBundle(outDir, programs != null ? { ...bundle, programs } : bundle);
 
-  console.log(`Wrote UPSked bundle → ${outDir}`);
+  console.log(`Wrote Upsked bundle → ${outDir}`);
   console.log(
     `  courses: ${bundle.courses.length}, departments: ${bundle.departments.length}, sections: ${bundle.sections.length}, schedule rows: ${bundle.schedules.length}`,
   );

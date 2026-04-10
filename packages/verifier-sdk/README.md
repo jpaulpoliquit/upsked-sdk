@@ -8,4 +8,4 @@ Owns reusable verification and release-building helpers:
 - report generation
 - release hashing
 
-The verifier is the narrow acceptance contract for partner releases. A connector can generate artifacts any way it wants, but nothing reaches UPSked runtime traffic until this package accepts the bundle.
+The verifier is the narrow acceptance contract for partner releases. A connector can generate artifacts any way it wants, but nothing reaches Upsked runtime traffic until this package accepts the bundle.

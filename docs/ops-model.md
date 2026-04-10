@@ -15,13 +15,13 @@ Freshness does not outrank safety.
 - `verified_partner`
   - auto-promotion allowed when warnings and anomaly thresholds permit
 - `managed`
-  - UPSked-operated source and release path
+  - Upsked-operated source and release path
 
 ## Submission cadence
 
 - connectors run on their own schedule
 - successful runs emit immutable releases
-- UPSked accepts, validates, stages, and optionally promotes
+- Upsked accepts, validates, stages, and optionally promotes
 
 ## Failure handling
 
