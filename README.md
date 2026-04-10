@@ -1,51 +1,96 @@
-# Interop (connector ↔ Upsked)
+# Upsked SDK
 
-This tree is the **in-repo placeholder** for the separate connector/interop repository described in [`docs/interop-repo-strategy.md`](../docs/interop-repo-strategy.md). Partner fixtures may live under `fixtures/`; Upsked ships the **verifiers** in `apps/scraper` and `apps/web`.
+Build a university connector so your school's catalog plugs into Upsked. You don't need the main app repo to validate a release bundle.
 
-Upsked is **multi-university**: connectors here are per-school tenants, not a UPD-only pipeline.
+Upsked is **multi-university** — the same contract works for UPD, UPLB, UPB, ADMU, DLSU, and any future school.
 
-## UPLB Los Baños — verify a bundle
+## What you build
 
-From the **repository root**:
+1. **Extract** course, section, and schedule data from your source system (portal, API, export).
+2. **Normalize** into canonical row types from `packages/schema` (`CourseRow`, `SectionRow`, `ScheduleRow`, …).
+3. **Emit** a release bundle directory: JSON files + `manifest.json` (content-derived hashes, `releaseId`).
+4. **Verify** with `npm run verify -- <bundle>` until it reports **zero errors**.
+
+That bundle is what you hand to Upsked for ingest. The UPB connector under `connectors/upb/` is a reference pipeline (AMIS → normalized JSON → interop rows), not something you need to copy.
+
+## Quick start
 
 ```bash
-# Default: interop-repo/fixtures/uplb/bundle (override with UPLB_BUNDLE_DIR)
-npx tsx interop-repo/scripts/verify-uplb-interop.ts
+git clone <this-repo> && cd upsked-sdk
+npm install
+npm run ci          # lint, format, typecheck, test, verify:sample
 ```
 
-This runs:
+## Commands
 
-1. **Catalog + optional curricula/requisites** — `apps/scraper/scripts/verify-uplb-bundle.ts`  
-   Referential checks, canonical `uplb:` ids when `metadata.university_id` is `uplb`, semester consistency, metadata counts.
+| Command                                      | What it does                                              |
+| -------------------------------------------- | --------------------------------------------------------- |
+| `npm run verify -- <dir> [--previous <dir>]` | Verify your bundle. Fix all errors before handoff.        |
+| `npm run verify:sample`                      | Runs the UPB sample fixture (sanity check your checkout). |
+| `npm run fixtures:sync`                      | Regenerate `manifest.json` for fixtures with config.      |
+| `npm run test`                               | Verifier tests against repo fixtures.                     |
+| `npm run ci`                                 | Full gate — same checks as GitHub Actions.                |
+| `npm run typecheck`                          | TypeScript project check.                                 |
+| `npm run lint` / `npm run format:check`      | ESLint + Prettier.                                        |
 
-2. **Curriculum → Upsked `CurriculumBundle`** — `apps/web/scripts/verify-uplb-curriculum-compat.ts`  
-   Builds the normalized bundle in memory (`normalize-uplb-from-bundle.ts`): `meta.universityId === 'uplb'`, non-empty `programIndex` / `snapshots`, `uplb:` program summary ids.
+## Repository layout
 
-**Curriculum validation elsewhere:** ADMU/UPD use `npm run test:curriculum` (graph + placement). UPLB curriculum is validated by the script above (full `CurriculumBundle` build). Ingest **manifest** validation for catalog releases is `validateCanonicalCatalogReleaseManifest` in `apps/web/lib/catalog-ingest-contract.ts` (used by `simulate:ingest`); it does **not** include `curricula.json` today — curriculum artifacts are generated separately (`curriculum:generate` + `UPLB_CATALOG_BUNDLE_DIR`).
+```
+upsked-sdk/
+├── packages/
+│   ├── schema/            # Row types, manifest types, validators (your contract)
+│   └── verifier-sdk/      # CLI verifier, regression diffing, report generation
+├── connectors/
+│   └── upb/               # Reference: UPB AMIS → Upsked bundle pipeline
+├── fixtures/
+│   ├── upb/               # UPB sample + previous release for regression
+│   ├── uplb/              # UPLB catalog bundle
+│   └── dlsu/              # DLSU fixtures
+├── docs/                  # Specs and contributor guides
+└── scripts/               # Fixture sync, cross-school verification helpers
+```
 
-### Systems map — what is / is not guaranteed
+## What you own vs what Upsked owns
 
-| Artifact                                                             | Single source of truth in pipeline       | `verify-uplb-bundle`                                                                                                                                             | `verify-uplb-curriculum-compat` |
-| -------------------------------------------------------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
-| `courses.json`                                                       | `buildCourseIdMaps` + `buildCoursesJson` | ids, titles, duplicates, canonical id for `metadata.university_id`                                                                                               | units lookup for rows           |
-| `sections.json` / `schedules.json`                                   | SQLite classes + maps                    | FK to courses, semester = metadata, class_code ↔ schedules                                                                                                       | —                               |
-| `curricula.json`                                                     | same maps as courses                     | line count vs metadata; `course_id_canonical` ∈ courses; **namespace** `uplb:` vs `upb:` when `university_id` is uplb; `program_id` ∈ `programs.json` if present | full normalizer                 |
-| `course_requisites.json`                                             | cleaned courses + maps                   | row/edge counts vs metadata; FK to courses; namespace                                                                                                            | —                               |
-| `programs.json` / `rooms.json` / `institutes.json` / `colleges.json` | optional exports                         | array length vs `metadata.counts.*` when file exists                                                                                                             | —                               |
-| `metadata.json`                                                      | emitter                                  | schemaVersion, counts parity                                                                                                                                     | —                               |
+| You (connector author)                                   | Upsked (product)                                    |
+| -------------------------------------------------------- | --------------------------------------------------- |
+| Extractor, rate limits, credentials (outside git)        | Ingest APIs, promotion, storage                     |
+| Canonical bundle on disk + clean verifier report         | Runtime manifest, app fetch paths, serving to users |
+| Stable `universityId`, `connectorId`, `connectorVersion` | Wiring your bundle into production when ready       |
 
-**Not validated here:** protobuf ingest, Supabase promotion, room **strings** in schedules vs `rooms.json` GIS rows (schedules use free-text room labels), planner graph solvers, or MCP runtime. Those are separate layers. **Handoff for linking schedules ↔ rooms:** [`fixtures/uplb/HANDOFF-schedules-rooms.md`](./fixtures/uplb/HANDOFF-schedules-rooms.md).
+## Where to read next
 
-## Live Upsked ingest (any university)
+| You want to…                                       | Open                                                   |
+| -------------------------------------------------- | ------------------------------------------------------ |
+| Full walkthrough, contracts, definition of done    | [docs/CONTRIBUTOR_GUIDE.md](docs/CONTRIBUTOR_GUIDE.md) |
+| Short checklist (same rules, less prose)           | [docs/connector-spec.md](docs/connector-spec.md)       |
+| Validation layers and result types                 | [docs/validation-spec.md](docs/validation-spec.md)     |
+| Ops model (trust tiers, cadence, failure handling) | [docs/ops-model.md](docs/ops-model.md)                 |
+| Code paths in the main Upsked app (optional)       | [docs/UPSTREAM_LINKS.md](docs/UPSTREAM_LINKS.md)       |
+| PRs and CI on this repo                            | [CONTRIBUTING.md](CONTRIBUTING.md)                     |
+| Security disclosures                               | [SECURITY.md](SECURITY.md)                             |
 
-1. Provision DB rows (`universities`, `catalog_sources`, `semesters`) — migration seed, admin **Integrations**, or automated **`POST /api/ingest/v1/tenant/bootstrap`** (see [`docs/partner-tenant-bootstrap.md`](../docs/partner-tenant-bootstrap.md), env `CATALOG_INGEST_TENANT_BOOTSTRAP_SECRET`).
-2. Mint an ingest token for the `catalog_sources` row (manifest **`catalogSourceId`** = `source_key`).
-3. Build canonical manifest + upload via [`packages/ingest-client`](../packages/ingest-client/) — local dry-run: `cd apps/web && npm run simulate:ingest:uplb` (UPLB interop bundle, `catalogSourceId` **`uplb-interop-bundle`**, semester **`uplb-2025-2`**).
-4. Operator **promote** after `staged`. Runtime uses promoted manifest for **any** `universities.id` (see [`docs/catalog-ingest-artifact-strategy.md`](../docs/catalog-ingest-artifact-strategy.md)).
+## Getting an ingest token
 
-Room linkage note: `verify-uplb-bundle` now emits warning-only `rooms.json` coverage for `schedules.json` labels using heuristic matching, and `npx tsx apps/scraper/scripts/analyze-uplb-room-links.ts [bundleDir]` prints the detailed report. Schedule rows still do not carry a hard room foreign key.
+You **don't** need an ingest token to build or verify bundles locally. You need one when your workflow moves from _verified bundle on disk_ to _submit via Upsked's hosted ingest API_.
+
+The token is the credential your connector uses to create ingest runs, upload artifacts, and submit manifests. It is **not** a replacement for your source-system credentials, and it has nothing to do with production promotion (that's handled by Upsked operators).
+
+To get one:
+
+1. Ask to be added to the **integrators list**.
+2. Sign in at [upsked.com](https://upsked.com) → **Account Settings** → **Ingest API**.
+3. Generate or copy your token.
+
+If you don't see **Ingest API** in settings, your account hasn't been added yet — reach out at `john@upsked.com`.
+
+## Packages
+
+- **`packages/schema`** — `CourseRow`, `SectionRow`, `ScheduleRow`, manifest types, validators. Runtime-light: types + deterministic validation only.
+- **`packages/verifier-sdk`** — Semantic checks, content hashing, regression diffing vs `--previous`, report generation. The narrow acceptance contract — nothing reaches Upsked runtime until this package accepts the bundle.
 
 ## Fixtures
 
-- `fixtures/uplb/bundle/` — canonical checked-in (or local) **UPLB catalog bundle**; `npm run verify:uplb` uses this by default. Regenerate with `uplb:amis-to-bundle --out interop-repo/fixtures/uplb/bundle`. Override with `UPLB_BUNDLE_DIR` / `INGEST_SIM_BUNDLE_DIR` when needed.
-- UP Baguio sample paths referenced in the app: `fixtures/upb/sample-upsked-bundle` (clone from SDK when available).
+Under `fixtures/<university>/`. Edit JSON → `npm run fixtures:sync` → `npm run test` → commit.
+
+See [`fixtures/README.md`](fixtures/README.md) for layout details and per-school notes.
